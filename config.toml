@@ -85,13 +85,13 @@ enable = true
 preloader = ""
 [[params.social]]
 icon = "ti-facebook"
-link = "fb.com/gethugothemes"
+link = "https://fb.com/gethugothemes"
 title = "facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "twitter.com/gethugothemes"
+link = "https://twitter.com/gethugothemes"
 title = "twitter"
 [[params.social]]
 icon = "ti-github"
-link = "github.com/themefisher"
+link = "https://github.com/themefisher"
 title = "github"
