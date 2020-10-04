@@ -25,7 +25,7 @@ logo = "images/logo.png"
 author = "Themefisher"
 description = "This is meta description"
 topic_title = "Browse Your Topics"
-edit_page_url = "https://gitlab.com/Themefisher-website/gethugothemes-docs/edit/master/content/"
+edit_page_url = "https://github.com/gethugothemes/gethugothemes-docs/edit/master/content/"
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
 [params.banner]
 image = "images/banner.jpg"
