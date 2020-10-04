@@ -1,0 +1,39 @@
+<!-- feedback -->
+<div class="feedback row" id="feedback">
+  <div class="col-md-8 col-lg-9">
+    <h4>Did you find this doc useful?</h4>
+    <p>Your feedback helps us improve our docs.</p>
+  </div>
+  <div class="col-md-4 col-lg-3 mt-2 mb-4 mb-md-0 text-md-right">
+    <button class="feedback-btn collapsed positive" type="button" data-toggle="collapse" data-target="#positive"
+      aria-expanded="true" aria-controls="positive">
+      <i class="ti-thumb-up"></i>
+    </button>
+    <button class="feedback-btn collapsed negative" type="button" data-toggle="collapse" data-target="#negative"
+      aria-expanded="false" aria-controls="negative">
+      <i class="ti-thumb-down"></i>
+    </button>
+  </div>
+  <div class="col-12">
+    <div id="positive" class="collapse" aria-labelledby="headingOne" data-parent="#feedback">
+      <form name="feedback" method="POST" action="https://formspree.io/mehedi@gethugothemes.com">
+        <input type="text" name="feedback" id="feedback" value="Positive" hidden>
+        <input type="text" name="URL" id="URL" value="{{.Permalink}}" hidden>
+        <textarea name="comments" id="comments" class="form-control mb-4"
+          placeholder="What did you like about this doc?"></textarea>
+        <button type="submit" class="btn btn-primary">Send Feedback</button>
+      </form>
+    </div>
+
+    <div id="negative" class="collapse" aria-labelledby="headingThree" data-parent="#feedback">
+      <form name="feedback" method="POST" action="https://formspree.io/mehedi@gethugothemes.com">
+        <input type="text" name="feedback" id="feedback" value="Negative" hidden>
+        <input type="text" name="URL" id="URL" value="{{.Permalink}}" hidden>
+        <textarea name="comments" id="comments" class="form-control mb-4"
+          placeholder="What can we improve in this doc?"></textarea>
+        <button type="submit" class="btn btn-primary">Send Feedback</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- /feedback -->

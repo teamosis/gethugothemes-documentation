@@ -1,0 +1,36 @@
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="sticky-top navigation {{if .IsHome}}home-nav{{end}}">
+  <div class="container">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent justify-content-between">
+      <div class="logo-wrapper order-1">
+        <a class="site-logo" target="_blank" href="https://gethugothemes.com?ref=docs"><img class="icon"
+            src="{{ `images/g.png` | absURL }}"><img class="site" src="{{ `images/gethugothemes.png` | absURL }}"></a>
+        <span class="logo-devider"></span>
+        <a class="docs-logo" href="{{ .Site.BaseURL | relLangURL }}"><img class="docs"
+            src="{{ `images/docs.png` | absURL }}" alt="{{ .Site.Title }}"></a>
+      </div>
+
+      {{if not .IsHome }}
+      <form class="form-inline search-wrapper order-3 order-lg-2" action="{{ `search` | relLangURL }}">
+        <input id="search-by" name="s" type="search" class="form-control" placeholder="Search here ...">
+        <button class="border-0 bg-white" type="submit"><i class="ti-search"></i></button>
+      </form>
+      {{ end }}
+      <div class="d-flex order-2 order-lg-3">
+        {{ if .Site.Params.navigation_button_bordered.enable }}
+        {{ "<!-- get start btn -->" | safeHTML }}
+        <a href="{{ .Site.Params.navigation_button_bordered.link | absURL }}/?ref=docs"
+          class="btn btn-sm btn-outline-primary mr-3" target="_blank">{{ .Site.Params.navigation_button_bordered.label }}</a>
+        {{ end }}
+
+        {{ if .Site.Params.navigation_button_solid.enable }}
+        {{ "<!-- get start btn -->" | safeHTML }}
+        <a href="{{ .Site.Params.navigation_button_solid.link | absURL }}"
+          class="btn btn-sm btn-primary">{{ .Site.Params.navigation_button_solid.label }}</a>
+        {{ end }}
+      </div>
+    </nav>
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}

@@ -1,0 +1,97 @@
+baseURL = "https://docs.gethugothemes.com/"
+disableLanguages = []
+languageCode = "en-us"
+languageName = "En"
+theme = "godocs-hugo"
+title = "Documentation Website for Gethugothemes"
+[markup.goldmark.renderer]
+unsafe = true
+[markup.tableOfContents]
+startLevel = 0
+endLevel = 6
+ordered = false
+[[menu.footer]]
+name = "Github"
+url = "https://github.com/themefisher/godocs"
+weight = 2
+[[menu.footer]]
+name = "Contact"
+url = "https://gethugothemes.com/contact"
+weight = 1
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+[params]
+logo = "images/logo.png"
+author = "Themefisher"
+description = "This is meta description"
+topic_title = "Browse Your Topics"
+edit_page_url = "https://gitlab.com/Themefisher-website/gethugothemes-docs/edit/master/content/"
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+[params.banner]
+image = "images/banner.jpg"
+subtitle = "We are the biggest hugo theme provider in the market , We will cover all our themes installation documentation here . "
+title = "Welcome to Gethugothemes"
+[params.call_to_action]
+content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam <br> nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+enable = true
+image = "images/cta-illustration.jpg"
+title = "Still Didn't Find Your Answer?"
+[params.call_to_action.button]
+enable = "true"
+label = "Submit a ticket"
+link = "https://gethugothemes.com/contact"
+[params.navigation_button_bordered]
+enable = true
+label = "submit ticket"
+link = "https://gethugothemes.com/contact"
+[params.navigation_button_solid]
+enable = true
+label = "guide"
+link = "guide"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/search/auto-complete.css"
+[[params.plugins.css]]
+link = "plugins/featherlight/featherlight.min.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/masonry/masonry.min.js"
+[[params.plugins.js]]
+link = "plugins/featherlight/featherlight.min.js"
+[[params.plugins.js]]
+link = "plugins/clipboard/clipboard.min.js"
+[[params.plugins.js]]
+link = "plugins/search/auto-complete.js"
+[[params.plugins.js]]
+link = "plugins/scrollmenu/scrollmenu.min.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/search/lunr.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search-page.js"
+[params.preloader]
+enable = true
+preloader = ""
+[[params.social]]
+icon = "ti-facebook"
+link = "fb.com/gethugothemes"
+title = "facebook"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "twitter.com/gethugothemes"
+title = "twitter"
+[[params.social]]
+icon = "ti-github"
+link = "github.com/themefisher"
+title = "github"

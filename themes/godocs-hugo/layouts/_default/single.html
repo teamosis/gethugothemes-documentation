@@ -1,0 +1,7 @@
+{{ define "main" }}
+
+{{ $feedback:= partial "feedback.html" . }}
+{{ .Scratch.Set "feedback" $feedback }}
+{{ partial "default.html" . }}
+
+{{ end }}
