@@ -9,3 +9,6 @@ builds
 package-lock.json
 public
 resources
+
+# PhpStorm and WebStorm configuration
+.idea
