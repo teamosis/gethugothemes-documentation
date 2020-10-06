@@ -12,3 +12,6 @@ resources
 
 # PhpStorm and WebStorm configuration
 .idea
+
+# local notes
+notes/
