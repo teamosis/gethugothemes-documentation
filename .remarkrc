@@ -1,0 +1,15 @@
+{
+  "settings": {
+    "emphasis": "*",
+    "strong": "*"
+  },
+  "plugins": [
+    "remark-preset-lint-recommended",
+    "remark-preset-lint-markdown-style-guide",
+    "remark-validate-links",
+    [
+      "remark-lint-list-item-indent",
+      false
+    ]
+  ]
+}
