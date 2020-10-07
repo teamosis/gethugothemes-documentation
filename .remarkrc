@@ -10,6 +10,10 @@
     [
       "remark-lint-list-item-indent",
       false
+    ],
+    [
+      "maximum-line-length",
+      false
     ]
   ]
 }
