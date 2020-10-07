@@ -1,5 +1,7 @@
 # Gethugothemes Docs
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/41f2dbaca1494cafaf64263725a406ca)](https://app.codacy.com/gh/gethugothemes/gethugothemes-docs?utm_source=github.com&utm_medium=referral&utm_content=gethugothemes/gethugothemes-docs&utm_campaign=Badge_Grade_Settings)
+
 Documentation site for [Gethugothemes](https://docs.gethugothemes.com) .
 
 ## Contributing
