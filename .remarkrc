@@ -12,7 +12,7 @@
       false
     ],
     [
-      "maximum-line-length",
+      "lint-maximum-line-length",
       false
     ]
   ]
