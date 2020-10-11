@@ -32,7 +32,7 @@ image = "images/banner.jpg"
 subtitle = "We are the biggest hugo theme provider in the market , We will cover all our themes installation documentation here . "
 title = "Welcome to Gethugothemes"
 [params.call_to_action]
-content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam <br> nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+content = "You can contact us anytime to submit your query. You will get priority support if you are using our premium product."
 enable = true
 image = "images/cta-illustration.jpg"
 title = "Still Didn't Find Your Answer?"
@@ -81,7 +81,7 @@ link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search-page.js"
 [params.preloader]
-enable = true
+enable = false
 preloader = ""
 [[params.social]]
 icon = "ti-facebook"

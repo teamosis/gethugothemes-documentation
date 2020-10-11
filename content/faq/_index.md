@@ -1,7 +1,7 @@
 ---
 title: "Mostly Asked Questions"
 description: "this is meta description"
-draft: false
+draft: true
 ---
 
 {{< faq "Will updates also be free?" >}}
