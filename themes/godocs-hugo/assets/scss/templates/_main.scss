@@ -726,3 +726,12 @@ textarea.form-control {
     }
   }
 }
+
+.box{
+  padding: 20px 40px;
+  background-color: $light;
+  &-title{
+    font-size: 20px;
+    font-weight: 700;
+  }
+}

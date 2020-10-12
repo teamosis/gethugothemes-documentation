@@ -12,12 +12,22 @@ Welcome! This guide will help you get started with a Hugo Theme, including how t
 
 There are two main ways to setup your hugo theme.
 
-> #### [Local Development](#local-development)
-> Step-by-step instructions on how to install Hugo and start a project: written for people without Hugo development experience, though these learning resources have helped developers of all skill levels.
+<div class="box">
+  <a href="#local-development" class="box-title">Local Development</a><br>
+  Step-by-step instructions on how to install Hugo and start a project: written for people without Hugo development experience, though these learning resources have helped developers of all skill levels.
+</div>
+<br>
+<div class="box">
+  <a href="#github--netlify--forestry" class="box-title">Quick Start</a><br>
+  One page summary of how to setup your theme without writing a line of code.
+</div>
+<br>
+<br>
 
-> #### [Quick Start](#github--netlify--forestry)
-> One page summary of how to setup your theme without writing a line of code.
+---
 
+<br>
+<br>
 
 ## Local Development
 

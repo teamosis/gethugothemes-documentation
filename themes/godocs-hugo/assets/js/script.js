@@ -167,7 +167,7 @@ $(window).on('load', function () {
 	});
 
 	// table of content
-	new ScrollMenu('#TableOfContents a', {
+	new ScrollMenu('#TableOfContents a, .box-title', {
 		duration: 400,
 		activeOffset: -110,
 		scrollOffset: -115,
