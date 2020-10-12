@@ -1,5 +1,5 @@
 /*  typography */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
 body {
   font-family: $primary-font;
@@ -26,19 +26,18 @@ h1,h2,h3,h4,h5,h6 {
 
 h1, .h1{
   font-size: 42px;
-  font-weight: 800;
+  font-weight: 900;
   @include mobile {
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 700;
   }
 }
 
 h2, .h2{
   font-size: 36px;
-  font-weight: 800;
+  font-weight: 700;
   @include mobile {
     font-size: 32px;
-    font-weight: 600;
   }
 }
 
@@ -64,5 +63,5 @@ h6, .h6{
 
 .display-3{
   font-size: 50px;
-  font-weight: 800;
+  font-weight: 900;
 }
