@@ -2,12 +2,11 @@
 title: 'Blog Post'
 date: '2019-07-28T04:29:41-03:00'
 weight: 7
-draft: false
 ---
+
 Hugo provides a `new` command to create a post, As you know this template is a multilingual template, that’s why when you create a new post, you need to define which language post is this, as a example for creating a new post is `hugo new content/english/blog/new-post.md` , it will create a post for English language.
 
-Configure Post
---------------
+## Configure Post
 
 You can configure your blog post from the front-matter. Front-matter starts with `---` and end with also `---` . In this front matter you can give `author = author name` , `description = meta description`, `image = images/blog/post-thumb.jpg`, `bg_image = image.jpg`( background image is for page header), `categories` and `tags`.
 

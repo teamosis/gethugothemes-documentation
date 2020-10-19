@@ -2,12 +2,11 @@
 title: 'Career Page'
 date: '2019-07-29T01:26:50-03:00'
 weight: 8
-draft: false
 ---
+
 Hugo provides a `new` command to create a post, as an example for creating a new career page is `hugo new content/english/career/new-career.md` , it will create an english career page.
 
-Configure Post
---------------
+## Configure Post
 
 You can configure your career from the front-matter. Front-matter starts with `---` and end with also `---` . In this front matter you can give `description = meta description`, `image = images/career/logo.jpg`, `bg_image = image.jpg`( background image is for page header)`.`
 
