@@ -25,7 +25,7 @@ You can add third party plugins from here very easily, We create a loop for plug
 ## Default Parameters
 
 1. `Logo` field is for your site logo, you can set a default logo for your site, just give here the logo directory.
-1. <font color="#23282d" face="Menlo, Consolas, monaco, monospace"><span style="background-color: rgb(232, 234, 235);">Home</span></font> is for home in your navigation.
+1. `Home` is for home in your navigation.
 1. `author` is for site author name.
 1. `description` field is for your default meta description, it will show on your homepage and other page that have not any meta description on this page front-matter.
 1. `snipcartAPI` is for active the snipcart, go to [snipcart](https://snipcart.com/) , create your account and generate a snipcart public API key. and replace with it.
