@@ -177,6 +177,12 @@
     ]
   },
   "dependencies": {
-    "remark-lint-no-html": "^2.0.1"
+    "remark-lint-fenced-code-flag": "^2.0.1",
+    "remark-lint-final-newline": "^1.0.5",
+    "remark-lint-first-heading-level": "^2.0.1",
+    "remark-lint-linebreak-style": "^2.0.1",
+    "remark-lint-no-html": "^2.0.1",
+    "remark-lint-no-repeat-punctuation": "^0.1.3",
+    "remark-lint-write-good": "^1.2.0"
   }
 }
