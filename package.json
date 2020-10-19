@@ -175,5 +175,8 @@
     "plugins": [
       "html"
     ]
+  },
+  "dependencies": {
+    "remark-lint-no-html": "^2.0.1"
   }
 }
