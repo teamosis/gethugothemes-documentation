@@ -68,10 +68,11 @@
           {{ $File := .File }}
           {{with $File }}
           <div class="border-top py-3 mt-5 row">
-          <a href="{{ site.Params.edit_page_url }}{{ replace $File.Dir `\` `/` }}{{ $File.LogicalName }}"
-            target="blank">
-            <i class="ti-write mr-2"></i> Improve this page on Github
-          </a>
+            <a href="{{ site.Params.edit_page_url }}{{ replace $File.Dir `\` `/` }}{{ $File.LogicalName }}"
+              target="blank">
+              <i class="ti-write mr-2"></i> Improve this page on Github
+            </a>&nbsp;&mdash;&nbsp;
+            Last updated:&nbsp; {{ $.Lastmod.Format "Mon, Jan 2, 2006" }}
           </div>
           {{ end }}
 
