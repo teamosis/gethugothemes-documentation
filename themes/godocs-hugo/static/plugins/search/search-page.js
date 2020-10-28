@@ -39,7 +39,7 @@ function executeSearch(searchQuery) {
     if (result.length > 0) {
       populateResults(result);
     } else {
-      $('#search-results').append("<div class=\"text-center\"><img class=\"img-fluid\" src=\"https://user-images.githubusercontent.com/58769763/75105664-632cd680-5640-11ea-94e0-127848a702df.png\"><h3>No Search Found</h3></div>");
+      $('#search-results').append("<div class=\"text-center\"><img class=\"img-fluid\" src=\"/not-found.png\"><h3>Nothing Found</h3></div>");
     }
   });
 }
