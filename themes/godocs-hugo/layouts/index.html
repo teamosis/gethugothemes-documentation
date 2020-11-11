@@ -16,7 +16,7 @@
         </form>
       </div>
       <div class="col-lg-4 d-lg-block d-none">
-        <img src="{{ .Site.Params.banner.image | absURL }}" alt="illustration" class="img-fluid">
+        <img loading="lazy" src="{{ .Site.Params.banner.image | absURL }}" alt="illustration" class="img-fluid">
       </div>
     </div>
   </div>
@@ -67,7 +67,7 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-4 text-center d-lg-block d-none">
-        <img src="{{ .image| absURL }}" class="img-fluid" alt="">
+        <img loading="lazy" src="{{ .image| absURL }}" class="img-fluid">
       </div>
       <div class="col-lg-8 text-lg-left text-center">
         <h2 class="mb-3">{{ .title | markdownify }}</h2>
