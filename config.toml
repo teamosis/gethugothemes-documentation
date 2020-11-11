@@ -20,7 +20,7 @@ name = "Contact"
 url = "https://gethugothemes.com/contact"
 weight = 1
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "JSON"]
 [params]
 logo = "images/logo.png"
 author = "Themefisher"
@@ -81,6 +81,8 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search-page.js"
+[[params.plugins.js]]
+link = "plugins/turbolinks/turbolinks.js"
 [params.preloader]
 enable = false
 preloader = ""
