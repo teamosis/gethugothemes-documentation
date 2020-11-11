@@ -1,0 +1,24 @@
+---
+_build:
+  render: never
+  list: never
+  publishResources: false
+---
+
+This theme is translatable. You can change the sites language in your configuration file. If your language is not yet available it will be easy to do so: Create a copy of the file `i18n/en.yaml` and name it with your languages shortcode (eg. `de.yaml` or `fr.yaml`). 
+
+After that, open the file in a text editor and translate:
+
+Original (`en.yaml`):
+
+```yaml
+- id: featured_post
+  translation: Featured Posts
+``` 
+
+Translation (`fr.yaml`):
+
+```yaml
+- id: featured_post
+  translation: Postes en vedette
+```
