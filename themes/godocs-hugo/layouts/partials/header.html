@@ -7,8 +7,8 @@
         <a class="site-logo" target="_blank" href="https://gethugothemes.com?ref=docs"><img class="icon"
             src="{{ `images/g.png` | absURL }}"><img class="site" src="{{ `images/gethugothemes.png` | absURL }}"></a>
         <span class="logo-devider"></span>
-        <a class="docs-logo" href="{{ .Site.BaseURL | relLangURL }}"><img class="docs"
-            src="{{ `images/docs.png` | absURL }}" alt="{{ .Site.Title }}"></a>
+        <a class="docs-logo" href="{{ site.BaseURL | relLangURL }}"><img class="docs"
+            src="{{ `images/docs.png` | absURL }}" alt="{{ site.Title }}"></a>
       </div>
 
       {{if not .IsHome }}
@@ -18,16 +18,16 @@
       </form>
       {{ end }}
       <div class="d-flex order-2 order-lg-3">
-        {{ if .Site.Params.navigation_button_bordered.enable }}
+        {{ if site.Params.navigation_button_bordered.enable }}
         {{ "<!-- get start btn -->" | safeHTML }}
-        <a href="{{ .Site.Params.navigation_button_bordered.link | absURL }}/?ref=docs"
-          class="btn btn-sm btn-outline-primary mr-3" target="_blank">{{ .Site.Params.navigation_button_bordered.label }}</a>
+        <a href="{{ site.Params.navigation_button_bordered.link | absURL }}/?ref=docs"
+          class="btn btn-sm btn-outline-primary mr-3" target="_blank">{{ site.Params.navigation_button_bordered.label }}</a>
         {{ end }}
 
-        {{ if .Site.Params.navigation_button_solid.enable }}
+        {{ if site.Params.navigation_button_solid.enable }}
         {{ "<!-- get start btn -->" | safeHTML }}
-        <a href="{{ .Site.Params.navigation_button_solid.link | absURL }}"
-          class="btn btn-sm btn-primary">{{ .Site.Params.navigation_button_solid.label }}</a>
+        <a href="{{ site.Params.navigation_button_solid.link | absURL }}"
+          class="btn btn-sm btn-primary">{{ site.Params.navigation_button_solid.label }}</a>
         {{ end }}
       </div>
     </nav>

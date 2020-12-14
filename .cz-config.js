@@ -1,6 +1,6 @@
 'use strict';
 
-// @see https://github.com/leonardoanalista/cz-customizable
+// @see https://github.com/leoforfree/cz-customizable
 
 module.exports = {
 

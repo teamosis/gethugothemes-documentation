@@ -1,4 +1,4 @@
-[{{ range $index, $page := (where .Site.Pages "Type" "docs")}}
+[{{ range $index, $page := (where site.Pages "Type" "docs")}}
 {{- if ne $page.Type "json" -}}
 {{- if and $index (gt $index 0) -}},{{- end }}
   {

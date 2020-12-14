@@ -143,6 +143,7 @@
   top: 10px;
   z-index: 9999;
   width: 28%;
+  max-width: 500px;
   left: 39%;
 
   @include desktop {

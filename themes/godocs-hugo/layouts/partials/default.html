@@ -5,7 +5,7 @@
       <div class="col-lg-3 col-md-4 d-none d-md-block">
         <ul class="sidenav">
           {{ $currentNode := . }}
-          {{range .Site.Home.Sections.ByWeight}}
+          {{range site.Home.Sections.ByWeight}}
           <!-- not render any single page, like contact page. -->
           {{ $numberOfMainPages := len .Pages }}
           {{ if eq $numberOfMainPages 0 }}
@@ -31,7 +31,7 @@
           <nav class="pagination">
             <!-- Next prev page -->
             {{ $currentNode := . }}
-            {{ template "menu-nextprev" dict "menu" .Site.Home "currentnode" $currentNode }}
+            {{ template "menu-nextprev" dict "menu" site.Home "currentnode" $currentNode }}
             {{ define "menu-nextprev" }}
             {{$currentNode := .currentnode }}
             {{ if ne .menu.Params.hidden true}}
