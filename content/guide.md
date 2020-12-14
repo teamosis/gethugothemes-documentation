@@ -1,6 +1,7 @@
 ---
 title: "The Guide"
 description: "The best guide to set up any hugo theme."
+layout: guide
 draft: false
 ---
 

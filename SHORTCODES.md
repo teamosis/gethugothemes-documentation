@@ -16,7 +16,7 @@ Add content that is identical over documentation pages.
 
 -   Step 1: Create content block:
     ```shell script
-    hugo new contentblocks/title/index.md
+    hugo new contentblocks/title.md
     ```
 
 -   Step 2: Use the shortcode:

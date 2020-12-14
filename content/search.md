@@ -1,5 +1,5 @@
 ---
 title: "Search Result"
+layout: search
 draft: false
-description : "this is meta description"
 ---
