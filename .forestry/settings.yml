@@ -5,21 +5,22 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: config.toml
-  label: Configuration
+  path: content/guide.md
+  label: Guide
+- type: document
+  path: content/faq.md
+  label: FAQ
 - type: directory
   path: content
   label: Docs
   create: all
   match: "**/*"
-  exclude: faq/*
+  exclude: "*.md"
   templates:
   - docs
-- type: directory
-  path: content/faq
-  label: Faq
-  create: all
-  match: "**/*"
+- type: document
+  path: config.toml
+  label: Configuration
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
