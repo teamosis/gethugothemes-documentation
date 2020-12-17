@@ -51,11 +51,19 @@ Note with red background box
 {{< /notice >}}
 ```
 
-### {{< tab >}}
+### {{< tabs >}} and {{< tab >}}
 
-tbd.
+Builds a tabbed interface that can be used for configuration code samples.
 
-### {{< tabs >}}
+```markdown
+{{< tabs >}}
+{{< tab "config.yaml" >}}
+`codesample`
+{{< /tab >}}
+{{< tab "config.toml" >}}
+`codesample`
+{{< /tab >}}
+{{< /tabs >}}
+```
 
-tbd.
-
+See `contentblocks/i18n.md` for a sample. The content of the single tabs will be markdownified.
