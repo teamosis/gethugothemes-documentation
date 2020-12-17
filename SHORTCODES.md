@@ -34,13 +34,36 @@ tbd.
 
 ### {{< notice >}}
 
-tbd.
+Adds a notice box to the page. The content of the tag will be markdownified.
 
-### {{< tab >}}
+```markdown
+{{< notice note >}}
+Note with blue background box
+{{< /notice >}}
+{{< notice tip >}}
+Note with green background box
+{{< /notice >}}
+{{< notice info >}}
+Note with yellow background box
+{{< /notice >}}
+{{< notice warning >}}
+Note with red background box
+{{< /notice >}}
+```
 
-tbd.
+### {{< tabs >}} and {{< tab >}}
 
-### {{< tabs >}}
+Builds a tabbed interface that can be used for configuration code samples.
 
-tbd.
+```markdown
+{{< tabs >}}
+{{< tab "config.yaml" >}}
+`codesample`
+{{< /tab >}}
+{{< tab "config.toml" >}}
+`codesample`
+{{< /tab >}}
+{{< /tabs >}}
+```
 
+See `contentblocks/i18n.md` for a sample. The content of the single tabs will be markdownified.

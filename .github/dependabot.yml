@@ -9,7 +9,7 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "07:00"
+      time: "21:40"
       timezone: "Asia/Bangkok"
     allow:
       - dependency-type: "production"
