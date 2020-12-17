@@ -34,7 +34,22 @@ tbd.
 
 ### {{< notice >}}
 
-tbd.
+Adds a notice box to the page. The content of the tag will be markdownified.
+
+```markdown
+{{< notice note >}}
+Note with blue background box
+{{< /notice >}}
+{{< notice tip >}}
+Note with green background box
+{{< /notice >}}
+{{< notice info >}}
+Note with yellow background box
+{{< /notice >}}
+{{< notice warning >}}
+Note with red background box
+{{< /notice >}}
+```
 
 ### {{< tab >}}
 
