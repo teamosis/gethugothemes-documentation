@@ -74,7 +74,7 @@
         <p>{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absLangURL }}/?ref=docs" target="_blank" class="btn btn-primary">{{ .label }}</a>
+        <a href="javascript:void(0);" onclick="Beacon('open')" class="btn btn-primary">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
