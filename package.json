@@ -1,7 +1,7 @@
 {
-  "name": "gethugothemes-docs",
-  "version": "1.0.0",
-  "description": "Documentation site for Gethugothemes.com",
+  "name": "@gethugothemes/docs",
+  "version": "0.0.0",
+  "description": "Documentation site for gethugothemes.com",
   "homepage": "https://github.com/gethugothemes/gethugothemes-docs#readme",
   "license": "UNLICENSED",
   "repository": {
@@ -12,20 +12,22 @@
     "url": "https://github.com/gethugothemes/gethugothemes-docs/issues"
   },
   "scripts": {
-    "release": "standard-version --release-as patch -a",
-    "release-next": "standard-version --release-as minor -a",
-    "release-major": "standard-version --release-as major -a",
+    "release": "standard-version --release-as patch -a -t \"v\" && git push --follow-tags origin main",
+    "release-next": "standard-version --release-as minor -a -t \"v\" && git push --follow-tags origin main",
+    "release-major": "standard-version --release-as major -a -t \"v\" && git push --follow-tags origin main",
     "serve": "hugo server --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose",
     "hugo": "hugo --i18n-warnings --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --enableGitInfo --log true --logFile hugo.log --verbose",
     "hugo-update": "hugo mod get -u ./... && hugo mod tidy",
     "textlint": "textlint",
     "textlint-fix": "textlint --fix",
-    "lint-md": "remark ."
+    "lint-md": "remark .",
+    "commitlint": "commitlint --from=HEAD~1"
   },
   "keywords": [
     "hugo",
     "hugo-site",
-    "hugo-theme"
+    "hugo-theme",
+    "hugo-documentation"
   ],
   "author": {
     "name": "Mehedi Sharif Titas",
@@ -33,156 +35,48 @@
   },
   "contributors": [
     {
+      "name": "Somrat Sorkar",
+      "web": "https://somrat.netlify.app"
+    },
+    {
       "name": "Patrick Kollitsch",
       "email": "patrick@davids-neighbour.com",
       "web": "https://davids-neighbour.com"
     }
   ],
   "devDependencies": {
-    "@textlint-rule/textlint-rule-no-invalid-control-character": "1.2.0",
-    "@textlint-rule/textlint-rule-no-unmatched-pair": "1.0.7",
-    "commitizen": "4.2.1",
-    "cz-customizable": "6.3.0",
-    "cz-customizable-ghooks": "2.0.0",
-    "remark-cli": "^8.0.1",
-    "remark-frontmatter": "1.3.3",
-    "remark-lint": "^7.0.1",
-    "remark-preset-lint-markdown-style-guide": "^3.0.1",
-    "remark-preset-lint-recommended": "^4.0.1",
-    "remark-validate-links": "^10.0.2",
     "standard-version": "9.0.0",
-    "textlint": "11.7.6",
-    "textlint-plugin-html": "0.2.0",
-    "textlint-rule-abbr-within-parentheses": "1.0.2",
-    "textlint-rule-alex": "3.0.0",
-    "textlint-rule-apostrophe": "2.0.0",
-    "textlint-rule-common-misspellings": "1.0.1",
-    "textlint-rule-date-weekday-mismatch": "1.0.5",
-    "textlint-rule-en-capitalization": "2.0.2",
-    "textlint-rule-en-spell": "1.1.1",
-    "textlint-rule-footnote-order": "1.0.3",
-    "textlint-rule-max-comma": "1.0.4",
-    "textlint-rule-no-dead-link": "4.7.0",
-    "textlint-rule-no-empty-section": "1.1.0",
-    "textlint-rule-no-exclamation-question-mark": "1.1.0",
-    "textlint-rule-no-start-duplicated-conjunction": "2.0.2",
-    "textlint-rule-no-todo": "2.0.1",
-    "textlint-rule-rousseau": "1.4.6",
-    "textlint-rule-spelling": "0.2.0",
-    "textlint-rule-stop-words": "2.0.7",
-    "textlint-rule-terminology": "2.1.4",
-    "textlint-rule-unexpanded-acronym": "1.2.4"
+    "@commitlint/cli": "11.0.0",
+    "husky": "4.3.0",
+    "@dnb-hugo/browserslist-config-dnb": "github:dnb-hugo/browserslist-config-dnb",
+    "@dnb-hugo/commitlint-config-dnb": "github:dnb-hugo/commitlint-config-dnb",
+    "@dnb-hugo/remark-preset-lint-dnb": "github:dnb-hugo/remark-preset-lint-dnb",
+    "@dnb-hugo/standard-version-config-dnb": "github:dnb-hugo/standard-version-config-dnb",
+    "@dnb-hugo/stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"
     },
     "cz-customizable": {
-      "config": ".cz_config.js"
+      "config": ".cz-config.js"
     }
   },
-  "standard-version": {
-    "skip": {
-      "changelog": true
-    },
-    "bumpFiles": [
-      {
-        "filename": "package.json",
-        "type": "json"
-      }
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "browserslist": [
+    "extends browserslist-config-dnb"
+  ],
+  "commitlint": {
+    "extends": [
+      "@dnb-hugo/commitlint-config-dnb"
     ]
   },
-  "textlint": {
-    "rules": {
-      "no-todo": true,
-      "textlint-rule-no-start-duplicated-conjunction": true,
-      "max-comma": {
-        "max": 3
-      },
-      "no-exclamation-question-mark": true,
-      "no-dead-link": {
-        "checkRelative": true,
-        "baseURI": null,
-        "ignore": [],
-        "preferGET": [],
-        "ignoreRedirects": false,
-        "retry": 3,
-        "userAgent": "textlint-rule-no-dead-link/1.0"
-      },
-      "en-spell": true,
-      "en-capitalization": {
-        "allowHeading": true,
-        "allowFigures": true,
-        "allowLists": true,
-        "allowWords": []
-      },
-      "stop-words": {
-        "defaultWords": true,
-        "skip": [
-          "Blockquote"
-        ],
-        "exclude": [
-          "utilize",
-          "period of time"
-        ]
-      },
-      "apostrophe": true,
-      "common-misspellings": {
-        "ignore": []
-      },
-      "date-weekday-mismatch": true,
-      "terminology": {
-        "defaultTerms": true,
-        "skip": [
-          "Blockquote"
-        ],
-        "exclude": [
-          "CSS"
-        ]
-      },
-      "alex": {
-        "allow": [
-          "boogeyman-boogeywoman"
-        ]
-      },
-      "rousseau": {
-        "showLevels": [
-          "suggestion",
-          "warning",
-          "error"
-        ]
-      },
-      "abbr-within-parentheses": true,
-      "spelling": {
-        "language": "en",
-        "skipPatterns": [
-          "JavaScript"
-        ],
-        "wordDefinitionRegexp": "/[\\w']+/g",
-        "suggestCorrections": true
-      },
-      "unexpanded-acronym": {
-        "min_acronym_len": 3
-      },
-      "footnote-order": true,
-      "@textlint-rule/no-unmatched-pair": true,
-      "@textlint-rule/no-invalid-control-character": true,
-      "no-empty-section": true,
-      "no-start-duplicated-conjunction": {
-        "interval": 2
-      }
-    },
-    "plugins": [
-      "html"
-    ]
+  "stylelint": {
+    "extends": "stylelint-config-dnb/scss"
   },
-  "dependencies": {
-    "remark-lint-fenced-code-flag": "^2.0.1",
-    "remark-lint-final-newline": "^1.0.5",
-    "remark-lint-first-heading-level": "^2.0.1",
-    "remark-lint-linebreak-style": "^2.0.1",
-    "remark-lint-no-html": "^2.0.1",
-    "remark-lint-no-repeat-punctuation": "^0.1.3",
-    "remark-lint-write-good": "^1.2.0"
-  }
+  "private": true
 }
