@@ -4,7 +4,7 @@ date: '2020-05-09T06:45:57-03:00'
 weight: 5
 draft: false
 ---
-In this root folder you will find a file called `config.toml` open this file in any text editor or IDM.
+In this root folder you will find a file called `config.toml` open this file in any text editor or IDE.
 
 If your theme is not launched in your localhost, then check the `theme` name is correct in config.toml file. Then run `hugo server` command again.
 

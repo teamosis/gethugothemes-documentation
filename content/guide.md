@@ -76,7 +76,7 @@ The basic process of setting up local development is roughly the same in every t
  5. Edit source files and preview changes instantly with live reload.
 
  
-> Now that you've got your theme running and understand the compiling process, let's discuss the proper ways to edit and customize your theme. You can directly customize your template from the source file. For a better experience, open the whole theme folder with a text-editor or IDM (i.e. [Visual Studio Code](https://code.visualstudio.com/)).
+> Now that you've got your theme running and understand the compiling process, let's discuss the proper ways to edit and customize your theme. You can directly customize your template from the source file. For a better experience, open the whole theme folder with a text-editor or IDE (i.e. [Visual Studio Code](https://code.visualstudio.com/)).
 
 ### Local development in a nutshell
 
