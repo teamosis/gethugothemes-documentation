@@ -27,7 +27,7 @@
   <div class="container">
     <h2 class="section-title">{{ site.Params.topic_title | markdownify }}</h2>
     <div class="row masonry-wrapper">
-      {{ range (where site.Pages "Type" "docs") }}
+      {{ range (where site.Pages "Type" "docs").ByTitle }}
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card match-height- text-center">
           <div class="card-body">
