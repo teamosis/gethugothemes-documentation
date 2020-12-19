@@ -12,16 +12,9 @@
     "url": "https://github.com/gethugothemes/gethugothemes-docs/issues"
   },
   "scripts": {
-    "release": "standard-version --release-as patch -a -t \"v\" && git push --follow-tags origin main",
-    "release-next": "standard-version --release-as minor -a -t \"v\" && git push --follow-tags origin main",
-    "release-major": "standard-version --release-as major -a -t \"v\" && git push --follow-tags origin main",
     "serve": "hugo server --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose",
     "hugo": "hugo --i18n-warnings --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --enableGitInfo --log true --logFile hugo.log --verbose",
-    "hugo-update": "hugo mod get -u ./... && hugo mod tidy",
-    "textlint": "textlint",
-    "textlint-fix": "textlint --fix",
-    "lint-md": "remark .",
-    "commitlint": "commitlint --from=HEAD~1"
+    "hugo-update": "hugo mod get -u ./... && hugo mod tidy"
   },
   "keywords": [
     "hugo",
@@ -46,37 +39,15 @@
   ],
   "devDependencies": {
     "standard-version": "9.0.0",
-    "@commitlint/cli": "11.0.0",
-    "husky": "4.3.0",
     "@dnb-hugo/browserslist-config-dnb": "github:dnb-hugo/browserslist-config-dnb",
-    "@dnb-hugo/commitlint-config-dnb": "github:dnb-hugo/commitlint-config-dnb",
     "@dnb-hugo/remark-preset-lint-dnb": "github:dnb-hugo/remark-preset-lint-dnb",
-    "@dnb-hugo/standard-version-config-dnb": "github:dnb-hugo/standard-version-config-dnb",
     "@dnb-hugo/stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb"
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-customizable"
-    },
-    "cz-customizable": {
-      "config": ".cz-config.js"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "browserslist": [
-    "extends browserslist-config-dnb"
+    "extends @dnb-hugo/browserslist-config-dnb"
   ],
-  "commitlint": {
-    "extends": [
-      "@dnb-hugo/commitlint-config-dnb"
-    ]
-  },
   "stylelint": {
-    "extends": "stylelint-config-dnb/scss"
+    "extends": "@dnb-hugo/stylelint-config-dnb"
   },
   "private": true
 }
