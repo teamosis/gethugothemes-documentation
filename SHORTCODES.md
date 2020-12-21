@@ -28,6 +28,20 @@ See the i18n-pages for sample usage.
 
 Content blocks have no title or other frontmatter than the one already added when calling `hugo new`. The content will be markdownified.
 
+### {{< contentblocklist >}}
+
+This shortcode is used to arrange a list of shorter content blocks into a unordered HTML list. This is mostly used to reuse configuration documentation.
+
+```markdown
+{{< contentblocklist "configsidewide/" "baseURL" "summaryLength" "theme" "title" "googleAnalytics" "disqusShortname" >}}
+```
+
+It expects two or more unnamed parameters. 
+
+The first parameter describes the subpath of `content/contentblocks` that the block is located in. If it contains a path then it MUST end with a slash. If the blocks are located inside of `content/contentblocks` then leave this parameter empty (`""`).
+
+The second and any later parameter is the name of the content block to load from the configured directory.
+
 ### {{< faq >}}
 
 tbd.
