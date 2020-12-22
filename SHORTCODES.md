@@ -2,6 +2,20 @@
 
 The following shortcodes are available to use on this website:
 
+### {{< box >}}
+
+This shortcode creates a visually highlighted box.
+
+```markdown
+{{< box title="Title" link="link" class="md5" >}}
+```
+
+- `title` (required) 
+- `link` (optional) links the title to an URI
+- `class` (optional) add classes. if not set an `mb-3` is set. Adding this parameter will override the default setting.
+
+The content of the shortcode will be markdownified.
+
 ### {{< changelog >}}
 
 tbd.
