@@ -1,11 +1,11 @@
-{{- $title := .Get "title" -}}
-{{- $link := .Get "link" -}}
-{{- $class := .Get "class" -}}
+{{ $title := .Get "title" }}
+{{ $link := .Get "link" }}
+{{ $class := .Get "class" }}
 <div class="box{{ with $class }} {{ $class }}{{ else }} mb-3{{ end }}">
-    <div class="h5">
-        {{- with $link -}}<a href="{{ . }}">{{- end -}}
-        {{- $title -}}
-        {{- with $link -}}</a>{{- end -}}
-    </div>
-    {{- .Inner | markdownify -}}
+  <div class="h5">
+    {{ with $link }}<div class="scroll-link" href="{{ . }}">{{ end }}
+    {{ $title }}
+    {{ with $link }}</div>{{ end }}
+  </div>
+  {{ .Inner | markdownify }}
 </div>

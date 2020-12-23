@@ -169,7 +169,7 @@ $(document).on("turbolinks:load", preloader);
 	});
 
 	// table of content
-	new ScrollMenu('#TableOfContents a, .box-title', {
+	new ScrollMenu('#TableOfContents a', {
 		duration: 400,
 		activeOffset: -110,
 		scrollOffset: -115,
