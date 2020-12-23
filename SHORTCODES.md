@@ -42,6 +42,16 @@ See the i18n-pages for sample usage.
 
 Content blocks have no title or other frontmatter than the one already added when calling `hugo new`. The content will be markdownified.
 
+It is possible to add a second parameter with comma-separated replacements. The shortcode will replace them in the contentblock files with their values. This is useful to add the Theme name or paths to the help texts.
+
+Example:
+
+```markdown
+{{< contentblock "blockname" "SEARCH1:replace1,SEARCH2:replace2" >}}
+```
+
+This will replace all occurences of `SEARCH1` in the block with `replace1` and `SEARCH2` with `replace`. 
+
 ### {{< contentblocklist >}}
 
 This shortcode is used to arrange a list of shorter content blocks into a unordered HTML list. This is mostly used to reuse configuration documentation.

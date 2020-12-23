@@ -1,3 +1,11 @@
-{{ with site.GetPage (printf "%s/%s" "contentblocks/" (index .Params 0)) }}
-  {{ .Content | markdownify }}
+{{ $replacements := split (index .Params 1) "," }}
+{{ $content := (site.GetPage (printf "%s/%s" "contentblocks/" (index .Params 0))).Content }}
+{{ with $replacements }}
+  {{ range . }}
+    {{ $replace := split . ":" }}
+    {{ $content = replace $content (index $replace 0) (index $replace 1) }}
+  {{ end }}
+{{ end }}
+{{ with $content }}
+  {{ . | markdownify }}
 {{ end }}
