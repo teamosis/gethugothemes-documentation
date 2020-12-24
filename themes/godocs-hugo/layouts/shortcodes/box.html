@@ -3,9 +3,9 @@
 {{ $class := .Get "class" }}
 <div class="box{{ with $class }} {{ $class }}{{ else }} mb-3{{ end }}">
   <div class="h5">
-    {{ with $link }}<div class="scroll-link" href="{{ . }}">{{ end }}
+    {{ with $link }}<a class="page-scroll" href="{{ . }}">{{ end }}
     {{ $title }}
-    {{ with $link }}</div>{{ end }}
+    {{ with $link }}</a>{{ end }}
   </div>
   {{ .Inner | markdownify }}
 </div>
