@@ -13,7 +13,7 @@ endLevel = 6
 ordered = false
 [[menu.footer]]
 name = "Github"
-url = "https://github.com/themefisher/godocs"
+url = "https://github.com/gethugothemes"
 weight = 2
 [[menu.footer]]
 name = "Contact"
