@@ -31,7 +31,18 @@
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card match-height- text-center">
           <div class="card-body">
-            <h3 class="card-title h4 mb-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h3 class="card-title h4 mb-4">
+              <a href="{{ .Permalink }}">
+                {{ .Title }}
+                {{ with .Params.premium }}
+                  <sup aria-hidden="true">
+                    <span class="badge badge-primary">
+                      <small>PREMIUM</small>
+                    </span>
+                  </sup>
+                {{ end }}
+              </a>
+            </h3>
             <ul class="list-styled text-left mb-4">
               {{ range .Data.Pages }}
               <li><a href="{{.Permalink}}">{{.Title}}</a></li>
