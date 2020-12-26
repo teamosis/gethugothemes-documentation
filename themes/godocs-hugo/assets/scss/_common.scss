@@ -132,56 +132,8 @@ a:hover {
   color: $text-color-light !important;
 }
 
-.mb-10 {
-  margin-bottom: 10px !important;
-}
-
-.mb-20 {
-  margin-bottom: 20px !important;
-}
-
-.mb-30 {
-  margin-bottom: 30px !important;
-}
-
-.mb-40 {
-  margin-bottom: 40px !important;
-}
-
-.mb-50 {
-  margin-bottom: 50px !important;
-}
-
-.mb-60 {
-  margin-bottom: 60px !important;
-}
-
-.mb-70 {
-  margin-bottom: 70px !important;
-}
-
-.mb-80 {
-  margin-bottom: 80px !important;
-}
-
-.mb-90 {
-  margin-bottom: 90px !important;
-}
-
-.mb-100 {
-  margin-bottom: 100px !important;
-}
-
 iframe{
   max-width: 100%;
-}
-
-.zindex-1 {
-  z-index: 1;
-}
-
-.overflow-hidden {
-  overflow: hidden;
 }
 
 .font-weight-medium {
@@ -201,4 +153,9 @@ iframe{
 
 code{
   color: $primary-color;
+}
+
+.badge-primary {
+  color: $white;
+  background-color: $primary-color;
 }

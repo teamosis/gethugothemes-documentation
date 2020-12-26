@@ -1,5 +1,5 @@
 ---
-title: "Bigspring Hugo Theme"
+title: "Bigspring Hugo"
 date: 2020-12-23T10:00:00+07:00
 type: "docs"
 todo:

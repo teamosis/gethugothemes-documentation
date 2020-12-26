@@ -169,14 +169,15 @@ $(document).on("turbolinks:load", preloader);
 	});
 
 	// table of content
-	new ScrollMenu('#TableOfContents a', {
-		duration: 400,
-		activeOffset: -110,
-		scrollOffset: -115,
-	})
 
-
-	
+	var containerEl = document.querySelector('#TableOfContents');
+	if (containerEl) {
+		new ScrollMenu('#TableOfContents a', {
+			duration: 400,
+			activeOffset: -110,
+			scrollOffset: -115,
+		})
+	}
 
 	/* ========================================================================= */
 	/*	animation scroll js

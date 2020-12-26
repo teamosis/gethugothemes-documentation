@@ -34,12 +34,12 @@
             <h3 class="card-title h4 mb-4">
               <a href="{{ .Permalink }}">
                 {{ .Title }}
+                {{ if site.Params.premium_badge }}
                 {{ with .Params.premium }}
-                  <sup aria-hidden="true">
-                    <span class="badge badge-primary">
-                      <small>PREMIUM</small>
-                    </span>
-                  </sup>
+                <span class="badge badge-primary">
+                  <small>PRO</small>
+                </span>
+                {{ end }}
                 {{ end }}
               </a>
             </h3>

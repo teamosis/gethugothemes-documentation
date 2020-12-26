@@ -341,10 +341,10 @@ textarea.form-control {
 }
 
 .badge {
-  margin-bottom: 20px;
   font-weight: 500;
   font-size: 15px;
   padding: 5px 10px;
+  vertical-align: middle;
 
   &.added {
     background: #3778FF;

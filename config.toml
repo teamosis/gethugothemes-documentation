@@ -26,6 +26,7 @@ logo = "images/logo.png"
 author = "Themefisher"
 description = "Documentation for the installation and configuration of our themes."
 topic_title = "Theme Documentations"
+premium_badge = true
 edit_page_url = "https://github.com/gethugothemes/gethugothemes-documentation-site/edit/master/content/"
 copyright = "Copyright &copy; 2020 [Gethugothemes](https://gethugothemes.com/) Docs build with [Godocs Theme](https://gethugothemes.com/products/godocs-hugo-documentation-theme/)"
 [params.banner]
@@ -44,7 +45,6 @@ link = "https://gethugothemes.com/contact"
 [params.navigation_button_bordered]
 enable = true
 label = "submit ticket"
-link = "https://gethugothemes.com/contact"
 [params.navigation_button_solid]
 enable = true
 label = "guide"
