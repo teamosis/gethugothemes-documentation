@@ -1,6 +1,6 @@
 # Gethugothemes Docs
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/41f2dbaca1494cafaf64263725a406ca)](https://app.codacy.com/gh/gethugothemes/gethugothemes-documentation-site)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/41f2dbaca1494cafaf64263725a406ca)](https://app.codacy.com/gh/gethugothemes/documentation)
 
 Documentation site for [Gethugothemes](https://docs.gethugothemes.com) .
 

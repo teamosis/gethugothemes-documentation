@@ -39,7 +39,7 @@ function executeSearch(searchQuery) {
     if (result.length > 0) {
       populateResults(result);
     } else {
-      $('#search-results').append("<div class=\"text-center\"><img class=\"img-fluid\" src=\"/not-found.png\"><h3>Nothing Found</h3></div>");
+      $('#search-results').append("<div class=\"text-center\"><img class=\"img-fluid\" src=\"/images/not-found.png\"><h3>Nothing Found</h3></div>");
     }
   });
 }
