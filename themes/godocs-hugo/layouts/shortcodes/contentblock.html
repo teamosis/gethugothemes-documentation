@@ -7,5 +7,12 @@
   {{ end }}
 {{ end }}
 {{ with $content }}
-  {{ . | markdownify }}
+  {{- $markdown := . | markdownify -}}
+  {{ if not ( findRE "<[h|p][^>]*>" $markdown ) }}
+    <p>{{ $markdown }}</p>
+  {{ else }}
+    {{ $markdown }}
+  {{ end }}
 {{ end }}
+
+
