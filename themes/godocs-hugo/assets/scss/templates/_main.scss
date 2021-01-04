@@ -240,35 +240,7 @@ pre {
 }
 
 
-// autocomplete
-.autocomplete-suggestions {
-  border: 0;
-  border-radius: 0 0 6px 6px;
-  box-shadow: 0px 50px 60px rgba(62, 62, 62, 0.102) !important;
-  background: $white;
 
-  &::-webkit-scrollbar {
-    width: 5px;
-
-    &-track {
-      background: $light;
-    }
-
-    &-thumb {
-      background: $border-color;
-    }
-  }
-
-  .autocomplete-suggestion {
-    transition: .2s ease;
-    padding: 10px;
-    font-weight: 500;
-
-    &.selected {
-      background: $primary-color;
-    }
-  }
-}
 
 
 .search-item {
