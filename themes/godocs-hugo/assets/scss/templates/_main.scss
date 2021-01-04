@@ -36,7 +36,7 @@
   }
 
   &:hover {
-    box-shadow: 0px 15px 60px rgba(62, 62, 62, 0.2) !important;
+    box-shadow: 0px 15px 60px rgba(62, 62, 62, 0.2);
   }
 }
 
@@ -103,7 +103,7 @@
 
   .parent {
     &>a {
-      color: $primary-color !important;
+      color: $primary-color;
       position: relative;
       margin-left: 10px;
 
@@ -151,7 +151,7 @@
 
   &.parent {
     display: block;
-    border-bottom: 0 !important;
+    border-bottom: 0;
 
     .sidelist {
       display: block;
@@ -302,7 +302,7 @@ pre {
   border-radius: 6px;
 
   &:focus {
-    box-shadow: none !important;
+    box-shadow: none;
     outline: 0;
     border-color: $primary-color;
   }
@@ -542,7 +542,7 @@ textarea.form-control {
 
 
   blockquote {
-    font-size: 20px !important;
+    font-size: 20px;
     color: $text-color-dark;
     padding: 20px 40px;
     border-left: 2px solid $primary-color;
@@ -551,7 +551,7 @@ textarea.form-control {
     background: $light;
 
     p {
-      margin-bottom: 0 !important;
+      margin-bottom: 0;
     }
   }
 
@@ -565,7 +565,7 @@ textarea.form-control {
   }
 
   code {
-    margin-bottom: 0 !important;
+    margin-bottom: 0;
     font-size: 100%;
   }
 }
@@ -577,7 +577,7 @@ textarea.form-control {
     padding: 5px 0 5px 20px;
     position: relative;
 
-    &::before {
+    &:before {
       position: absolute;
       content: '';
       height: 8px;

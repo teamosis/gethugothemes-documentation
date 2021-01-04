@@ -15,7 +15,7 @@
   &:active,
   &:focus {
     outline: 0;
-    box-shadow: none !important;
+    box-shadow: none;
   }
   &-sm{
     font-size: 14px;
@@ -33,8 +33,8 @@
   &:focus,
   &.focus,
   &.active {
-    background: darken($color: $primary-color, $amount: 10) !important;
-    border-color: darken($color: $primary-color, $amount: 10) !important;
+    background: darken($color: $primary-color, $amount: 10);
+    border-color: darken($color: $primary-color, $amount: 10);
   }
 }
 
@@ -48,8 +48,8 @@
   &:focus,
   &.focus,
   &.active {
-    background: darken($color: $primary-color, $amount: 10) !important;
-    border-color: darken($color: $primary-color, $amount: 10) !important;
+    background: darken($color: $primary-color, $amount: 10);
+    border-color: darken($color: $primary-color, $amount: 10);
     color: $white;
   }
 }
