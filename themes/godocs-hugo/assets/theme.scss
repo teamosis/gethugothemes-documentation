@@ -45,10 +45,13 @@
 @import "libs/bootstrap/scss/helpers";
 @import "libs/bootstrap/scss/utilities/api";
 
-// Godocs Theme files
+// GoDocs Plugin Files
+@import "scss/plugins/autocomplete";
+
+// GoDocs Theme files
 @import 'scss/mixins';
 @import 'scss/typography';
 @import 'scss/buttons';
 @import 'scss/common';
-@import 'scss/templates/navigation.scss';
-@import 'scss/templates/main.scss';
+@import 'scss/templates/navigation';
+@import 'scss/templates/main';
