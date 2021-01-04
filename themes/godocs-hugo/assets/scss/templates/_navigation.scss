@@ -31,7 +31,7 @@
 
   &.nav-bg {
     background: $white;
-    box-shadow: 0px 5px 20px rgba(62, 62, 62, 0.08);
+    box-shadow: 0 5px 20px rgba(62, 62, 62, 0.08);
 
     @include desktop {
       top: -60px;
@@ -43,7 +43,7 @@
 
     input {
       width: 100%;
-      box-shadow: 0px 5px 10px rgba(62, 62, 62, 0.05);
+      box-shadow: 0 5px 10px rgba(62, 62, 62, 0.05);
     }
   }
 
@@ -159,7 +159,7 @@
 
   .form-control {
     height: 50px;
-    box-shadow: 0px 5px 10px rgba(62, 62, 62, 0.05);
+    box-shadow: 0 5px 10px rgba(62, 62, 62, 0.05);
 
     @include desktop {
       box-shadow: none;
