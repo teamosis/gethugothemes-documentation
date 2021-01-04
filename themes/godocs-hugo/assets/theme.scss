@@ -9,16 +9,16 @@ VERSION:	Versoin Number
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
 
-@import 'variables';
+@import 'scss/variables';
 
-@import 'mixins';
+@import 'scss/mixins';
 
-@import 'typography';
+@import 'scss/typography';
 
-@import 'buttons';
+@import 'scss/buttons';
 
-@import 'common';
+@import 'scss/common';
 
-@import 'templates/navigation.scss';
+@import 'scss/templates/navigation.scss';
 
-@import 'templates/main.scss';
+@import 'scss/templates/main.scss';
