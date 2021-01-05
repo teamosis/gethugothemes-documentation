@@ -45,13 +45,13 @@
     }
 
     &.selected {
-      color: #fff;
+      color: $white;
       background: $primary-color;
     }
 
     &:hover {
-      background: #444;
-      color: #fff;
+      background: $primary-color;
+      color: $white;
     }
 
     & > .context {
