@@ -3,7 +3,7 @@
 <section class="section pb-0" id="banner">
   <div class="container">
     <div class="row justify-content-between align-items-center">
-      <div class="col-lg-7 text-center text-lg-left">
+      <div class="col-lg-7 text-center text-lg-start">
         {{ with site.Params.banner }}
         <h1 class="mb-4 display-3">{{ .title | markdownify }}</h1>
         <p class="mb-4">{{ .subtitle | markdownify }}</p>
@@ -43,7 +43,7 @@
                 {{ end }}
               </a>
             </h3>
-            <ul class="list-styled text-left mb-4">
+            <ul class="list-styled text-start mb-4">
               {{ range .Data.Pages }}
               <li><a href="{{.Permalink}}">{{.Title}}</a></li>
               {{end}}
@@ -80,7 +80,7 @@
       <div class="col-lg-4 text-center d-lg-block d-none">
         <img loading="lazy" src="{{ .image| absURL }}" class="img-fluid">
       </div>
-      <div class="col-lg-8 text-lg-left text-center">
+      <div class="col-lg-8 text-lg-start text-center">
         <h2 class="mb-3">{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
         {{ if .button.enable }}

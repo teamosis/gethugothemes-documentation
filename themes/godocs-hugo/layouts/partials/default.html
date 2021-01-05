@@ -22,7 +22,7 @@
           {{ if .Content }}
           <div class="content">{{.Content}}</div>
           {{ else }}
-          <ul class="list-styled text-left mb-4">
+          <ul class="list-styled text-start mb-4">
             {{ range .Data.Pages }}
             <li><a href="{{.Permalink}}">{{.Title}}</a></li>
             {{end}}
@@ -56,22 +56,22 @@
             {{ end }}
 
             {{with ($.Scratch.Get "prevPage")}}
-            <a class="nav nav-prev" href="{{.Permalink }}"><i class="ti-arrow-left mr-2"></i>
+            <a class="nav nav-prev" href="{{.Permalink }}"><i class="ti-arrow-left me-2"></i>
               <span class="d-none d-md-block">{{.Title}}</span></a>
             {{end}}
             {{with ($.Scratch.Get "nextPage")}}
             <a class="nav nav-next" href="{{.Permalink }}"> <span class="d-none d-md-block">{{.Title}}</span><i
-                class="ti-arrow-right ml-2"></i></a>
+                class="ti-arrow-right ms-2"></i></a>
             {{end}}
           </nav>
 
           {{ if site.Params.edit_page_url }}
           {{ $File := .File }}
           {{ with $File }}
-          <div class="border-top pt-3 mt-5 row">
+          <div class="border-top pt-3 mt-5">
             <a href="{{ site.Params.edit_page_url }}{{ replace $File.Dir `\` `/` }}{{ $File.LogicalName }}"
               target="blank">
-              <i class="ti-write mr-2"></i> Improve this page on Github
+              <i class="ti-write me-2"></i> Improve this page on Github
             </a>&nbsp;&mdash;&nbsp;
             Last updated:&nbsp; {{ $.Lastmod.Format "Mon, Jan 2, 2006" }}
           </div>

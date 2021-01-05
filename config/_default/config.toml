@@ -21,6 +21,7 @@ url = "https://gethugothemes.com/contact"
 weight = 1
 [outputs]
 home = ["HTML", "JSON"]
+
 [params]
 logo = "images/logo.png"
 author = "Themefisher"
@@ -49,12 +50,12 @@ label = "submit ticket"
 enable = true
 label = "guide"
 link = "guide"
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
+#[[params.plugins.css]]
+#link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
-[[params.plugins.css]]
-link = "plugins/search/auto-complete.css"
+#[[params.plugins.css]]
+#link = "plugins/search/auto-complete.css"
 [[params.plugins.css]]
 link = "plugins/featherlight/featherlight.min.css"
 [[params.plugins.js]]

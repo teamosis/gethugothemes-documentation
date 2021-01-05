@@ -36,7 +36,6 @@ If everything went well then you can now load your website at [localhost:1313](h
 ## Next steps
 
 - Check out, how to [configure the features]({{< ref "configuration" >}}) of this theme.
-- Learn how to [translate your website]({{< ref "i18n" >}}).
 
 ## Video documentation
 

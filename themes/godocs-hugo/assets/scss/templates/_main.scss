@@ -36,7 +36,7 @@
   }
 
   &:hover {
-    box-shadow: 0px 15px 60px rgba(62, 62, 62, 0.2) !important;
+    box-shadow: 0 15px 60px rgba(62, 62, 62, 0.2);
   }
 }
 
@@ -103,7 +103,7 @@
 
   .parent {
     &>a {
-      color: $primary-color !important;
+      color: $primary-color;
       position: relative;
       margin-left: 10px;
 
@@ -151,7 +151,7 @@
 
   &.parent {
     display: block;
-    border-bottom: 0 !important;
+    border-bottom: 0;
 
     .sidelist {
       display: block;
@@ -240,35 +240,7 @@ pre {
 }
 
 
-// autocomplete
-.autocomplete-suggestions {
-  border: 0;
-  border-radius: 0 0 6px 6px;
-  box-shadow: 0px 50px 60px rgba(62, 62, 62, 0.102) !important;
-  background: $white;
 
-  &::-webkit-scrollbar {
-    width: 5px;
-
-    &-track {
-      background: $light;
-    }
-
-    &-thumb {
-      background: $border-color;
-    }
-  }
-
-  .autocomplete-suggestion {
-    transition: .2s ease;
-    padding: 10px;
-    font-weight: 500;
-
-    &.selected {
-      background: $primary-color;
-    }
-  }
-}
 
 
 .search-item {
@@ -330,7 +302,7 @@ pre {
   border-radius: 6px;
 
   &:focus {
-    box-shadow: none !important;
+    box-shadow: none;
     outline: 0;
     border-color: $primary-color;
   }
@@ -570,7 +542,7 @@ textarea.form-control {
 
 
   blockquote {
-    font-size: 20px !important;
+    font-size: 20px;
     color: $text-color-dark;
     padding: 20px 40px;
     border-left: 2px solid $primary-color;
@@ -579,7 +551,7 @@ textarea.form-control {
     background: $light;
 
     p {
-      margin-bottom: 0 !important;
+      margin-bottom: 0;
     }
   }
 
@@ -587,13 +559,13 @@ textarea.form-control {
     display: block;
     tab-size: 2;
     padding: 9.5px;
-    margin: 10px 0px 20px;
+    margin: 10px 0 20px;
     border-radius: 5px;
     white-space: pre-wrap;
   }
 
   code {
-    margin-bottom: 0 !important;
+    margin-bottom: 0;
     font-size: 100%;
   }
 }
@@ -693,16 +665,15 @@ textarea.form-control {
   }
 
   ul {
-    padding-left: 0;
     margin-bottom: 10px;
     padding-left: 10px;
   }
 
-  &>ul {
-    padding-top: 0px;
+  & > ul {
+    padding-top: 0;
 
-    &>li>ul>li {
-      &>a {
+    & > li > ul > li {
+      & > a {
         font-weight: bold;
         font-size: 100%;
       }
@@ -727,10 +698,11 @@ textarea.form-control {
   }
 }
 
-.box{
+.box {
   padding: 20px 40px;
   background-color: $light;
-  &-title{
+
+  &-title {
     font-size: 20px;
     font-weight: 700;
   }

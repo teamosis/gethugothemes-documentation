@@ -1,0 +1,7 @@
+[[imports]]
+path = "github.com/dnb-hugo/libraries/bootstrap5"
+disabled = false
+
+[[imports]]
+path = "github.com/dnb-hugo/components/functions"
+disabled = false
