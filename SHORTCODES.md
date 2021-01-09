@@ -18,11 +18,19 @@ The content of the shortcode will be markdownified.
 
 ### {{< changelog >}}
 
-tbd.
+This tag can be used to add items on changelog pages. (*in rework*)
 
 ### {{< collapse >}}
 
-tbd.
+Adds a collapsible section to a page. This shortcode can be used to hide longer and less important texts. 
+
+```markdown
+{{< collapse "Title of the collapsed section" >}}
+Content
+{{</ collapse >}}
+```
+
+The content of the tag will be markdownified.
 
 ### {{< contentblock >}}
 
@@ -68,7 +76,15 @@ The second and any later parameter is the name of the content block to load from
 
 ### {{< faq >}}
 
-tbd.
+Adds FAQ items to a page. The shortcode will add the required markup for a Q and A format.
+
+```markdown
+{{< faq "Question?" >}}
+Answer
+{{</ faq >}}
+```
+
+The content of the tag will be markdownified.
 
 ### {{< notice >}}
 
