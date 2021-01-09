@@ -14,14 +14,13 @@ subtitle = "We are the biggest hugo theme provider in the market , We will cover
 title = "Welcome to Gethugothemes"
 
 [call_to_action]
-content = "You can contact us anytime to submit your query. You will get priority support if you are using our premium product."
 enable = true
+title = "Could not find what you were looking for?"
+content = "Feel free to contact us any time to submit your questions or suggestions. You will receive priority support if you are using our premium products."
 image = "images/cta-illustration.jpg"
-title = "Still Didn't Find Your Answer?"
 [call_to_action.button]
-enable = "true"
-label = "Submit a ticket"
-link = "https://gethugothemes.com/contact"
+enable = true
+label = "Start a conversation now!"
 
 [navigation_button_bordered]
 enable = true
