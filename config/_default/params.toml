@@ -1,0 +1,84 @@
+[params]
+
+logo = "images/logo.png"
+author = "Themefisher"
+description = "Documentation for the installation and configuration of our themes."
+topic_title = "Theme Documentations"
+premium_badge = true
+edit_page_url = "https://github.com/gethugothemes/documentation/edit/master/content/"
+copyright = "Copyright &copy; 2020 [Gethugothemes](https://gethugothemes.com/) Docs build with [Godocs Theme](https://gethugothemes.com/products/godocs-hugo-documentation-theme/)"
+
+[banner]
+image = "images/banner.jpg"
+subtitle = "We are the biggest hugo theme provider in the market , We will cover all our themes installation documentation here . "
+title = "Welcome to Gethugothemes"
+
+[call_to_action]
+content = "You can contact us anytime to submit your query. You will get priority support if you are using our premium product."
+enable = true
+image = "images/cta-illustration.jpg"
+title = "Still Didn't Find Your Answer?"
+[call_to_action.button]
+enable = "true"
+label = "Submit a ticket"
+link = "https://gethugothemes.com/contact"
+
+[navigation_button_bordered]
+enable = true
+label = "submit ticket"
+
+[navigation_button_solid]
+enable = true
+label = "guide"
+link = "guide"
+
+[[plugins.css]]
+link = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
+[[plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[plugins.css]]
+link = "plugins/featherlight/featherlight.min.css"
+
+[[plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[plugins.js]]
+link = "plugins/masonry/masonry.min.js"
+[[plugins.js]]
+link = "plugins/featherlight/featherlight.min.js"
+[[plugins.js]]
+link = "plugins/clipboard/clipboard.min.js"
+[[plugins.js]]
+link = "plugins/search/auto-complete.js"
+[[plugins.js]]
+link = "plugins/scrollmenu/scrollmenu.min.js"
+[[plugins.js]]
+link = "plugins/search/search.js"
+[[plugins.js]]
+link = "plugins/search/lunr.min.js"
+[[plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[plugins.js]]
+link = "plugins/search/mark.js"
+[[plugins.js]]
+link = "plugins/search/search-page.js"
+[[plugins.js]]
+link = "plugins/turbolinks/turbolinks.js"
+
+[preloader]
+enable = false
+preloader = ""
+
+[[social]]
+icon = "ti-facebook"
+link = "https://fb.com/gethugothemes"
+title = "facebook"
+[[social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/gethugothemes"
+title = "twitter"
+[[social]]
+icon = "ti-github"
+link = "https://github.com/themefisher"
+title = "github"
