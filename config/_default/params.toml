@@ -1,5 +1,3 @@
-[params]
-
 logo = "images/logo.png"
 author = "Themefisher"
 description = "Documentation for the installation and configuration of our themes."
@@ -33,13 +31,13 @@ link = "guide"
 
 [[plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
-[[plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
-[[plugins.css]]
-link = "plugins/featherlight/featherlight.min.css"
+#[[plugins.css]]
+#link = "plugins/themify-icons/themify-icons.css"
+#[[plugins.css]]
+#link = "plugins/featherlight/featherlight.min.css"
 
 [[plugins.js]]
-link = "plugins/jQuery/jquery.min.js"
+link = "plugins/jQuery/jquery-3.5.1.min.js"
 [[plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[plugins.js]]

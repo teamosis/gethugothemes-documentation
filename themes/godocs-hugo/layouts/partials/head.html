@@ -8,26 +8,26 @@
   {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
-  {{ "<!-- plugins -->" | safeHTML }}
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  {{ range site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }}">
-  {{ end }}
-
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 
-  {{ "<!-- Main Stylesheet -->" | safeHTML }}
-  {{- with partialCached "func/getStylesheet.html" . -}}
+  {{ "<!-- Stylesheets -->" | safeHTML }}
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  {{ range site.Params.plugins.css -}}
+  <link
+    rel="preload" href="{{ .link | absURL }}"
+    as="style" media="screen"
+    onload="this.rel='stylesheet'">
+  {{- end }}
+  {{ with partialCached "func/getStylesheet.html" . -}}
   <link
     rel="preload" href="{{ .Permalink }}"
-    integrity="{{ .Data.Integrity }}" as="style"
-    onload="this.rel='stylesheet'"
-    media="screen">
+    integrity="{{ .Data.Integrity }}"
+    as="style" media="screen"
+    onload="this.rel='stylesheet'">
   <noscript>
     <link rel="stylesheet" href="{{ .Permalink }}" integrity="{{ .Data.Integrity }}" media="screen">
   </noscript>
-  {{- end -}}
-
+  {{ end }}
 </head>

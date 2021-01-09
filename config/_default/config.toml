@@ -1,6 +1,5 @@
 baseURL = "https://docs.gethugothemes.com/"
 disableLanguages = []
-languageCode = "en-us"
 languageName = "En"
 theme = "godocs-hugo"
 title = "Documentation Website for Gethugothemes"

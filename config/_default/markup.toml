@@ -1,7 +1,7 @@
-[markup.goldmark.renderer]
+[goldmark.renderer]
 unsafe = true
 
-[markup.tableOfContents]
+[tableOfContents]
 startLevel = 0
 endLevel = 6
 ordered = false
