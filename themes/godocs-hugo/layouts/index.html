@@ -73,26 +73,26 @@
 
 <!-- call to action -->
 {{ with site.Params.call_to_action }}
-{{ if site.Params.call_to_action.enable }}
-<section class="section">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-4 text-center d-lg-block d-none">
-        <img loading="lazy" src="{{ .image| absURL }}" class="img-fluid">
-      </div>
-      <div class="col-lg-8 text-lg-start text-center">
-        <h2 class="mb-3">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
-        {{ with .button }}
-        {{ if .button.enable }}
-        <a href="javascript:void(0);" onclick="Beacon('open')" class="btn btn-primary">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
+  {{ if .enable }}
+  <section class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 text-center d-lg-block d-none">
+          <img loading="lazy" src="{{ .image| absURL }}" class="img-fluid">
+        </div>
+        <div class="col-lg-8 text-lg-start text-center">
+          <h2 class="mb-3">{{ .title | markdownify }}</h2>
+          <p>{{ .content | markdownify }}</p>
+          {{ with .button }}
+          {{ if .button.enable }}
+          <a href="javascript:void(0);" onclick="Beacon('open')" class="btn btn-primary">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
       </div>
     </div>
-  </div>
-</section>
-{{ end }}
+  </section>
+  {{ end }}
 {{ end }}
 <!-- /call to action -->
 
