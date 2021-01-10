@@ -1,10 +1,8 @@
 baseURL = "https://docs.gethugothemes.com/"
 disableLanguages = []
 languageName = "En"
-theme = "godocs-hugo"
 title = "Documentation Website for Gethugothemes"
 enableGitInfo = true
 
 [outputs]
 home = ["HTML", "JSON"]
-
