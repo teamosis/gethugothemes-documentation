@@ -1,10 +1,20 @@
-logo = "images/logo.png"
+# Logo
+favicon = "images/favicon.png"
+logo_desktop = "images/logo.png"
+logo_desktop_width = "350px"
+logo_mobile = "images/logo-mobile.png"
+logo_mobile_width = "100px"
+
+# meta description
 author = "Themefisher"
 description = "Documentation for the installation and configuration of our themes."
 topic_title = "Theme Documentations"
 premium_badge = true
 edit_page_url = "https://github.com/gethugothemes/documentation/edit/master/content/"
 copyright = "Copyright &copy; 2020 [Gethugothemes](https://gethugothemes.com/) Docs build with [Godocs Theme](https://gethugothemes.com/products/godocs-hugo-documentation-theme/)"
+
+# custom script
+custom_script= "<script>!function(e,t,n){function a(){var e=t.getElementsByTagName('script')[0],n=t.createElement('script');n.type='text/javascript',n.async=!0,n.src='https://beacon-v2.helpscout.net',e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],'complete'===t.readyState)return a();e.attachEvent?e.attachEvent('onload',a):e.addEventListener('load',a,!1)}(window,document,window.Beacon||function(){}),window.Beacon('init','8f0313a1-19b9-4fb1-b400-01821b9798af');</script>"
 
 [banner]
 image = "images/banner.jpg"
@@ -31,10 +41,6 @@ link = "guide"
 
 [[plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
-#[[plugins.css]]
-#link = "plugins/themify-icons/themify-icons.css"
-#[[plugins.css]]
-#link = "plugins/featherlight/featherlight.min.css"
 
 [[plugins.js]]
 link = "plugins/jQuery/jquery-3.5.1.min.js"
