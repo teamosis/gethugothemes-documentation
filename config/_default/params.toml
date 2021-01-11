@@ -43,7 +43,7 @@ link = "guide"
 link = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
 
 [[plugins.js]]
-link = "plugins/jQuery/jquery-3.5.1.min.js"
+link = "plugins/jQuery/jquery.min.js"
 [[plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[plugins.js]]
