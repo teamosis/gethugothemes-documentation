@@ -1,5 +1,4 @@
 baseURL = "https://docs.gethugothemes.com/"
-disableLanguages = []
 languageName = "En"
 title = "Documentation Website for Gethugothemes"
 enableGitInfo = true
