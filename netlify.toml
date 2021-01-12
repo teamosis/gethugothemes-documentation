@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "./bin/netlify.sh"
+command = "chmod a+x ./bin/netlify.sh && ./bin/netlify.sh"
 
 [build.environment]
 HUGO_VERSION = "0.79.1"
