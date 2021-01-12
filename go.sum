@@ -8,4 +8,6 @@ github.com/popperjs/popper-core v2.5.4+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9t
 github.com/themefisher/core-docs v0.0.0-20210112045248-d9987905d5a2/go.mod h1:GVef4J2Afr9Oe2rdB7stpGVLAU2VdmJ03KTRD0c30Co=
 github.com/themefisher/core-docs v0.0.0-20210112070832-742da7004602 h1:my1K+r9utcrPlrXPNuNPUO7XZml1Bjb1Vqz5Wtr6JN4=
 github.com/themefisher/core-docs v0.0.0-20210112070832-742da7004602/go.mod h1:GVef4J2Afr9Oe2rdB7stpGVLAU2VdmJ03KTRD0c30Co=
+github.com/themefisher/core-docs v0.0.0-20210112082140-41880c07857a h1:Oc0useVLdh4TJbdGIGWa4N8NQwmsZ6OoWISMV5th1IY=
+github.com/themefisher/core-docs v0.0.0-20210112082140-41880c07857a/go.mod h1:GVef4J2Afr9Oe2rdB7stpGVLAU2VdmJ03KTRD0c30Co=
 github.com/twbs/bootstrap v5.0.0-beta1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
