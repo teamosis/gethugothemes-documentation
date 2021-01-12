@@ -7,5 +7,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="hugothemes" />
+    <orderEntry type="module" module-name="core-docs" />
   </component>
 </module>
