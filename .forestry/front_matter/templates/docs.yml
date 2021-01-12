@@ -1,0 +1,13 @@
+---
+label: docs
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: number
+  name: weight
+  label: weight
