@@ -1,0 +1,3 @@
+[[imports]]
+path = "github.com/themefisher/core-docs"
+disabled = false
