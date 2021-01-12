@@ -1,6 +1,9 @@
 # GitHubs @dependabot will take care of versioning, using static versions
 /package-lock.json
 
+# dev tools
+/bin/replacements.sh
+
 # Created by https://www.toptal.com/developers/gitignore/api/go,node,hugo,sass,macos,phpstorm,webstorm,sublimetext
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,node,hugo,sass,macos,phpstorm,webstorm,sublimetext
 
