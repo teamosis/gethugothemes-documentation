@@ -5,5 +5,6 @@ github.com/dnb-hugo/libraries/bootstrap5 v1.2.0 h1:bfQ//pGI71fGda7Mxph744Z8+cm8f
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml8YGxoLw7VWkAapiZoeHtg=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=
 github.com/popperjs/popper-core v2.5.4+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
+github.com/themefisher/core-docs v1.0.1 h1:j6XdRqS8SKTY+60zDpvO+Bx7lZ8MgLCtLoRR1HGArI0=
 github.com/themefisher/core-docs v1.0.1/go.mod h1:yCYCXv5g1mT2ru8oj3vb0AUGXggQ/9bWCmsENNcDzfA=
 github.com/twbs/bootstrap v5.0.0-beta1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
