@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../core-docs/.idea/core-docs.iml" filepath="$PROJECT_DIR$/../core-docs/.idea/core-docs.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/gethugothemes-docs.iml" filepath="$PROJECT_DIR$/.idea/gethugothemes-docs.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hugothemes/.idea/hugothemes.iml" filepath="$PROJECT_DIR$/../hugothemes/.idea/hugothemes.iml" />
     </modules>
