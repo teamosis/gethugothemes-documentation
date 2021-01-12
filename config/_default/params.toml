@@ -39,45 +39,30 @@ enable = true
 label = "guide"
 link = "guide"
 
-[[plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
-
+# plugins loop
 [[plugins.js]]
-link = "plugins/jQuery/jquery.min.js"
+link = "js/plugins/jQuery/jquery.min.js"
 [[plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
+link = "js/plugins/bootstrap/bootstrap.min.js"
 [[plugins.js]]
-link = "plugins/masonry/masonry.min.js"
+link = "js/plugins/masonry/masonry.min.js"
 [[plugins.js]]
-link = "plugins/featherlight/featherlight.min.js"
+link = "js/plugins/featherlight/featherlight.min.js"
 [[plugins.js]]
-link = "plugins/clipboard/clipboard.min.js"
+link = "js/plugins/clipboard/clipboard.min.js"
 [[plugins.js]]
-link = "plugins/search/auto-complete.js"
+link = "js/plugins/search/auto-complete.js"
 [[plugins.js]]
-link = "plugins/scrollmenu/scrollmenu.min.js"
+link = "js/plugins/scrollmenu/scrollmenu.min.js"
 [[plugins.js]]
-link = "plugins/search/search.js"
+link = "js/plugins/search/search.js"
 [[plugins.js]]
-link = "plugins/search/lunr.min.js"
+link = "js/plugins/search/lunr.min.js"
 [[plugins.js]]
-link = "plugins/search/fuse.min.js"
+link = "js/plugins/search/fuse.min.js"
 [[plugins.js]]
-link = "plugins/search/mark.js"
+link = "js/plugins/search/mark.js"
 [[plugins.js]]
-link = "plugins/search/search-page.js"
+link = "js/plugins/search/search-page.js"
 [[plugins.js]]
-link = "plugins/turbolinks/turbolinks.js"
-
-[[social]]
-icon = "ti-facebook"
-link = "https://fb.com/gethugothemes"
-title = "facebook"
-[[social]]
-icon = "ti-twitter-alt"
-link = "https://twitter.com/gethugothemes"
-title = "twitter"
-[[social]]
-icon = "ti-github"
-link = "https://github.com/themefisher"
-title = "github"
+link = "js/plugins/turbolinks/turbolinks.js"

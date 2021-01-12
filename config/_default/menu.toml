@@ -7,3 +7,17 @@ weight = 1
 name = "Github"
 url = "https://github.com/gethugothemes"
 weight = 2
+
+
+# social
+[[social]]
+name = "ti-facebook"
+url = "https://fb.com/gethugothemes"
+
+[[social]]
+name = "ti-twitter-alt"
+url = "https://twitter.com/gethugothemes"
+
+[[social]]
+name = "ti-github"
+url = "https://github.com/themefisher"
