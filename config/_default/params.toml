@@ -38,31 +38,3 @@ label = "submit ticket"
 enable = true
 label = "guide"
 link = "guide"
-
-# plugins loop
-[[plugins.js]]
-link = "js/plugins/jQuery/jquery.min.js"
-[[plugins.js]]
-link = "js/plugins/bootstrap/bootstrap.min.js"
-[[plugins.js]]
-link = "js/plugins/masonry/masonry.min.js"
-[[plugins.js]]
-link = "js/plugins/featherlight/featherlight.min.js"
-[[plugins.js]]
-link = "js/plugins/clipboard/clipboard.min.js"
-[[plugins.js]]
-link = "js/plugins/search/auto-complete.js"
-[[plugins.js]]
-link = "js/plugins/scrollmenu/scrollmenu.min.js"
-[[plugins.js]]
-link = "js/plugins/search/search.js"
-[[plugins.js]]
-link = "js/plugins/search/lunr.min.js"
-[[plugins.js]]
-link = "js/plugins/search/fuse.min.js"
-[[plugins.js]]
-link = "js/plugins/search/mark.js"
-[[plugins.js]]
-link = "js/plugins/search/search-page.js"
-[[plugins.js]]
-link = "js/plugins/turbolinks/turbolinks.js"
