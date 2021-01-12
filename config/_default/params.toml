@@ -42,33 +42,6 @@ link = "guide"
 [[plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
 
-[[plugins.js]]
-link = "js/plugins/jQuery/jquery.min.js"
-[[plugins.js]]
-link = "js/plugins/bootstrap/bootstrap.min.js"
-[[plugins.js]]
-link = "js/plugins/masonry/masonry.min.js"
-[[plugins.js]]
-link = "js/plugins/featherlight/featherlight.min.js"
-[[plugins.js]]
-link = "js/plugins/clipboard/clipboard.min.js"
-[[plugins.js]]
-link = "js/plugins/search/auto-complete.js"
-[[plugins.js]]
-link = "js/plugins/scrollmenu/scrollmenu.min.js"
-[[plugins.js]]
-link = "js/plugins/search/search.js"
-[[plugins.js]]
-link = "js/plugins/search/lunr.min.js"
-[[plugins.js]]
-link = "js/plugins/search/fuse.min.js"
-[[plugins.js]]
-link = "js/plugins/search/mark.js"
-[[plugins.js]]
-link = "js/plugins/search/search-page.js"
-[[plugins.js]]
-link = "js/plugins/turbolinks/turbolinks.js"
-
 [preloader]
 enable = false
 preloader = ""
