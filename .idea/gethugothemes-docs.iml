@@ -8,5 +8,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="hugothemes" />
     <orderEntry type="module" module-name="core-docs" />
+    <orderEntry type="module" module-name="themefisher-docs" />
   </component>
 </module>
