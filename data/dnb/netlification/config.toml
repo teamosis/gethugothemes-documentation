@@ -39,6 +39,7 @@ imgSrc = [
 connectSrc = [
     "'self'",
     "*.cloudfront.net",
+    "chatapi.helpscout.net",
     "www.google-analytics.com"
 ]
 frameSrc = [
