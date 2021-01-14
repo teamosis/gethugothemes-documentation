@@ -4,7 +4,7 @@ headers = [
 ]
 
 [csp]
-reportOnly = true
+#reportOnly = true
 # https://content-security-policy.com/
 # https://report-uri.com/account/setup/
 defaultSrc = [
