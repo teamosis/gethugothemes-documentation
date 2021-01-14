@@ -1,0 +1,11 @@
+[REDIR]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+[HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true

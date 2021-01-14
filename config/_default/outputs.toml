@@ -1,0 +1,8 @@
+################################################################################
+# Output formats and structure
+################################################################################
+# see http://gohugo.io/templates/output-formats/
+# see https://gohugo.io/news/http2-server-push-in-hugo/
+home = [ "HTML", "RSS", "JSON", "REDIR", "HEADERS" ]
+page = [ "HTML" ]
+post = [ "HTML" ]

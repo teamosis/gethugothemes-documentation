@@ -1,4 +1,7 @@
+github.com/dnb-hugo/components v0.0.0-20210110114356-4ec59fb5edad h1:Gw1NX7OTVRUk4us0kASVNagkhJLDBWPch0miXaTISeE=
 github.com/dnb-hugo/components/functions v1.0.8/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
+github.com/dnb-hugo/components/netlification v1.1.6 h1:phEzgrMjLdYyLrog4/RRCPWtPB/AY+08ex5CETJW3JM=
+github.com/dnb-hugo/components/netlification v1.1.6/go.mod h1:/iJyqaQDqkx4iUBFMk/8ogo3V8L3tOzwVprsS07+Brc=
 github.com/dnb-hugo/debugprint v1.0.1/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml8YGxoLw7VWkAapiZoeHtg=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=

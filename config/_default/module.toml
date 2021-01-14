@@ -1,3 +1,7 @@
 [[imports]]
 path = "github.com/themefisher/core-docs"
 disabled = false
+
+[[imports]]
+path = "github.com/dnb-hugo/components/netlification"
+disabled = false
