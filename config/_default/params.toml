@@ -29,12 +29,17 @@ image = "images/cta-illustration.jpg"
 [call_to_action.button]
 enable = true
 label = "Start a conversation now!"
+link = ""
+attribute = "onclick=Beacon('open')"
 
 [navigation_button_bordered]
 enable = true
 label = "submit ticket"
+link = ""
+attribute = "onclick=Beacon('open')"
 
 [navigation_button_solid]
 enable = true
 label = "guide"
 link = "guide"
+attribute = ""
