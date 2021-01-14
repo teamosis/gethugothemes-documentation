@@ -7,6 +7,9 @@ headers = [
 #reportOnly = true
 # https://content-security-policy.com/
 # https://report-uri.com/account/setup/
+#
+# see the following pages for specific rules:
+# https://docs.helpscout.com/article/815-csp-settings-for-beacon
 defaultSrc = [
     "'self'"
 ]
@@ -16,6 +19,8 @@ scriptSrc = [
     "*.cloudfront.net",
     "beacon-v2.helpscout.net",
     "nonce-4wF9txk3PK",
+    "d12wqas9hcki3z.cloudfront.net",
+    "d33v4339jhl8k0.cloudfront.net",
     "pagead2.googlesyndication.com",
     "storage.googleapis.com",
     "googleads.g.doubleclick.net",
@@ -28,25 +33,35 @@ styleSrc = [
     "'self'",
     "'unsafe-inline'",
     "fonts.googleapis.com",
-    "fonts.gstatic.com"
+    "fonts.gstatic.com",
+    "beacon-v2.helpscout.net"
 ]
 imgSrc = [
     "'self'",
     "data: www.google-analytics.com",
     "*.cloudfront.net",
-    "i.ytimg.com"
+    "i.ytimg.com",
+    "*.gravatar.com",
+    "beacon-v2.helpscout.net",
+    "d33v4339jhl8k0.cloudfront.net",
+    "chatapi-prod.s3.amazonaws.com"
 ]
 connectSrc = [
     "'self'",
     "*.cloudfront.net",
+    "beaconapi.helpscout.net",
     "chatapi.helpscout.net",
+    "d3hb14vkzrxvla.cloudfront.net",
+    "wss://*.pusher.com",
+    "*.sumologic.com",
     "www.google-analytics.com"
 ]
 frameSrc = [
     "'self'",
     "www.google.com",
     "www.youtube.com",
-    "www.youtube-nocookie.com"
+    "www.youtube-nocookie.com",
+    "beacon-v2.helpscout.net"
 ]
 frameAncestors = [
     "'none'"
@@ -57,9 +72,17 @@ manifestSrc = [
 fontSrc = [
     "'self'",
     "fonts.googleapis.com",
-    "fonts.gstatic.com"
+    "fonts.gstatic.com",
+    "beacon-v2.helpscout.net"
 ]
 objectSrc = [
-    "'self'"
+    "'self'",
+    "beacon-v2.helpscout.net"
+]
+baseUri = [
+    "docs.helpscout.net"
+]
+mediaSrc = [
+    "beacon-v2.helpscout.net"
 ]
 upgradeInsecureRequests = true
