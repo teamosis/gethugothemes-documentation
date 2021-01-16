@@ -2,6 +2,3 @@ baseURL = "https://docs.gethugothemes.com/"
 languageName = "En"
 title = "Documentation Website for Gethugothemes"
 enableGitInfo = true
-
-[outputs]
-home = ["HTML", "JSON"]
