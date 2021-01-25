@@ -4,7 +4,7 @@ go 1.15
 
 require (
 	github.com/dnb-hugo/components/netlification v1.1.6 // indirect
-	github.com/themefisher/core-docs v1.0.27 // indirect
+	github.com/themefisher/core-docs v1.0.28 // indirect
 )
 
 replace github.com/dnb-hugo/debugprint => /home/patrick/Projects/dnb-hugo/debugprint
