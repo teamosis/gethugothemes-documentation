@@ -1,11 +1,11 @@
 ---
 title: 'Theme Installation'
-date: '2020-05-14T05:46:10-03:00'
+date: '2019-09-17T07:46:08-03:00'
 weight: 2
 draft: false
 ---
 
-{{< contentblock "installation" "THEMENAME:Galaxy Hugo Theme,THEMEPATH:galaxy-hugo" >}}
+{{< contentblock "installation" "THEMENAME:Enov Hugo Theme,THEMEPATH:enov-hugo" >}}
 
 video documentation
 -------------------
