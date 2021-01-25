@@ -8,14 +8,9 @@ In this root folder you will find a file called `config.toml` open this file in 
 
 If your theme is not launched in your localhost, then check the `theme` name is correct in config.toml file. Then run `hugo server` command again.
 
-Default configuration
----------------------
+## Sitewide configuration
 
-1. At the very top you will see a `baseURL` field for your site URL. Give your site URL here.
-2. `Title` is for your site title.
-3. Then the `Theme` field that you are already declared.
-4. `paginate` is for post pagination, how much you want to show in a page.
-5. `disqusShortname` is for activate comment section on blog page. get your disqus short name from [here](https://disqus.com/).
+{{< contentblocklist "configsidewide/" "baseURL" "theme" "title" "summaryLength" "paginate" >}}
 
 Plugins
 -------

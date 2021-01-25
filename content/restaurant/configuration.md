@@ -10,7 +10,6 @@ In your sites root folder you will find a file called `config.toml`. Open this f
 
 {{< contentblocklist "configsidewide/" "baseURL" "languageCode" "title" "theme"  "summaryLength" "paginate" >}}
 
-
 ## Plugin Configuration
 
 {{< contentblock "config/plugins" >}}
