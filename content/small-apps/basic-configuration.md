@@ -8,15 +8,9 @@ In this root folder you will find a file called `configure.toml` open this file 
 
 If your theme is not launched in your localhost, then check the `theme` name is correct in configure.toml file. Then run `hugo server` command again.
 
-Default configuration
----------------------
+## Sitewide configuration
 
-1. At the very top you will see a `baseURL` field for your site URL. Give your site URL here.
-2. `LanguageCode` field is for your site language.
-3. `Title` field is for the site title.
-4. Then the `Theme` field that you are already declared.
-5. `SummaryLeangth` is for post excerpt limit. you can set your post excerpt length as you want to show.
-6. `Pagination` field is for blog list page pagination, it will show the item in one page that number you are given here.
+{{< contentblocklist "configsidewide/" "baseURL" "languageCode" "theme" "title" "summaryLength" "paginate" >}}
 
 Plugins
 -------

@@ -8,13 +8,9 @@ In this root folder you will find a file called `configure.toml` open this file 
 
 If your theme is not launched in your localhost, then check the `theme` name is correct in configure.toml file. Then run `hugo server` command again.
 
-Default configuration
----------------------
+## Sitewide configuration
 
-1. At the very top you will see a `baseURL` field for your site URL. Give your site URL here.
-2. `LanguageCode` field is for your site language.
-3. `Title` field is for the site title.
-4. Then the `Theme` field that you are already declared.
+{{< contentblocklist "configsidewide/" "baseURL" "languageCode" "title" "theme" >}}
 
 Plugins
 -------

@@ -8,11 +8,7 @@ In your sites root folder you will find a file called `config.toml`. Open this f
 
 ## Sitewide configuration
 
-* At the very top you will see a `baseURL` field for your site URL. Add your sites URL here.
-* The `languageCode` defines which language your site is written in (or which is the main language, if you have a multilingual website)
-* The `summaryLength` decides how many words are in excerpts of your posts when they are displayed as preview.
-* `theme` sets up the used theme. For the Kross Hugo Theme this should be "kross-hugo". If you renamed the folder in `themes` to something else you need to add the new folder name.
-* `title` is for your site's title.
+{{< contentblocklist "configsidewide/" "baseURL" "languageCode" "summaryLength" "theme" "title" >}}
 
 ## Plugin Configuration
 

@@ -8,15 +8,9 @@ In this root folder you will find a file called `config.toml` open this file in 
 
 If your theme is not launched in your localhost, then check the `theme` name is correct in `config.toml` file. Then run `hugo server` command again.
 
-## Default configuration
+## Sitewide configuration
 
-1. At the top you will see a `baseURL` field for your site URL. Give your site URL here.
-1. `LanguageCode` field is for your site language.
-1. `Title` field is for the site title.
-1. Then the `Theme` field that you are already declared.
-1. `SummaryLeangth` is for post excerpt limit. you can set your post excerpt length as you want to show.
-1. `Pagination` field is for blog list page pagination. The list pages will show the amount of posts you configure here.
-1. ` disqusShortname` is for post comments, you can get your shortname [here](https://disqus.com/)
+{{< contentblocklist "configsidewide/" "baseURL" "languageCode" "title" "theme" "summaryLength" "paginate" "disqusShortname" >}}
 
 ## Plugins
 

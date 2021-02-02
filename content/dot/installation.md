@@ -4,7 +4,7 @@ date: 2020-12-23T12:30:00+07:00
 weight: 1
 ---
 
-{{< contentblock "installation" "THEMENAME:Bigspring Hugo Theme,THEMEPATH:bigspring-hugo" >}}
+{{< contentblock "installation" "THEMENAME:Dot Hugo Theme,THEMEPATH:dot-hugo" >}}
 
 ## Next steps
 

@@ -8,15 +8,9 @@ In this root folder you will find a file called `config.toml` open this file in 
 
 If your theme is not launched in your localhost, then check the `theme` name is correct in config.toml file. Then run `hugo server` command again.
 
-## Default configuration
+## Sitewide configuration
 
-1. At the top you will see a `baseURL` field for your site URL. Give your site URL here.
-1. `Title` is for your site title.
-1. Then the `Theme` field that you are already declared.
-1. `SummaryLeangth` is for post excerpt limit. you can set your post excerpt length as you want to show.
-1. `disqusShortname` is for activate comment section on blog page. get your disqus short name from [here](https://disqus.com/).
-1. `DefaultContentLanguage` field is for your site default language, which will load first with your site load.
-1. `disableLanguages` field is for disable languages, if you don’t want to show one or more then one you can add the language name here, it will disabled those languages from your site. example `disableLanguages = ["fr"]` it will desabled french language from your site.
+{{< contentblocklist "configsidewide/" "baseURL" "title" "theme" "summaryLength" "disqusShortname" "defaultContentLanguage" "disableLanguages" >}}
 
 ## Plugins
 

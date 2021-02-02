@@ -8,12 +8,7 @@ In your sites root folder you will find a file called `config.toml`. Open this f
 
 ## Sitewide configuration
 
-* At the very top you will see a `baseURL` field for your site URL. Add your sites URL here.
-* The `summaryLength` decides how many words are in excerpts of your posts when they are displayed as preview.
-* `theme` sets up the used theme. For the Eventre Hugo Theme this should be "eventre-hugo". If you renamed the folder in `themes` to something else you need to add the new folder name.
-* `title` is for your site's title.
-* `googleAnalytics` - add your Google Analytics ID to enable analytics on all pages
-* `disqusShortname` - add your disqus shortname to enable comments on the blog section. 
+{{< contentblocklist "configsidewide/" "baseURL" "summaryLength" "theme" "title" "googleAnalytics" "disqusShortname" >}}
 
 ## Plugin Configuration
 
