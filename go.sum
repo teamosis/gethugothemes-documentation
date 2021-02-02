@@ -1,10 +1,14 @@
 github.com/dnb-hugo/components v0.0.0-20210110114356-4ec59fb5edad h1:Gw1NX7OTVRUk4us0kASVNagkhJLDBWPch0miXaTISeE=
 github.com/dnb-hugo/components/functions v1.0.8/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
+github.com/dnb-hugo/components/functions v1.0.10/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
 github.com/dnb-hugo/components/netlification v1.1.6 h1:phEzgrMjLdYyLrog4/RRCPWtPB/AY+08ex5CETJW3JM=
 github.com/dnb-hugo/components/netlification v1.1.6/go.mod h1:/iJyqaQDqkx4iUBFMk/8ogo3V8L3tOzwVprsS07+Brc=
+github.com/dnb-hugo/components/netlification v1.1.7 h1:NC8OXz5JC+mFoFD0LW3ORVv0D1LGD3jUSUOsuBVUybc=
+github.com/dnb-hugo/components/netlification v1.1.7/go.mod h1:/iJyqaQDqkx4iUBFMk/8ogo3V8L3tOzwVprsS07+Brc=
 github.com/dnb-hugo/debugprint v1.0.1/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
 github.com/dnb-hugo/debugprint v1.0.3/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
 github.com/dnb-hugo/debugprint v1.0.4/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
+github.com/dnb-hugo/debugprint v1.0.5/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml8YGxoLw7VWkAapiZoeHtg=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=
 github.com/popperjs/popper-core v2.5.4+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
@@ -26,4 +30,6 @@ github.com/themefisher/core-docs v1.0.16 h1:XcsEY1ZI5YYi8EOwpHwVzxxXJW/vVcLcwAt4
 github.com/themefisher/core-docs v1.0.16/go.mod h1:dsQUdHIuEqZTRZKAXyl0O5G+QIRDHTQ+oq53dqYCy90=
 github.com/themefisher/core-docs v1.0.17 h1:6zjDwH3kGwiPgip6ccidQQf7pxcG8wjQCdHIiKr5yxs=
 github.com/themefisher/core-docs v1.0.17/go.mod h1:5zaMRRw40ifM5BgmH7zf4igt5iu+AxZxZOXIG+SywmM=
+github.com/themefisher/core-docs v1.0.28 h1:KaR7TLvB7aF0XXLIzjOF2Nn45ipByPK7JRhhPfoRDIU=
+github.com/themefisher/core-docs v1.0.28/go.mod h1:yupQp/13LU8yojlvT6PjUZv1nQhT/ofGEsFyny+4ipQ=
 github.com/twbs/bootstrap v5.0.0-beta1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
