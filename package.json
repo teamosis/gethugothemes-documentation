@@ -45,10 +45,10 @@
     }
   ],
   "devDependencies": {
-    "@dnb-hugo/browserslist-config-dnb": "github:dnb-hugo/browserslist-config-dnb",
-    "@dnb-hugo/remark-preset-lint-dnb": "github:dnb-hugo/remark-preset-lint-dnb",
-    "@dnb-hugo/stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb",
+    "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
+    "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
     "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
+    "@dnb-hugo/stylelint-config": "github:dnb-hugo/stylelint-config",
     "@fullhuman/postcss-purgecss": "3.1.3",
     "autoprefixer": "10.1.0",
     "cross-env": "7.0.3",
@@ -62,10 +62,10 @@
     "stylelint-config-sass-guidelines": "7.1.0"
   },
   "browserslist": [
-    "extends @dnb-hugo/browserslist-config-dnb"
+    "extends @dnb-hugo/browserslist-config"
   ],
   "stylelint": {
-    "extends": "@dnb-hugo/stylelint-config-dnb"
+    "extends": "@dnb-hugo/stylelint-config"
   },
   "private": true
 }
