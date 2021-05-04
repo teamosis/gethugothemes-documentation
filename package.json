@@ -46,10 +46,10 @@
     }
   ],
   "devDependencies": {
-    "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
-    "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
-    "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "@dnb-hugo/stylelint-config": "github:dnb-hugo/stylelint-config",
+    "@dnb-hugo/browserslist-config": "*",
+    "@dnb-hugo/remark-preset-lint": "*",
+    "@dnb-hugo/standard-version-config": "*",
+    "@dnb-hugo/stylelint-config": "*",
     "@fullhuman/postcss-purgecss": "3.1.3",
     "autoprefixer": "10.1.0",
     "cross-env": "7.0.3",
