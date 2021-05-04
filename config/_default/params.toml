@@ -1,7 +1,7 @@
 # Logo
 favicon = "images/favicon.png"
 logo_desktop = "images/logo.png"
-logo_desktop_width = "350px"
+logo_desktop_width = "230px"
 logo_mobile = "images/logo-mobile.png"
 logo_mobile_width = "100px"
 
