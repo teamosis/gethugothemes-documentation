@@ -47,7 +47,7 @@
   ],
   "devDependencies": {
     "@dnb-hugo/browserslist-config": "*",
-    "@dnb-hugo/remark-preset-lint": "*",
+    "@dnb-hugo/remark-config": "*",
     "@dnb-hugo/standard-version-config": "*",
     "@dnb-hugo/stylelint-config": "*",
     "@fullhuman/postcss-purgecss": "3.1.3",
