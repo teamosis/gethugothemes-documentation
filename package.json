@@ -50,17 +50,17 @@
     "@dnb-hugo/remark-config": "*",
     "@dnb-hugo/standard-version-config": "*",
     "@dnb-hugo/stylelint-config": "*",
-    "@fullhuman/postcss-purgecss": "3.1.3",
-    "autoprefixer": "10.1.0",
-    "cross-env": "7.0.3",
-    "cssnano": "4.1.10",
-    "pixrem": "5.0.0",
-    "postcss": "8.2.2",
-    "postcss-cli": "8.3.1",
-    "precss": "4.0.0",
-    "standard-version": "9.1.0",
-    "stylelint": "13.8.0",
-    "stylelint-config-sass-guidelines": "7.1.0"
+    "@fullhuman/postcss-purgecss": ">=3.1.3",
+    "autoprefixer": ">=10.1.0",
+    "cross-env": ">=7.0.3",
+    "cssnano": ">=4.1.10",
+    "pixrem": ">=5.0.0",
+    "postcss": ">=8.2.10",
+    "postcss-cli": ">=8.3.1",
+    "precss": ">=4.0.0",
+    "standard-version": ">=9.1.0",
+    "stylelint": ">=13.8.0",
+    "stylelint-config-sass-guidelines": ">=7.1.0"
   },
   "browserslist": [
     "extends @dnb-hugo/browserslist-config"
