@@ -12,23 +12,23 @@ First download the latest version of [Hugo](https://gohugo.io/getting-started/in
 Open a console or DOS box and go to the location where you wish to save your website for local development.
 
 ```shell
-cd path/to/your/site
+cd path/to/your/parent-directory
 ```
 
-Create the new site. This will add a folder with your `sitename` to the current location:
+Create the new site. This will add a folder with your `SITENAME` to the current location:
 
 ```shell
-hugo new site sitename
+hugo new site SITENAME
 ```
 
-Unzip your theme and copy it's contents over into the folder `themes` so that you end up with a folder structure like `themes/THEMEPATH/` and inside of this folder having subfolders like `archetypes`, `assets` and others.
+Unzip your theme and copy its contents over into the folder `themes` so that you end up with a folder structure like `path/to/your/parent-directory/SITENAME/themes/THEMENAME/` and inside of this folder having subfolders like `archetypes`, `assets` , `exampleSite` and others.
 
-Copy all files from `themes/THEMEPATH/exampleSite` into the root directory, so that they overwrite existing files and folders of the same name. You can delete the folder `exampleSite` afterwards.
+Copy all files from `path/to/your/parent-directory/SITENAME/themes/THEMENAME/exampleSite` into the root directory ( path/to/your/parent-directory/SITENAME/ ), so that they overwrite existing files and folders of the same name. You can delete the folder `exampleSite` afterwards.
 
 You are ready to give your site a test run now:
 
 ```shell
-cd sitename/
+cd path/to/your/parent-directory/SITENAME/
 hugo server
 ```
 
