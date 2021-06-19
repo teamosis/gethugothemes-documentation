@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="p-5 shadow rounded text-center">
+          <img class="img-fluid mb-5" width="250px" src="{{`images/404.png` | absURL}}">
+          <h3 class="mb-4">Documentation Not Found!</h3>
+          <a href="{{`/guide` | relLangURL}}" class="btn btn-primary">Read Our Universal Guide</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
