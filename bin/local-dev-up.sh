@@ -1,10 +1,10 @@
 #!/bin/bash
 
 declare -a MODULES=(
-  'github.com/dnb-hugo/debugprint'
-  'github.com/dnb-hugo/components/functions'
-  'github.com/dnb-hugo/components/netlification'
-  'github.com/dnb-hugo/libraries/bootstrap5'
+  'github.com/dnb-org/debugprint'
+  'github.com/dnb-org/components/functions'
+  'github.com/dnb-org/components/netlification'
+  'github.com/dnb-org/libraries/bootstrap5'
   'github.com/themefisher/core-docs'
 )
 
