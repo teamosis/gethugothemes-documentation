@@ -47,7 +47,6 @@ connectSrc = [
     "'self'",
     "https://api.thrivedesk.io",
     "*.cloudfront.net",
-    "d3hb14vkzrxvla.cloudfront.net",
     "wss://*.pusher.com",
     "*.sumologic.com",
     "www.google-analytics.com"
