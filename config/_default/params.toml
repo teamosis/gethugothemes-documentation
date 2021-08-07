@@ -32,13 +32,13 @@ image = "images/cta-illustration.jpg"
 enable = true
 label = "Start a conversation now!"
 link = ""
-attribute = "onclick=Beacon('open')"
+attribute = "onclick=Assistant('open')"
 
 [navigation_button_bordered]
 enable = true
 label = "submit ticket"
 link = ""
-attribute = "onclick=Beacon('open')"
+attribute = "onclick=Assistant('open')"
 
 [navigation_button_solid]
 enable = true

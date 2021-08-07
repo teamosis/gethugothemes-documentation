@@ -17,8 +17,6 @@ scriptSrc = [
     "'self'",
     "'unsafe-inline'",
     "*.cloudfront.net",
-    "beacon-v2.helpscout.net",
-    "nonce-4wF9txk3PK",
     "d12wqas9hcki3z.cloudfront.net",
     "d33v4339jhl8k0.cloudfront.net",
     "pagead2.googlesyndication.com",
@@ -27,14 +25,14 @@ scriptSrc = [
     "ajax.googleapis.com",
     "www.google-analytics.com",
     "www.google.com",
-    "www.gstatic.com"
+    "www.gstatic.com",
+    "https://assistant.thrivedesk.io"
 ]
 styleSrc = [
     "'self'",
     "'unsafe-inline'",
     "fonts.googleapis.com",
     "fonts.gstatic.com",
-    "beacon-v2.helpscout.net"
 ]
 imgSrc = [
     "'self'",
@@ -42,15 +40,13 @@ imgSrc = [
     "*.cloudfront.net",
     "i.ytimg.com",
     "*.gravatar.com",
-    "beacon-v2.helpscout.net",
     "d33v4339jhl8k0.cloudfront.net",
     "chatapi-prod.s3.amazonaws.com"
 ]
 connectSrc = [
     "'self'",
+    "https://api.thrivedesk.io",
     "*.cloudfront.net",
-    "beaconapi.helpscout.net",
-    "chatapi.helpscout.net",
     "d3hb14vkzrxvla.cloudfront.net",
     "wss://*.pusher.com",
     "*.sumologic.com",
@@ -60,8 +56,7 @@ frameSrc = [
     "'self'",
     "www.google.com",
     "www.youtube.com",
-    "www.youtube-nocookie.com",
-    "beacon-v2.helpscout.net"
+    "www.youtube-nocookie.com"
 ]
 frameAncestors = [
     "'none'"
@@ -72,17 +67,13 @@ manifestSrc = [
 fontSrc = [
     "'self'",
     "fonts.googleapis.com",
-    "fonts.gstatic.com",
-    "beacon-v2.helpscout.net"
+    "fonts.gstatic.com"
 ]
 objectSrc = [
-    "'self'",
-    "beacon-v2.helpscout.net"
+    "'self'"
 ]
 baseUri = [
-    "docs.helpscout.net"
 ]
 mediaSrc = [
-    "beacon-v2.helpscout.net"
 ]
 upgradeInsecureRequests = true
