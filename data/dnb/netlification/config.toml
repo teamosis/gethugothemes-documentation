@@ -16,9 +16,6 @@ defaultSrc = [
 scriptSrc = [
     "'self'",
     "'unsafe-inline'",
-    "*.cloudfront.net",
-    "d12wqas9hcki3z.cloudfront.net",
-    "d33v4339jhl8k0.cloudfront.net",
     "pagead2.googlesyndication.com",
     "storage.googleapis.com",
     "googleads.g.doubleclick.net",
@@ -39,16 +36,12 @@ imgSrc = [
     "data: www.google-analytics.com",
     "*.cloudfront.net",
     "i.ytimg.com",
-    "*.gravatar.com",
-    "d33v4339jhl8k0.cloudfront.net",
-    "chatapi-prod.s3.amazonaws.com"
+    "*.gravatar.com"
 ]
 connectSrc = [
     "'self'",
     "https://api.thrivedesk.io",
     "*.cloudfront.net",
-    "wss://*.pusher.com",
-    "*.sumologic.com",
     "www.google-analytics.com"
 ]
 frameSrc = [
