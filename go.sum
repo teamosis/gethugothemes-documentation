@@ -3,6 +3,8 @@ github.com/dnb-org/components/netlification v1.2.0 h1:h2/yoG7C8NwXxSRMYS9i6wfdGa
 github.com/dnb-org/components/netlification v1.2.0/go.mod h1:jPjSlmP7+RTHm8z5HF7ZVA5cId58rEefXMyaUlxImbI=
 github.com/dnb-org/debug v1.3.0/go.mod h1:0z/MDK1qgyqHmMM8mSrexsoPSTpJgIsNu3r6nw5zHAU=
 github.com/dnb-org/libraries/bootstrap5/v2 v2.2.1/go.mod h1:lP8eIO2UP1Lkhm07DGS0py3bH+GytD4x4cnIp8lC3hU=
-github.com/themefisher/core-docs v1.0.46 h1:xmHGE77wCJBbHpRI9HWSuxJQDJ7O62wt1MM1f2U/3TU=
-github.com/themefisher/core-docs v1.0.46/go.mod h1:9Oh/YFvZVP2uNHUPjpqzVPBF2D4ZPJA0/NFfLyIqzjc=
+github.com/themefisher/core-docs v1.0.49 h1:+YdgiNI+IdVB5qoPBEownXTCp7IOGi2wmGzx5BwjlEQ=
+github.com/themefisher/core-docs v1.0.49/go.mod h1:9Oh/YFvZVP2uNHUPjpqzVPBF2D4ZPJA0/NFfLyIqzjc=
+github.com/themefisher/core-docs v1.0.50 h1:QliclMKogwTwU1yKc70muwg8WEKEuyK9Fzz6jPKXm34=
+github.com/themefisher/core-docs v1.0.50/go.mod h1:9Oh/YFvZVP2uNHUPjpqzVPBF2D4ZPJA0/NFfLyIqzjc=
 github.com/twbs/bootstrap v5.0.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

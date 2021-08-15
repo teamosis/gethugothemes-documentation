@@ -5,26 +5,28 @@ _build:
     publishResources: false
 ---
 
-In this tutorial we will show you how to configure your website to work with a frontend to edit your content without touching a single line of code.
+In this tutorial, we will show you how to configure your website and edit your content without touching a single line of code. 
 
-## Requirements
+### Requirements
 
 1. Free Git hosting account ([Github](https://github.com/), [Gitlab](https://gitlab.com/), or [Bitbucket](https://bitbucket.org/product/)) to host your website code and content.
 1. Free [Netlify](https://www.netlify.com/) account to host your files
 1. Free [Forestry](https://forestry.io/) account to maintain your content and settings without code.
 
-## Step 1: Add your website to a Git repository service
+### Step 1: Add your website to a Git repository
 
-Create a git repository (for instance with [Github](https://github.com/), [Gitlab](https://gitlab.com/)) and add your website to it.
+Although it's a headless website, so you need to add this theme to a git repository. First, you need to unzip your downloaded file and navigate to its **themes** folder. Then you can find your theme here. 
 
-## Step 2: Add your repository in Forestry
+Create a git repository (for instance, with [Github](https://github.com/), [Gitlab](https://gitlab.com/)) and add your theme into it.
 
-Go to your [Forestry](https://bit.ly/forestry-account) account and click on `import your site now`. declare your config.toml file \[`exampleSite`\] and fill up basic settings . Mark everything is done then go to configuration to change the base url . You can put any url but this have to similar as netlify . So for now put a name which you are going to put in netlify as netlify subdomain.
+### Step 2: Add your repository in Forestry
 
-## Step 3: Setup and host website with Netlify
+Go to your [Forestry](https://forestry.io/) account and click on `import your site now`. If it says **config file not found**, then declare your `config.toml` file path (`exampleSite/`) and fill up basic settings. Then mark everything as done.
 
-Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) account and click add new site . Choose your git repository to import your website in netlify . And now you can see your repository. Select it and follow the steps. Then go to `site settings` for change the site name and put your subdoamin name here what you puted on forestry as base url. save it and go to `deploy` from top menu, Wait a while and click on `site preview` or just simply go to the subdomain you puted as base url. **BOOM! Your site is live.** Now you can go to forestry and add, remove or customize every setting and content.
+### Step 3: Setup and host website with Netlify
 
-## Video Documentation
+Go to your [netlify](https://netlify.com/) account and click `add a new site`. Choose your git repository to import your website in Netlify. And now you can see your repository. Select it and follow the steps. **BOOM! Your site is live.** Now, you can go to forestry and add, remove or customize every setting and content.
+
+### Video Documentation
 
 {{< youtube ResipmZmpDU >}}
