@@ -7,34 +7,38 @@ publishResources: false
 
 ### New to Hugo?
 
-Hugo is a Static Site Generator. This means that once you run the software, it will build a website for you. Hugo is fast and easy to use. To run this theme, you will need to have Hugo installed on your local machine.
+1. Please check the [official documentation](https://gohugo.io/getting-started/installing/) . 
+2. You can also check this [video tutorials](https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3)
+3. Or you can check our [Hugo Guide](/guide/).
 
-First, download the latest version of [Hugo](https://gohugo.io/getting-started/installing/) for your operating system. You can find the [latest releases on Hugo's Github page](https://github.com/gohugoio/hugo/releases). If you don't know Hugo yet, we encourage you to learn more about it by reading our [Hugo Guide](/guide/).
 
+### Getting Started with SITENAME
 
-### Getting Started with your new Theme
-
-Open a Terminal or DOS box and go to the location where you wish to save your website for local development.
-
-```shell
-cd path/to/your/parent-directory
-```
-
-Create a new site with this command line. This will add a folder with your **SITE NAME** to the current location:
+Open Terminal and go to the location where you want to run your site.
 
 ```shell
-hugo new site SITENAME
+cd path/to/your/project-directory
 ```
 
-Unzip your theme, and copy its **themes** folder contents over into the **SITENAME/themes** folder so that you end up with a folder structure like **SITENAME/themes/THEMEPATH/** and inside of this folder having subfolders like **archetypes**, **assets**, **exampleSite** and others.
 
-Copy all files from **SITENAME/themes/THEMEPATH/exampleSite** folder into the root directory ( **SITENAME/** ), so that they overwrite existing files and folders of the same name. You can delete the folder **exampleSite** afterwards.
+Create a new site with this command. This will add a folder with your **PROJECT NAME** :
 
-You are ready to give your site a test run now:
+```shell
+hugo new site Projectn=
+```
+### Setup your project with SITENAME
 
+1. Unzip the downloaded file and you will get SITENAME in themes folder.
+2. Copy the theme folder **themes** into the **PROJECT/themes** folder so that you end up with a folder structure like **PROJECT/themes/THEMEPATH/** 
+3. Copy all files from **Project/themes/THEMEPATH/exampleSite** folder into the root directory ( **SITENAME/** ),it will overwrite existing files and folders of the same name. You can delete the folder **exampleSite** afterwards.
+4. Go to project / root directory . 
 ```shell
 cd path/to/your/parent-directory/SITENAME/
 hugo server
 ```
-
-If everything goes well, then you can now load your website using the generated link in the terminal. Most of the cases, it's [localhost:1313](http://localhost:1313/).
+5. Run hugo server command to serve your project . 
+```shell
+hugo server
+```
+6. With this command you will get a genarated url and open that url in your browser . The default url looks like this 
+[localhost:1313](http://localhost:1313/).
