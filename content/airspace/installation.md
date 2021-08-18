@@ -6,8 +6,4 @@ weight: 2
 
 {{< contentblock "installation" "THEMENAME:Airspace Hugo Theme,THEMEPATH:airspace-hugo" >}}
 
-## Video documentation
 
-If you don’t understand the theme setup steps, you can follow this video documentation.
-
-{{< youtube jrkvirglgaQ >}}

@@ -6,8 +6,4 @@ weight: 2
 
 {{< contentblock "installation" "THEMENAME:Agico Hugo Theme,THEMEPATH:agico-hugo" >}}
 
-## Video documentation
 
-If you don’t understand the theme setup steps, you can follow this video documentation.
-
-{{< youtube jrkvirglgaQ >}}

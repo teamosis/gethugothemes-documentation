@@ -6,8 +6,4 @@ weight: 2
 
 {{< contentblock "installation" "THEMENAME:Agen Hugo Theme,THEMEPATH:agen-hugo" >}}
 
-## Video documentation
 
-If you don’t understand the theme setup steps, you can follow this video documentation.
-
-{{< youtube jrkvirglgaQ >}}

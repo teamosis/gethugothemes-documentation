@@ -12,8 +12,4 @@ weight: 1
 - Read about [how to publish your new website]({{< ref "cms-integration" >}}) with Netlify and Forestry.io.
 - Learn how to [structure your content]({{< ref "content-structure" >}}) and [translate your website]({{< ref "i18n" >}}).
 
-## Video documentation
 
-If you don’t understand the theme setup steps, you can follow this video documentation.
-
-{{< youtube jrkvirglgaQ >}}

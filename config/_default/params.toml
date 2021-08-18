@@ -11,7 +11,7 @@ description = "Documentation for the installation and configuration of our theme
 topic_title = "Theme Documentations"
 premium_badge = true
 search = true
-feedback_action = "https://formspree.io/mehedi@gethugothemes.com"
+feedback_action = "https://airform.io/mehedi@gethugothemes.com"
 edit_page_url = "https://github.com/gethugothemes/documentation/edit/master/content/"
 copyright = "Copyright &copy; 2020 [Gethugothemes](https://gethugothemes.com/) Docs build with [Godocs Theme](https://gethugothemes.com/products/godocs-hugo-documentation-theme/)"
 

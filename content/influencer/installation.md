@@ -11,8 +11,4 @@ weight: 1
 - Check out, how to [configure the features]({{< ref "configuration" >}}) of this theme.
 - Learn how to [create a new blog post]({{< ref "blog-post" >}}).
 
-## Video documentation
 
-If you don’t understand the theme setup steps, you can follow this video documentation.
-
-{{< youtube jrkvirglgaQ >}}

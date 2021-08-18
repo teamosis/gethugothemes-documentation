@@ -6,8 +6,4 @@ weight: 2
 
 {{< contentblock "installation" "THEMENAME:Bexer Hugo Theme,THEMEPATH:bexer-hugo" >}}
 
-## Video documentation
 
-If you don’t understand the theme setup steps, you can follow this video documentation.
-
-{{< youtube jrkvirglgaQ >}}

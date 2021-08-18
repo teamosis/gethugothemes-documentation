@@ -6,10 +6,3 @@ draft: false
 ---
 
 {{< contentblock "installation" "SITENAME:andromeda,THEMEPATH:andromeda-hugo" >}}
-
-video documentation
--------------------
-
-If you didn’t understand the theme setup steps, you can follow this video documentation.
-
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/jrkvirglgaQ" width="560"></iframe>
