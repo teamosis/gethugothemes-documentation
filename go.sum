@@ -8,4 +8,6 @@ github.com/dnb-org/libraries/bootstrap5/v2 v2.2.1 h1:cCxwduIBPD20SAwgW/877PIFm7E
 github.com/dnb-org/libraries/bootstrap5/v2 v2.2.1/go.mod h1:lP8eIO2UP1Lkhm07DGS0py3bH+GytD4x4cnIp8lC3hU=
 github.com/themefisher/core-docs v1.0.51 h1:nK9/lfUIaVe5nEgWHLuP7tZPu1WEKZjHK7A9g/J/J50=
 github.com/themefisher/core-docs v1.0.51/go.mod h1:9Oh/YFvZVP2uNHUPjpqzVPBF2D4ZPJA0/NFfLyIqzjc=
+github.com/themefisher/core-docs v1.0.52 h1:Ds68lsVvqa6dG+Jc89GMn0q1lhS0RWDgy5/7a5e+lNY=
+github.com/themefisher/core-docs v1.0.52/go.mod h1:9Oh/YFvZVP2uNHUPjpqzVPBF2D4ZPJA0/NFfLyIqzjc=
 github.com/twbs/bootstrap v5.0.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
