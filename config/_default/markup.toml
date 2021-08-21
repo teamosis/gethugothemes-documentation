@@ -7,4 +7,4 @@ endLevel = 6
 ordered = false
 
 [highlight]
-style = 'monokai'
+style = 'manni' # see https://xyproto.github.io/splash/docs/all.html

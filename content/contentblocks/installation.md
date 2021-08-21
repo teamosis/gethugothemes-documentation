@@ -14,34 +14,33 @@ publishResources: false
 
 ## Getting Started with SITENAME
 
-Open Terminal and go to the location where you want to run your site.
+### Select Path
+Open **Terminal** and go to the location where you want to run your site.
 
-```shell
-cd path/to/your/project-directory
-```
 ![project-directory](/images/theme-installation/path.png)
 
+### Create a New Site
 Create a new site with this command. It will add a folder with your **PROJECT NAME**
 
 ```shell
-hugo new site project-name
+hugo new site my-project
 ```
 ![new-project](/images/theme-installation/new-project.png)
 
 ## Setup your project with SITENAME
 
-1. Unzip the downloaded file, and you will get SITENAME in the themes folder.
+1. **Unzip** the downloaded file, and you will get SITENAME in the themes folder.
 ![unzip](/images/theme-installation/unzip.png)
 
-2. Copy the `themes/THEMEPATH` into the `project-name/themes` folder so that you end up with a folder structure like `project-name/themes/THEMEPATH/`
+2. Copy the `themes/THEMEPATH` into the `my-project/themes` folder, so that you end up with a folder structure like `my-project/themes/THEMEPATH/`
 ![copy-to-themes](/images/theme-installation/copy-to-themes.png)
 
-3. Copy all files from the `project-name/themes/THEMEPATH/exampleSite` folder into the root directory ( `project-name/` ). It will overwrite existing files and folders of the same name. You can delete the `exampleSite` folder afterward.
+3. Copy all files from the `my-project/themes/THEMEPATH/exampleSite` folder into the root directory ( `my-project/` ). It will overwrite existing files and folders of the same name. You can delete the `exampleSite` folder afterward.
 ![copy-examplesite](/images/theme-installation/copy-examplesite.png)
 
-4. Go to project-name / root directory. 
+4. Go to my-project / root directory. 
 ```shell
-cd path/to/your/parent-directory/SITENAME/
+cd parent-directory/SITENAME/
 ```
 ![project-dir](/images/theme-installation/project-dir.png)
 
