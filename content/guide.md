@@ -9,7 +9,7 @@ Welcome! This guide will help you to get started with a Hugo Theme, including ho
 
 ---
 
-## Get Started
+<h2>Get Started</h2>
 
 There are two main ways to setup your hugo theme.
 
