@@ -1,5 +1,5 @@
 ---
-title: Pages
+title: Homepage
 date: '2019-12-02T08:15:41-03:00'
 weight: 4
 draft: false
