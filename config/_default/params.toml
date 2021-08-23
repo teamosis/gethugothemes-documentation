@@ -9,8 +9,12 @@ logo_mobile_width = "100px"
 author = "Themefisher"
 description = "Documentation for the installation and configuration of our themes."
 topic_title = "Theme Documentations"
+# premium badge
 premium_badge = true
+# search
 search = true
+# preloader
+preloader = true
 feedback_action = "https://airform.io/mehedi@gethugothemes.com"
 edit_page_url = "https://github.com/gethugothemes/documentation/edit/master/content/"
 copyright = "This website is powered by our own [Godocs Theme](https://gethugothemes.com/products/godocs-hugo-documentation-theme/)"
@@ -42,7 +46,7 @@ button_label = "Contact Us"
 button_link = "mailto:mehedi@themefisher.com"
 
 [navigation_button_bordered]
-enable = true
+enable = false
 label = "submit ticket"
 link = ""
 attribute = "onclick=Assistant('open')"
