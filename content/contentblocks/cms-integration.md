@@ -5,27 +5,32 @@ _build:
     publishResources: false
 ---
 
-In this tutorial, we will show you how to configure your website and edit your content without touching a single line of code. 
+In this tutorial, we will show you how to configure(edit and update) your website without touching codes . We use forestry as our content management system here . It will handel all your configation .
+{{< notice note >}}
+If you are ok with managing hugo locally then you can skip this process and visit next page . 
+{{</ notice >}}
 
 ## Requirements
 
-1. Free Git hosting account ([Github](https://github.com/), [Gitlab](https://gitlab.com/), or [Bitbucket](https://bitbucket.org/product/)) to host your website code and content.
-1. Free [Netlify](https://www.netlify.com/) account to host your files
-1. Free [Forestry](https://forestry.io/) account to maintain your content and settings without code.
+1. Git account ([Github](https://github.com/), [Gitlab](https://gitlab.com/), or [Bitbucket](https://bitbucket.org/product/)) to host your website.
+1. [Netlify](https://www.netlify.com/) account to host your files . 
+1. [Forestry](https://forestry.io/) account to maintain contents and settings , Forestry will act as a  **CMS (Content management system)** Here.
 
-## Step 1: Add your website to a Git repository
+## Step 1: Add website to Git
 
-Although it's a headless website, so you need to add this theme to a git repository. First, you need to unzip your downloaded file and navigate to its **themes** folder. Then you can find your theme here. 
+Unzip your downloaded files and navigate to **themes** directory. Add that theme to your git repository. 
 
-Create a git repository (for instance, with [Github](https://github.com/), [Gitlab](https://gitlab.com/)) and add your theme into it.
+## Step 2: Connect git repository to Netlify.
 
-## Step 2: Add your repository in Forestry
+Go to your [netlify](https://netlify.com/) account and click `add a new site`. Choose your git repository to import your website. And now you can see your repositories. Select which one you want to publish and follow the steps. **BOOM! Your site is live.** .
 
-Go to your [Forestry](https://forestry.io/) account and click on `import your site now`. If it says **config file not found**, then declare your `config.toml` file path (`exampleSite/`) and fill up basic settings. Then mark everything as done.
+## Step 3: Connect git repository to Forestry.
 
-## Step 3: Setup and host website with Netlify
-
-Go to your [netlify](https://netlify.com/) account and click `add a new site`. Choose your git repository to import your website in Netlify. And now you can see your repositories. Select it, and follow the steps. **BOOM! Your site is live.** Now, you can go to forestry and add, remove or customize every setting and content.
+Go to your [Forestry](https://forestry.io/) account and click on `import your site now`. 
+{{< notice warning >}}
+If it says **config file not found**, then declare your `config.toml` file path (`exampleSite/`) . 
+{{</ notice >}}
+Then , Follow the next steps and mark everything as done.
 
 ## Video Documentation
 
