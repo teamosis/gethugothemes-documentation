@@ -5,10 +5,11 @@ _build:
   publishResources: false
 ---
 
-In this root folder, you will find a file called `config.toml`. open this file in any text editor or IDE.
+To change website color , text color , fonts etc please open `config.toml` file which is located in your project folder .
 
-## Colors
-Search for the color variables by typing `variables`. Under variables you will get all different types of color variables as in `color_primary`, `color_secondary`, `text_color`, `border_color`, etc. You can then change the value of these variables as per your requirements.
+## Change Website Color and fonts
+
+Under `params.variables` section you will have all the parameters to change the website color preferences , for example if you change the value of `primary_color` it will change the whole website color . 
 
 example code:
 
@@ -26,7 +27,10 @@ white = "#fff"
 light = "#fdfdfd"
 ```
 
-## Fonts
+## Change Website fonts
+To change website font style , font size go to font variable section 
+
+
 Below the color variables, you will get the font variables, and you can change the value of those variables as per your requirements. There is some specific format you need to follow to change the font variables.
 For example: If you want to change the primary font, you need to write the name of font family exactly like the name given in Google font and the weight of the font is given by a colon and then typing wght followed by @ and font weight values so the end result is `Work Sans:wght@400;700`
 
