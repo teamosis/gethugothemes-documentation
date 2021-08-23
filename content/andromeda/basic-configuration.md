@@ -8,7 +8,7 @@ In this root folder you will find a file called `config.toml` open this file in 
 
 If your theme is not launched in your localhost, then check the `theme` name is correct in `config.toml` file. Then run `hugo server` command again.
 
-## Sitewide configuration
+## Default configuration
 
 {{< contentblocklist "configsidewide/" "baseURL" "languageCode" "title" "theme" "summaryLength" "paginate" "disqusShortname" >}}
 
