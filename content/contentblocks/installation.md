@@ -11,6 +11,9 @@ publishResources: false
 2. You can also check this [video tutorials](https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3)
 3. Or you can check our [Hugo Guide](/guide/).
 
+{{< notice note >}}
+If you don't want to manage Hugo locally, then you can skip this process and visit the next page 
+{{</ notice >}}
 
 ## Create A New Project
 
@@ -29,17 +32,17 @@ hugo new site my-project
 
 1. **Unzip** the downloaded file, and you will get SITENAME in the themes folder.
 
-![unzip](/images/theme-installation/unzip.png)
+![unzip](../images/unzip.png)
 
 2. Copy the `themes/THEMEPATH` into the `my-project/themes` folder, so that you end up with a folder structure like `my-project/themes/THEMEPATH/`
 
-![copy-to-themes](/images/theme-installation/copy-theme.png)
+![copy-to-themes](../images/copy-theme.png)
 
 3. Copy all files from the `exampleSite` folder into the project directory ( `my-project/` ). It overwrites existing files and folders. You can delete the `exampleSite` folder afterward.
 
-![copy-examplesite](/images/theme-installation/copy-examplesite.png)
+![copy-examplesite](../images/copy-examplesite.png)
 
-4. Go to project directory (In our case, it's `my-project`). 
+4. Go to the project directory (In our case, it's `my-project`). 
 
 ```shell
 cd my-project
@@ -57,6 +60,6 @@ hugo server
 
 ## Video documentation
 
-Here is a video tutorial, that might help you to setup your project. We used our **Biztrox** theme as an example.
+Here is a video tutorial, that might help you to set up your project. We used our **Biztrox** theme as an example.
 
-{{< youtube jrkvirglgaQ >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jrkvirglgaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

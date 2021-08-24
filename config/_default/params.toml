@@ -15,7 +15,7 @@ premium_badge = true
 search = true
 # preloader
 preloader = true
-feedback_action = "https://airform.io/mehedi@gethugothemes.com"
+feedback_action = "" # https://airform.io/mehedi@gethugothemes.com
 edit_page_url = "https://github.com/gethugothemes/documentation/edit/master/content/"
 copyright = "This website is powered by our own [Godocs Theme](https://gethugothemes.com/products/godocs-hugo-documentation-theme/)"
 
@@ -39,7 +39,7 @@ link = ""
 attribute = "onclick=Assistant('open')"
 
 [promotion]
-enable = true
+enable = false
 title = "Still Having Problems??"
 content = "No problem mate, we offer custom service. Feel free to contact us."
 button_label = "Contact Us"
