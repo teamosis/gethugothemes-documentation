@@ -8,7 +8,7 @@ In your sites root folder you will find a file called `config.toml`. Open this f
 
 ## Sitewide configuration
 
-{{< contentblocklist "configsidewide/" "baseURL" "summaryLength" "theme" "title" "googleAnalytics" >}}
+{{< contentblocklist "default-config/" "baseURL" "summaryLength" "theme" "title" "googleAnalytics" >}}
 
 ## Plugin Configuration
 

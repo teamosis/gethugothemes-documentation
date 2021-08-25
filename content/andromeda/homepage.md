@@ -1,7 +1,7 @@
 ---
 title: Homepage
 date: '2019-12-02T08:15:41-03:00'
-weight: 4
+weight: 6
 draft: false
 ---
 You can find homepage in `content/**/_index.md`.

@@ -10,7 +10,7 @@ If your theme is not launched in your localhost, then check the `theme` name is 
 
 ## Sitewide configuration
 
-{{< contentblocklist "configsidewide/" "baseURL" "languageCode" "theme" "title" "summaryLength" "paginate" >}}
+{{< contentblocklist "default-config/" "baseURL" "languageCode" "theme" "title" "summaryLength" "paginate" >}}
 
 Plugins
 -------

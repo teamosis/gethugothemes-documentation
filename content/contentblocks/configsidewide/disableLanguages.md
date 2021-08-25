@@ -1,1 +1,0 @@
-`disableLanguages` field is for disable languages, if you don’t want to show one or more then one you can add the language name here, it will disabled those languages from your site. example `disableLanguages = ["fr"]` it will desabled french language from your site.

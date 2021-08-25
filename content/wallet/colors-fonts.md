@@ -5,4 +5,4 @@ weight: 5
 draft: false
 ---
 
-{{< contentblock "colors-fonts" >}}
+{{< contentblock "variables-plugins" >}}

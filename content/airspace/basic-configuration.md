@@ -10,7 +10,7 @@ If your theme is not launched in your localhost, then check the `theme` name is 
 
 ## Sitewide configuration
 
-{{< contentblocklist "configsidewide/" "baseURL" "title" "theme" "summaryLength" "disqusShortname" "defaultContentLanguage" "disableLanguages" >}}
+{{< contentblocklist "default-config/" "baseURL" "title" "theme" "summaryLength" "disqusShortname" "defaultContentLanguage" "disableLanguages" >}}
 
 ## Plugins
 

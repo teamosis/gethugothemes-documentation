@@ -8,7 +8,7 @@ In your sites root folder you will find a file called `config.toml`. Open this f
 
 ## Sitewide configuration
 
-{{< contentblocklist "configsidewide/" "baseURL" "title" "theme" "googleAnalytics" >}}
+{{< contentblocklist "default-config/" "baseURL" "title" "theme" "googleAnalytics" >}}
 
 ## Menu Configuration
 

@@ -10,7 +10,7 @@ The icons used for social media links are based on the [Iconicon Icon Font](http
 
 ## Sitewide configuration
 
-{{< contentblocklist "configsidewide/" "baseURL" "languageCode" "title" "theme" >}}
+{{< contentblocklist "default-config/" "baseURL" "languageCode" "title" "theme" >}}
 
 ## Menu Configuration
 

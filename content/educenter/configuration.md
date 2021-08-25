@@ -10,7 +10,7 @@ In this template we use [themify icon](https://themify.me/themify-icons) pack, y
 
 ## Sitewide configuration
 
-{{< contentblocklist "configsidewide/" "baseURL" "title" "theme" "paginate" "summaryLength" "disqusShortname" >}}
+{{< contentblocklist "default-config/" "baseURL" "title" "theme" "paginate" "summaryLength" "disqusShortname" >}}
 
 ## Plugins
 

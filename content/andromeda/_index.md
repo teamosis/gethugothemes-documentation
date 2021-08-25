@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/andromeda/" download="https://gethugothemes.com/products/andromeda/" >}}
 
-Thank you for using the [Andromeda](https://gethugothemes.com/themes/andromeda/) theme. In this document, you can find information about the theme and how to use it.
+Thank you for using the [Andromeda](https://gethugothemes.com/themes/andromeda/) theme. In this documentation, you can find information about the theme and how to use it.

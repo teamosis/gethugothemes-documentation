@@ -1,0 +1,1 @@
+**logo_text** will only appear if the **logo** parameter is missing.
