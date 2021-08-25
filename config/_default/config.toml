@@ -2,4 +2,4 @@ baseURL = "https://docs.gethugothemes.com/"
 languageName = "En"
 title = "Documentation Website for Gethugothemes"
 enableGitInfo = true
-theme = "core-docs"
+# theme = "core-docs"

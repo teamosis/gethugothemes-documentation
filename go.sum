@@ -6,4 +6,6 @@ github.com/dnb-org/debug v1.3.0 h1:w9jTmF/3UHFdyu9nzEmLfhqok2wlV9Ol0E55Wa4yQ9k=
 github.com/dnb-org/debug v1.3.0/go.mod h1:0z/MDK1qgyqHmMM8mSrexsoPSTpJgIsNu3r6nw5zHAU=
 github.com/dnb-org/libraries/bootstrap5/v2 v2.2.1 h1:cCxwduIBPD20SAwgW/877PIFm7EZORdmcT5mc3G1DtM=
 github.com/dnb-org/libraries/bootstrap5/v2 v2.2.1/go.mod h1:lP8eIO2UP1Lkhm07DGS0py3bH+GytD4x4cnIp8lC3hU=
+github.com/themefisher/core-docs v1.0.57 h1:+nTpaps0B6PCPRXxEmyREgV7tIhg10A+CZVNpuc10O4=
+github.com/themefisher/core-docs v1.0.57/go.mod h1:9Oh/YFvZVP2uNHUPjpqzVPBF2D4ZPJA0/NFfLyIqzjc=
 github.com/twbs/bootstrap v5.0.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
