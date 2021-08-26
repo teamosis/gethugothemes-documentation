@@ -5,14 +5,14 @@ _build:
   publishResources: false
 ---
 
-To change website colors, fonts, and plugins, please open the `my-project/themes/config.toml` file.
+To change website colors, fonts, and plugins. Please open the `my-project/themes/config.toml` file.
 
 {{< notice note >}}
-If you are managing it from forestry, then you can find it at the bottom of the left sidebar. The file called **Variables & Plugins**
+For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Variables & Plugins**
 {{< /notice >}}
 
 ## Change Website Colors
-Under the `params.variables` section, you will have all the parameters to change the website color preferences. For example, if you change the value of `color_primary`, it will change the whole website's primary color.
+Under the `params.variables` section, you will have all the parameters to change the website color preferences. For example, if you change the value of `color_primary`, the primary color of the whole website.
 
 example code:
 
@@ -71,7 +71,7 @@ font_scale = "1.25" # default is "majorThird": 1.25
 You can add or remove third-party plugins from here. We create a loop for plugins. You can see two plugins loops here, the first one is for `css`, and the last one is for `js`.
 
 {{< notice note >}}
-Sometimes you need to close the Hugo server and run it again for rendered correctly.
+Sometimes you need to close the Hugo server and run again for rendered correctly.
 {{< /notice >}}
 
 ### CSS plugins

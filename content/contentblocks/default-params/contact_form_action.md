@@ -1,0 +1,1 @@
+**contact_form_action** is for contact form. As Hugo generates a static site, so you need to active this form by third-party service. You can use any of them [Airform](https://airform.io/), [formspree](https://formspree.io/), or [Formsubmit](https://formsubmit.co/).

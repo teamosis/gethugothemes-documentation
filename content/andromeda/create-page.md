@@ -1,8 +1,8 @@
 ---
 title: Create New Page
 date: '2019-12-02T08:15:41-03:00'
-weight: 5
+weight: 10
 draft: false
 ---
 
-{{< contentblock "new-page" >}}
+{{< contentblock "new-page-multilang" >}}
