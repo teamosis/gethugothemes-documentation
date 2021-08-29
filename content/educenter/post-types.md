@@ -14,8 +14,6 @@ Educenter provides various post types to add content to your site:
 
 All post types have some parameters that they share. `title` is the page title, `description` is a short description of the page that is used in previews and for social media and SEO meta tags. The `bg_image` is the background image to be shown in the pages header. `date` is the date of the creation of the page. On some post types (blog, events) this is used to sort the pages on overview pages.
 
-{{< contentblock "config/static-images-paths" >}}
-
 ```yaml
 title: ""
 bg_image: ""

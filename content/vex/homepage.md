@@ -6,10 +6,7 @@ weight: 3
 
 The contents of the homepage can be configured via data configuration in `data/en/homepage.yml`. 
 
-{{< contentblock "config/icons-themify" >}}
-
-
-{{< contentblock "config/static-images-paths" >}}
+The icons used are based on the [Themify Icon Font](https://themify.me/themify-icons). You can find a large selection of icons on their website. Just copy the icon name and add it as `icon` parameter.
 
 ## Banner Section
 
