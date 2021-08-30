@@ -1,8 +1,8 @@
 ---
 _build:
-    render: never
-    list: never
-    publishResources: false
+  render: never
+  list: never
+  publishResources: false
 ---
 
 In this tutorial, we will show you how to configure(edit and update) your website without touching codes. We use forestry as our content management system here.

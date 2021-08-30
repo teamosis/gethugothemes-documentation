@@ -8,7 +8,7 @@ publishResources: false
 ## New to Hugo?
 
 1. Please check the [Official Hugo Documentation](https://gohugo.io/getting-started/installing/). 
-2. You can also check this [video tutorials](https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3)
+2. You can also check this [Video Tutorials](https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3)
 3. Or you can check our [Hugo Guide](/guide/).
 
 {{< notice note >}}
@@ -34,7 +34,7 @@ hugo new site my-project
 
 ![unzip](../images/unzip.png)
 
-2. Copy the `themes/THEMEPATH` into the `my-project/themes` folder, so that you end up with a folder structure like `my-project/themes/THEMEPATH/`
+2. Copy the `themes/THEMEPATH` into the `my-project/themes` folder so that you end up with a folder structure like `my-project/themes/THEMEPATH/`
 
 ![copy-to-themes](../images/copy-theme.png)
 
@@ -56,7 +56,7 @@ hugo server
 ```
 ![hugo-serve](/images/theme-installation/hugo-serve.png)
 
-6. Now you get a generated URL, and open it in your browser. The default URL looks like this [localhost:1313](http://localhost:1313/).
+6. Now, you get a generated URL and open it in your browser. The default URL looks like this [localhost:1313](http://localhost:1313/).
 
 {{< notice info >}}
 If your website doesn't serve in your localhost, then check the `theme` name is correct in `config/_default/config.toml` file. Then run `hugo server` command again.
@@ -64,6 +64,6 @@ If your website doesn't serve in your localhost, then check the `theme` name is 
 
 ## Video documentation
 
-Here is a video tutorial, that might help you to set up your project. We used our **Biztrox** theme as an example.
+Here is a video tutorial that might help you to set up your project. We used our **Biztrox** theme as an example.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jrkvirglgaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
