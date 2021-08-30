@@ -5,7 +5,6 @@ list: never
 publishResources: false
 ---
 
-## Create a new page
 We have predefined a layout for the new page. You can create a new page by running the following command:
 
 ```toml

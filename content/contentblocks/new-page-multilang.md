@@ -5,7 +5,6 @@ list: never
 publishResources: false
 ---
 
-## Create a new page
 We have predefined a layout for the new page. It's a multilingual template. To create a new page, you need to define the language name before the page name.
 
 ### Create a new page for the English Language
