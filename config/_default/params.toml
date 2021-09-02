@@ -40,18 +40,18 @@ label = "Start a conversation now!"
 link = ""
 attribute = "onclick=Assistant('open')"
 
+[navigation_button_bordered]
+enable = true
+label = "Contact Us"
+link = "https://gethugothemes.com/contact/"
+attribute = ""
+
 [promotion]
 enable = false
 title = "Still Having Problems??"
 content = "No problem mate, we offer custom service. Feel free to contact us."
 button_label = "Contact Us"
 button_link = "mailto:mehedi@themefisher.com"
-
-[navigation_button_bordered]
-enable = false
-label = "submit ticket"
-link = ""
-attribute = "onclick=Assistant('open')"
 
 [navigation_button_solid]
 enable = true

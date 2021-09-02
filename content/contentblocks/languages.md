@@ -21,7 +21,7 @@ For maintaining it from forestry, you can find it at the bottom of the left side
 
 ### Example Code
 
-```toml
+```yaml
 ######## English language ##########
 [en]
 languageName = "En"
