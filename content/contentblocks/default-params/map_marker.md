@@ -1,0 +1,1 @@
+**map_marker** is for your map pointer, you can set your won map pointer that you want to show, maintain the png image size with ( 46\*58) px.
