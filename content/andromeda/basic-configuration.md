@@ -24,5 +24,4 @@ In this project folder, you will find a file called `config/_default/params.toml
 For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Parameters**
 {{< /notice >}}
 
-
 {{< contentblocklist "default-params/" "favicon" "logo" "logo_width" "logo_text" "description" "author" "image" "contact_form_action" "mainSections" "contact_info" "preloader" "social-la" >}}

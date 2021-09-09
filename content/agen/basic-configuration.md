@@ -8,6 +8,22 @@ In the root folder you will find a file called `config.toml` open this file in a
 
 If your theme is not launched in your localhost, then check the `theme` name is correct in configure.toml file. Then run `hugo server` command again.
 
+
+## Default configuration
+In this project folder, you will find a file called `config.toml`. Open this file in any text editor or IDE.
+
+{{< contentblocklist "default-config/" "baseURL" "languageCode" "title" "theme" "summaryLength" "paginate" "disqusShortname" "googleAnalytics" >}}
+
+
+## Default Parameters
+In this project folder, you will find a file called `config.toml`. Open this file in any text editor or IDE.
+
+{{< contentblocklist "default-params/" "favicon" "logo" "logo_width" "logo_text" "description" "author" "image" "contact_form_action" "mainSections" "contact_info" "preloader" "social-la" >}}
+
+
+
+
+
 ## Sitewide configuration
 
 {{< contentblocklist "default-config/" "baseURL" "languageCode" "title" "theme" >}}

@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:andromeda,THEMEPATH:andromeda-hugo" >}}
+{{< contentblock "installation" "SITENAME:Andromeda,THEMEPATH:andromeda-hugo" >}}

@@ -1,10 +1,7 @@
-github.com/dnb-org/components/functions v1.1.4 h1:7oht8cWxFWXhg3qf7Qg5Kw/9C1/ac6XNi10ld2kya7Q=
 github.com/dnb-org/components/functions v1.1.4/go.mod h1:+GMAcQaK260wZ6ioNPbQY/ruWdBxFxj9PPw7o5p7eu0=
 github.com/dnb-org/components/netlification v1.2.0 h1:h2/yoG7C8NwXxSRMYS9i6wfdGawU1CwS3+T1cv1XeeI=
 github.com/dnb-org/components/netlification v1.2.0/go.mod h1:jPjSlmP7+RTHm8z5HF7ZVA5cId58rEefXMyaUlxImbI=
-github.com/dnb-org/debug v1.3.0 h1:w9jTmF/3UHFdyu9nzEmLfhqok2wlV9Ol0E55Wa4yQ9k=
 github.com/dnb-org/debug v1.3.0/go.mod h1:0z/MDK1qgyqHmMM8mSrexsoPSTpJgIsNu3r6nw5zHAU=
-github.com/dnb-org/libraries/bootstrap5/v2 v2.2.1 h1:cCxwduIBPD20SAwgW/877PIFm7EZORdmcT5mc3G1DtM=
 github.com/dnb-org/libraries/bootstrap5/v2 v2.2.1/go.mod h1:lP8eIO2UP1Lkhm07DGS0py3bH+GytD4x4cnIp8lC3hU=
 github.com/themefisher/core-docs v1.0.62 h1:XgPWTLH9y2gHbInV6jDDtzLvSX73id88dnE87rGGTOw=
 github.com/themefisher/core-docs v1.0.62/go.mod h1:9Oh/YFvZVP2uNHUPjpqzVPBF2D4ZPJA0/NFfLyIqzjc=
