@@ -1,7 +1,8 @@
 ---
 title: 'CMS Integration'
-date: '2020-01-08T04:03:45-03:00'
-weight: 3
+date: '2020-05-10T02:54:48-03:00'
+weight: 2
+draft: false
 ---
 
 {{< contentblock "cms-integration" >}}
