@@ -12,7 +12,7 @@ For maintaining it from forestry, you can find all the page content at the top o
 {{< /notice >}}
 
 ## Homepage
- `Homepage` and `about page` data come` from data `folder. After opening the data folder you will see all page contents file, like `homepage.yml` for homepage, `about.yml` for about page. Open this page in any text editor, and you will be able to edit it. Some of the sections can hide. You can change its `enable` value to `false`.
+ `Homepage`  contains come` from data `folder. After opening the data folder you will see all page contents file, like `homepage.yml` for homepage, `about.yml` for about page. Open this page in any text editor, and you will be able to edit it. Some of the sections can hide. You can change its `enable` value to `false`.
 
 ## Other Pages
 There are two types of pages in the Hugo theme, list page, and single page. The list page is kind of a landing page (ex: `about page`). And the single page is called the inner page of a product or a post (ex: blog single page). We need to define the structure or markup of every page.
