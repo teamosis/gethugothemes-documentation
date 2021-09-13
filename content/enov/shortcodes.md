@@ -7,7 +7,7 @@ draft: false
 
 Shortcodes are a way to add custom functionality to your contents/posts. They are used to add custom functionality to your posts. If you need to add a custom shortcode, you can [contact us](mailto:mehedi@themefisher) for a custom service.
 
-{{< contentblock "shortcodes/changelog" >}}
+
 {{< contentblock "shortcodes/highlight" >}}
 {{< contentblock "shortcodes/gist" >}}
 {{< contentblock "shortcodes/youtube" >}}

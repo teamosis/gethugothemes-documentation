@@ -1,11 +1,13 @@
 ---
 title: Content Management
 date: '2019-12-02T08:15:41-03:00'
-weight: 6
+weight: 8
 draft: false
 ---
 
-All the pages content comes from the data folder. After opening the data folder you will see all page contents file, like `homepage.yml` for homepage, `about.yml` for about page.
+All the page are provided in this template, without those list page who has single page like blog page, all the content comes from `data` folder. After open the data folder you will see all page contents file, like `homepage.yml` for homepage, `about.yml` for about page.
+
+You can easily change the demo content with your won content, just remember that you have to follow the indent that are provided in demo content. If you miss the indentation will get an error. So carefully copy the loop, and change your content. Every loop starts with `-` this symbol.
 
 ## Other Pages
 There are two types of pages in the Hugo theme, list page, and single page. The list page is kind of a landing page (ex: `about page`). And the single page is called the inner page of a product or a post (ex: blog single page). We need to define the structure or markup of every page.
