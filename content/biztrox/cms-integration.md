@@ -1,7 +1,7 @@
 ---
 title: 'CMS Integration'
-date: '2019-12-18T05:20:55-03:00'
-weight: 3
+date: '2020-05-10T02:54:48-03:00'
+weight: 2
 draft: false
 ---
 

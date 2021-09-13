@@ -21,4 +21,4 @@ For maintaining it from forestry, you can find it at the bottom of the left side
 In this project folder, you will find a file called **config.toml**. Open this file in any text editor or IDE.
 
 
-{{< contentblocklist "default-params/" "logo"   "description" "author"  "contact_form_action" "contact_info"  "copyright" "map" "map_marker" "social-fa" >}}
+{{< contentblocklist "default-params/" "logo"   "description" "author"  "contact_form_action" "contact_info"  "copyright" "map"  "social-fa" >}}

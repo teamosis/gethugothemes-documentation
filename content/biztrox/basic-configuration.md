@@ -24,4 +24,12 @@ In this project folder, you will find a file called `config.toml`. Open this fil
 For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Parameters**
 {{< /notice >}}
 
-{{< contentblocklist "default-params/" "favicon" "logo" "logo_width" "logo_text" "description" "author" "image" "contact_form_action" "mainSections" "contact_info" "preloader" "social-la" >}}
+{{< contentblocklist "default-params/" "favicon" "logo" "logo_width"  "contact_info" "description" "author"  "contact_form_action"  "preloader" "subscription" "map"   "social-ti" >}}
+
+
+12. **mailchimp subscription form** is for user subscription, give your won subscription form action url in `mailchimpFormAction` field, and your form name in `mailchimpFormName` field.
+
+13. **nav_buttons** is for main navigation button, you can enable or disable it.
+**logo_footer** is for your website logo. Place your logo in the `assets/images` folder and put the path here.
+
+14. **logo_footer_width** defines the width of the logo in pixels. It doesn't work with .svg file.

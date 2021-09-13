@@ -24,7 +24,7 @@ In this project folder, you will find a file called `config/_default/params.toml
 For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Parameters**
 {{< /notice >}}
 
-{{< contentblocklist "default-params/" "favicon" "logo" "logo_width"  "description" "author" "image" "contact_form_action" "mainSections" "contact_info" "google_analitycs_id" "search" "subscription" "map" "map_marker" "navigation_button" "preloader" "social-fa" >}}
+{{< contentblocklist "default-params/" "favicon" "logo" "logo_width"  "description" "author" "image" "contact_form_action" "mainSections" "contact_info" "google_analitycs_id" "search" "subscription" "map"  "navigation_button" "preloader" "social-fa" >}}
 
 18. **Logo_footer** is for footer logo, it’s in the dark background, that’s why you need a light color logo.
 19. **top_header** is the top section. above the navigation bar. you can `false` it for hide it.
