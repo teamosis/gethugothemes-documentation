@@ -1,26 +1,27 @@
 ---
 title: 'Basic Configuration'
 date: '2020-05-14T05:48:21-03:00'
-weight: 5
+weight: 4
 draft: false
 ---
-In this root folder you will find a file called `config.toml` open this file in any text editor or IDE.
 
-If your theme is not launched in your localhost, then check the `theme` name is correct in config.toml file. Then run `hugo server` command again.
+Here is the default configuration and basic parameters for your website. You can change those as per your requirements.
 
-## Sitewide configuration
+## Default configuration
+In this project folder, you will find a file called `config/_default/config.toml`. Open this file in any text editor or IDE.
 
-{{< contentblocklist "default-config/" "baseURL" "theme" "title" "paginate" "disqusShortname" >}}
+{{< notice note >}}
+For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Configuration**
+{{< /notice >}}
 
-Plugins
--------
+{{< contentblocklist "default-config/" "baseURL" "languageCode" "title" "theme" "summaryLength" "paginate" "disableLanguages" >}}
 
-You can add third party plugins from here very easily, We create a loop for plugins, you will see two plugins loop here, first one is for `css` and last one is for `js`. just copy a loop item that you need and paste it in the bottom of the loop. and link correctly, after added a plugins, you maybe need to close the hugo server and run it again for rendered correctly.
 
-Default Parameters
-------------------
+## Default Parameters
+In this project folder, you will find a file called `config.toml`. Open this file in any text editor or IDE.
 
-1. `description` field is for your default meta description, it will show on your homepage and other page that have not any meta description on this page front-matter.
-2. `author` is for site author name.
-3. `contact_form_action` is your contact form action. it works with https://formspree.io
-4. `copyright` is your site copyright.
+{{< notice note >}}
+For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Parameters**
+{{< /notice >}}
+
+{{< contentblocklist "default-params/"  "logo" "description" "author" "google_analitycs_id" "preloader" "navigation_button" "copyright"  "social-ti" >}}
