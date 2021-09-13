@@ -1,13 +1,11 @@
 ---
 title: "Eventre"
 premium: true
-date: 2020-12-19T10:00:00+07:00
-type: "docs"
-todo:
-  - mailchimp
-  - preloader
-  - navigation button
-  - maps
-  - cookies
-  - social
+date: 2021-08-10T11:02:05+06:00
+# type dont remove or customize
+type : "docs"
 ---
+
+{{< preview demo="https://demo.gethugothemes.com/eventre/" >}}
+
+Thank you for using the [Eventre](https://gethugothemes.com/themes/eventre/) theme. In this documentation, you can find information about the theme and how to use it.

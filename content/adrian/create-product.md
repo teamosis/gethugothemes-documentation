@@ -4,7 +4,7 @@ date: '2019-12-02T08:15:19-03:00'
 weight: 8
 ---
 
-Hugo provides a `new` command to create a post, as a example for creating a new post is `hugo new shop/new-product.md` , it will create a product.
+Hugo provides a `new` command to create a Product, as a example for creating a new product is `hugo new shop/new-product.md` , it will create a product.
 
 ## Configure Product
 
