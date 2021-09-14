@@ -12,8 +12,6 @@ For maintaining it from forestry, you can find all the page content at the top o
 {{< /notice >}}
 
 ## Homepage
-Content folder contains the root file as `_index.md`. Open this page in any text editor, and you will be able to edit it. Some of the sections can hide. You can change its `enable` value to `false`.
-
 Home Page content comes from `content/homepage` folder. After open the homepage folder you will see all home page contents file, like `full-left.md` `grid.md` etc.  Open this page in any text editor, and you will be able to edit it.
 
 ## Other Pages
