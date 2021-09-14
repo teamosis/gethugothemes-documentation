@@ -1,6 +1,4 @@
 ## Tab Shortcode
-This shortcode allows you to create a tabbed content block. You can add as many tabs as you like. The content of each tab is defined in the tab content. You can use this example code to create a tabbed content block.
-
 
 ```yml
 {{</* tabs */>}}
@@ -15,3 +13,5 @@ This shortcode allows you to create a tabbed content block. You can add as many 
   
 {{</* /tabs */>}}
 ```
+
+This shortcode allows you to create a tabbed content block. You can add as many tabs as you like. The content of every tab writes in the `tab` shortcode. You can use this example code to create a tabbed content block.
