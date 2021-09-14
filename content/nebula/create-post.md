@@ -9,7 +9,7 @@ draft: false
 
 ## Configure Post
 
-You can configure your blog post from the front-matter. Front-matter starts with `---` and end with also `---` . In this front matter you can give `title`, `date`, `description = meta description`, `image = images/post/post-2.jpg`, and `categories`.
+You can configure your blog post from the front-matter. Front-matter starts with `---` and end with also `---` . In this front matter you can give `title`, `description = meta description`, `image = images/post/post-2.jpg`, and `categories`.
 
 When you created a new post, the `draft` default value is `true`, which means it's not published yet. Make it false to publish the post, ex: `draft = false`.
 After closing the front matter, give your post content. 

@@ -9,7 +9,7 @@ draft: false
 
 ## Configure Post
 
-You can configure your works post from the front-matter. Front-matter starts with `---` and end with also `---` . In this front matter you can give `title`, `date`, `image = images/portfolios/portfolio-1.jpg`, `company = company name`, `client = client name`, `categories` and `location`.
+You can configure your works post from the front-matter. Front-matter starts with `---` and end with also `---` . In this front matter you can give `title`, `image = images/portfolios/portfolio-1.jpg`, `company = company name`, `client = client name`, `categories` and `location`.
 
 When you created a new post, the `draft` default value is `true`, which means it's not published yet. Make it false to publish the post, ex: `draft = false`.
 After closing the front matter, give your post content. 
