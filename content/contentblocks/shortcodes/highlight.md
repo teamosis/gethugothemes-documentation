@@ -1,5 +1,4 @@
 ## Highlight Shortcode
-This shortcode allows you to highlight text. Highlight takes exactly one required `language` parameter. See the [Highlighting](https://gohugo.io/tools/syntax-highlighting/) documentation for a list of supported languages.
 
 ```md
 {{</* highlight html */>}}
@@ -10,3 +9,5 @@ This shortcode allows you to highlight text. Highlight takes exactly one require
 </section>
 {{</* /highlight */>}}
 ```
+
+This shortcode allows you to highlight text. Highlight takes exactly one required `language` parameter. See the [Highlighting](https://gohugo.io/tools/syntax-highlighting/) documentation for a list of supported languages.
