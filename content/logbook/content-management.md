@@ -12,7 +12,9 @@ For maintaining it from forestry, you can find all the page content at the top o
 {{< /notice >}}
 
 ## Homepage
-Home page contains come form `content/homepage` folder as `full-left.md`  `grid.md` etc. Open this page in any text editor, and you will be able to edit it.
+Home Page content comes from `content/homepage` folder. After open the data folder you will see all home page contents file, like `full-left.md`  `grid.md` etc.  Open this page in any text editor, and you will be able to edit it.
+
+
 
 ## Other Pages
 There are two types of pages in the Hugo theme, list page, and single page. The list page is kind of a landing page (ex: `shop page`). And the single page is called the inner page of a product or a post (ex: blog single page). We need to define the structure or markup of every page.
