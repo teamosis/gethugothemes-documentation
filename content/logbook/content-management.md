@@ -12,7 +12,7 @@ For maintaining it from forestry, you can find all the page content at the top o
 {{< /notice >}}
 
 ## Homepage
-Home Page content comes from `content/homepage` folder. After open the data folder you will see all home page contents file, like `full-left.md`  `grid.md` etc.  Open this page in any text editor, and you will be able to edit it.
+Home Page content comes from `content/homepage` folder. After open the homepage folder you will see all home page contents file, like `full-left.md`  `grid.md` etc.  Open this page in any text editor, and you will be able to edit it.
 
 
 
