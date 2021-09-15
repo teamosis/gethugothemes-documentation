@@ -5,6 +5,5 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Copper,THEMEPATH:copper-hugo" >}}
+{{< contentblock "installation" "SITENAME:Copper,THEMEPATH:copper-hugo,THEMENAMEDIR:config/_default/config.toml" >}}
 
-{{< contentblock "installation" "THEMENAME:Copper Hugo Theme,THEMEPATH:copper-hugo" >}}

@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Eventre,THEMEPATH:eventre-hugo" >}}
+{{< contentblock "installation" "SITENAME:Eventre,THEMEPATH:eventre-hugo,THEMENAMEDIR:config.toml" >}}

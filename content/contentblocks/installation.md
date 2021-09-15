@@ -59,7 +59,8 @@ hugo server
 6. Now, you get a generated URL and open it in your browser. The default URL looks like this [localhost:1313](http://localhost:1313/).
 
 {{< notice info >}}
-If your website doesn't serve in your localhost, then check the `theme` name is correct in `config/_default/config.toml` file. Then run `hugo server` command again.
+<!-- If your website doesn't serve in your localhost, then check the `theme` name is correct in `config/_default/config.toml` file. Then run `hugo server` command again. -->
+If your website doesn't serve in your localhost, then check the `theme` name is correct in `THEMENAMEDIR` file. Then run `hugo server` command again.
 {{< /notice >}}
 
 ## Video documentation

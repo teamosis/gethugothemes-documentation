@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Biztrox,THEMEPATH:biztrox-hugo" >}}
+{{< contentblock "installation" "SITENAME:Biztrox,THEMEPATH:biztrox-hugo,THEMENAMEDIR:config.toml" >}}

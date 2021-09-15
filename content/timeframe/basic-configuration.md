@@ -26,7 +26,7 @@ For maintaining it from forestry, you can find it at the bottom of the left side
 
 {{< contentblocklist "default-params/"  "logo"  "description" "author" "contact_info" "contact_form_action" "map" "preloader" "social-la" >}}
 
-**instafeed**: You can set the value to `false` if you don't want to show it. We provide some static image with the theme, but whenever you give the `access token` it will automatically show up the original image from your instagram.
-16. **cookies**: you can set cookie consent messege on and set expiry days from here.
+9. **instafeed**: You can set the value to `false` if you don't want to show it. We provide some static image with the theme, but whenever you give the `access token` it will automatically show up the original image from your instagram.
+10. **cookies**: you can set cookie consent messege on and set expiry days from here.
 
 

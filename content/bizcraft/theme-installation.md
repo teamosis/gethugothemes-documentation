@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Bizcraft,THEMEPATH:bizcraft-hugo" >}}
+{{< contentblock "installation" "SITENAME:Bizcraft,THEMEPATH:bizcraft-hugo,THEMENAMEDIR:config.toml" >}}

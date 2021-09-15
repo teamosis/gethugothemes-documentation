@@ -1,12 +1,11 @@
 ---
-title: Languages
-date: '2019-12-02T08:15:02-03:00'
-weight: 6
-draft: false
+_build:
+render: never
+list: never
+publishResources: false
 ---
 
-
-This theme is translatable. So you can change the default language from the `config.toml` file. We provided two languages, **English** and **Deutsch**. But you can add as many languages as you want.
+This theme is translatable. So you can change the default language from the `config.toml` file. We provided two languages, **English** and **French**. But you can add as many languages as you want.
 
 For maintaining **languages**, you need to open the `config.toml` file and follow the steps below.
 
@@ -32,8 +31,8 @@ weight = 1
 
 ######## French language ##########
 [fr]
-languageName = "Deutsch"
-languageCode = "de-DE"
+languageName = "Fr"
+languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 ```
