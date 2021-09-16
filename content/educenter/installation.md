@@ -1,14 +1,10 @@
 ---
-title: Installation
+title: 'Theme Installation'
 date: 2021-01-03T09:00:00+07:00
 weight: 1
+draft: false
 ---
 
-{{< contentblock "installation" "THEMENAME:Educenter Hugo Theme,THEMEPATH:educenter-hugo" >}}
-
-## Next steps
-
-- Check out, how to [configure the features]({{< ref "configuration" >}}) of this theme.
-- Learn how to [translate your website]({{< ref "i18n" >}}).
+{{< contentblock "installation" "SITENAME:Educenter,THEMEPATH:educenter-hugo,THEMENAMEDIR:config.toml" >}}
 
 

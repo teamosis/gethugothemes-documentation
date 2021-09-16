@@ -1,15 +1,10 @@
 ---
-title: "Installation"
+title: 'Theme Installation'
 date: 2020-12-23T12:30:00+07:00
 weight: 1
+draft: false
 ---
 
-{{< contentblock "installation" "THEMENAME:Dot Hugo Theme,THEMEPATH:dot-hugo" >}}
-
-## Next steps
-
-- Check out, how to [configure the features]({{< ref "configuration" >}}) of this theme.
-- Read about [how to publish your new website]({{< ref "cms-integration" >}}) with Netlify and Forestry.io.
-- Learn how to [structure your content]({{< ref "content-structure" >}}).
+{{< contentblock "installation" "SITENAME:Dot,THEMEPATH:dot-hugo,THEMENAMEDIR:config.toml" >}}
 
 

@@ -1,5 +1,10 @@
 ---
 title: "Timer"
 date: 2020-12-30T11:00:00+07:00
-type: "docs"
+# type dont remove or customize
+type : "docs"
 ---
+
+{{< preview demo="https://demo.gethugothemes.com/timer/" >}}
+
+Thank you for using the [Timer](https://gethugothemes.com/themes/timer/) theme. In this documentation, you can find information about the theme and how to use it.
