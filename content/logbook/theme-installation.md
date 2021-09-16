@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Logbbok,THEMEPATH:logbook-hugo" >}}
+{{< contentblock "installation" "SITENAME:Logbbok,THEMEPATH:logbook-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

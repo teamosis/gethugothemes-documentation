@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Andromeda,THEMEPATH:andromeda-hugo" >}}
+{{< contentblock "installation" "SITENAME:Andromeda,THEMEPATH:andromeda-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Reader,THEMEPATH:reader-hugo" >}}
+{{< contentblock "installation" "SITENAME:Reader,THEMEPATH:reader-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Small Apps,THEMEPATH:small-apps-hugo" >}}
+{{< contentblock "installation" "SITENAME:Small Apps,THEMEPATH:small-apps-hugo,THEMENAMEDIR:config.toml" >}}

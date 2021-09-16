@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Redlab,THEMEPATH:redlab-hugo" >}}
+{{< contentblock "installation" "SITENAME:Redlab,THEMEPATH:redlab-hugo,THEMENAMEDIR:config.toml" >}}

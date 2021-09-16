@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Timeframe,THEMEPATH:timeframe-hugo" >}}
+{{< contentblock "installation" "SITENAME:Timeframe,THEMEPATH:timeframe-hugo,THEMENAMEDIR:config.toml" >}}

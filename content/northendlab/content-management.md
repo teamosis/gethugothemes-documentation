@@ -18,4 +18,4 @@ Home Page content comes from `content/homepage` folder. After open the data fold
 ## Other Pages
 There are two types of pages in the Hugo theme, list page, and single page. The list page is kind of a landing page (ex: `home page`). And the single page is called the inner page of a product or a post (ex: blog single page). We need to define the structure or markup of every page.
 
-We already provided the necessary markup for the existing pages. You can find the markup in the `themes/layout` folder. For example, **About** page layout is `layout: homepage`. We have also provided default `single` page layouts. So when you create a new page, you don't need to define the layout. It will be the default layout.
+We already provided the necessary markup for the existing pages. You can find the markup in the `themes/layout` folder. For example, **homepage** page layout is `layout: homepage`. We have also provided default `single` page layouts. So when you create a new page, you don't need to define the layout. It will be the default layout.

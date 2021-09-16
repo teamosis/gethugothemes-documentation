@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Icelab,THEMEPATH:icelab-hugo" >}}
+{{< contentblock "installation" "SITENAME:Icelab,THEMEPATH:icelab-hugo,THEMENAMEDIR:config.toml" >}}

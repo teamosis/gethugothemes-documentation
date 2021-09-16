@@ -5,6 +5,6 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Northendlab,THEMEPATH:northendlab-hugo" >}}
+{{< contentblock "installation" "SITENAME:Northendlab,THEMEPATH:northendlab-hugo,THEMENAMEDIR:config.toml" >}}
 
 

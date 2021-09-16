@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Saasis,THEMEPATH:saasis-hugo" >}}
+{{< contentblock "installation" "SITENAME:Saasis,THEMEPATH:saasis-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

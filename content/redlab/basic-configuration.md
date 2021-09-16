@@ -18,7 +18,7 @@ For maintaining it from forestry, you can find it at the bottom of the left side
 
 
 ## Default Parameters
-In this project folder, you will find a file called `config/_default/params.toml`. Open this file in any text editor or IDE.
+In this project folder, you will find a file called `config.toml`. Open this file in any text editor or IDE.
 
 {{< notice note >}}
 For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Parameters**

@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Nebula,THEMEPATH:nebula-hugo" >}}
+{{< contentblock "installation" "SITENAME:Nebula,THEMEPATH:nebula-hugo,THEMENAMEDIR:config.toml" >}}
