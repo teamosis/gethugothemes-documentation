@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Galaxy,THEMEPATH:galaxy-hugo" >}}
+{{< contentblock "installation" "SITENAME:Galaxy,THEMEPATH:galaxy-hugo,THEMENAMEDIR:config.toml" >}}
