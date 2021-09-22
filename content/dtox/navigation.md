@@ -1,7 +1,7 @@
 ---
 title: Navigation
 date: '2019-07-24T06:52:01-03:00'
-weight: 3
+weight: 5
 draft: false
 ---
 1. `[[menu.main]]` is the main loop, you can add your navigation item by copy and paste this line.

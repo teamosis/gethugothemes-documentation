@@ -1,7 +1,8 @@
 ---
 title: "CMS Integration"
 date: 2020-12-23T12:30:00+07:00
-weight: 3
+weight: 2
+draft: false
 ---
 
 {{< contentblock "cms-integration" >}}
