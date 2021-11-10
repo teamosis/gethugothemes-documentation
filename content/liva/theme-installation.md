@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Andromeda,THEMEPATH:andromeda-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation" "SITENAME:Liva,THEMEPATH:liva-hugo,THEMENAMEDIR:config.toml" >}}
