@@ -46,21 +46,21 @@
     }
   ],
   "devDependencies": {
-    "@dnb-org/browserslist-config": "^3.2.8",
-    "@dnb-org/remark-config": "^3.2.8",
-    "@dnb-org/standard-version-config": "^3.2.8",
-    "@dnb-org/stylelint-config": "^3.2.8",
+    "@dnb-org/browserslist-config": "^3.3.10",
+    "@dnb-org/remark-config": "^3.3.8",
+    "@dnb-org/standard-version-config": "^3.3.7",
+    "@dnb-org/stylelint-config": "^3.3.9",
     "@fullhuman/postcss-purgecss": ">=4.0.3",
-    "autoprefixer": ">=10.3.1",
+    "autoprefixer": ">=10.4.0",
     "cross-env": ">=7.0.3",
-    "cssnano": ">=5.0.7",
+    "cssnano": ">=5.0.10",
     "pixrem": ">=5.0.0",
-    "postcss": ">=8.3.6",
-    "postcss-cli": ">=8.3.1",
+    "postcss": ">=8.3.11",
+    "postcss-cli": ">=9.0.2",
     "precss": ">=4.0.0",
-    "standard-version": ">=9.3.1",
-    "stylelint": ">=13.13.1",
-    "stylelint-config-sass-guidelines": ">=8.0.0"
+    "standard-version": ">=9.3.2",
+    "stylelint": ">=14.0.1",
+    "stylelint-config-sass-guidelines": ">=9.0.1"
   },
   "browserslist": [
     "extends @dnb-org/browserslist-config"
