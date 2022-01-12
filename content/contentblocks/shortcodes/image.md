@@ -3,7 +3,7 @@
 We build a custom image shortcode that allows you to specify the image height, width, position, command, and many more options. You can use the shortcode in your content.
 
 ```md
-{{</* image src="image.png" caption="Image Caption" alt="alter-text" height="100" width="200" position="float-left" command="fill" option="q10 r90" class="img-fluid" title="Image Title" */>}}
+{{</* image src="image.png" caption="Image Caption" alt="alter-text" height="100" width="200" position="float-left" command="fill" option="q10 r90" class="img-fluid" title="Image Title" webp="true" */>}}
 ```
 
 1. **src** is the source of the image. You can use a local image [assets/static/content] or an external image.
@@ -16,3 +16,4 @@ We build a custom image shortcode that allows you to specify the image height, w
 1. **option** can specify the image options like `background color`, `quality`, `hint`, `rotate`, `anchor`, and `resample filter`. Learn more about options [here](https://gohugo.io/content-management/image-processing/#image-processing-options)
 1. **class** can add classes to the image. If you need to add any classes, then you can use the `class` attribute.
 1. **title** can add a title attribute to the image.
+1. **webp** can be set to `true`, `false`. If true it will convert image into webp format.
