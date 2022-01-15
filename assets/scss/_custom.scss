@@ -4,3 +4,6 @@ $primary-color: #5B25B2;
 .navigation .navbar{
   padding: 7px 0 !important;
 }
+:not(pre)>code {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}
