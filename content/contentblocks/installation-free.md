@@ -38,15 +38,15 @@ hugo new site my-project
 
 1. After **Unzip** the downloaded file or **Cloning** the theme repository, you will get THEMEPATH.
 
-![unzip](../images/unzip-free.png)
+![unzip](../images/unzip.png)
 
 2. Copy the `THEMEPATH` into the `my-project/themes` folder so that you end up with a folder structure like `my-project/themes/THEMEPATH/`
 
-![copy-to-themes](../images/copy-theme-free.png)
+![copy-to-themes](../images/copy-theme.png)
 
 3. Now Copy all files from the `my-project/themes/THEMEPATH/exampleSite` folder into the project directory ( `my-project/` ). It overwrites existing files and folders. You can delete the `exampleSite` folder afterward.
 
-![copy-examplesite](../images/copy-examplesite-free.png)
+![copy-examplesite](../images/copy-examplesite.png)
 
 4. Go to the project directory (In our case, it's `my-project`). 
 
