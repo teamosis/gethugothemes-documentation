@@ -9,10 +9,12 @@ Shortcodes are a way to add custom functionality to your contents/posts. They ar
 
 {{< contentblock "shortcodes/image" >}}
 {{< contentblock "shortcodes/gallery" >}}
-{{< contentblock "shortcodes/button" >}}
-{{< contentblock "shortcodes/changelog" >}}
+{{< contentblock "shortcodes/collapse" >}}
+{{< contentblock "shortcodes/notice" >}}
+{{< contentblock "shortcodes/tab" >}}
 {{< contentblock "shortcodes/highlight" >}}
 {{< contentblock "shortcodes/gist" >}}
+{{< contentblock "shortcodes/video" >}}
 {{< contentblock "shortcodes/youtube" >}}
 {{< contentblock "shortcodes/vimeo" >}}
 {{< contentblock "shortcodes/instagram" >}}

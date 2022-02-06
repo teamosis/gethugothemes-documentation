@@ -16,4 +16,4 @@ We build a custom image shortcode that allows you to specify the image height, w
 1. **option** can specify the image options like `background color`, `quality`, `hint`, `rotate`, `anchor`, and `resample filter`. Learn more about options [here](https://gohugo.io/content-management/image-processing/#image-processing-options)
 1. **class** can add classes to the image. If you need to add any classes, then you can use the `class` attribute.
 1. **title** can add a title attribute to the image.
-1. **webp** can be set to `true`, `false`. If true it will convert image into webp format.
+1. **webp** can be set to `true` or `false` (default is `true`). If false it will not convert image into webp format.
