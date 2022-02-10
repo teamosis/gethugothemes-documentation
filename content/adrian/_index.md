@@ -7,6 +7,6 @@ type : "docs"
 ---
 
 
-{{< preview demo="https://demo.gethugothemes.com/adrian/" >}}
+{{< preview demo="https://demo.gethugothemes.com/adrian/site/" >}}
 
 Thank you for using the [Adrian](https://gethugothemes.com/themes/adrian/) theme. In this documentation, you can find information about the theme and how to use it.

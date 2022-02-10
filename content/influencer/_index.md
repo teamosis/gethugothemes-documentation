@@ -5,6 +5,6 @@ date: 2020-12-28T10:00:00+07:00
 type : "docs"
 ---
 
-{{< preview demo="https://demo.gethugothemes.com/influencer/" >}}
+{{< preview demo="https://demo.gethugothemes.com/influencer/site/" >}}
 
 Thank you for using the [Influencer](https://gethugothemes.com/themes/influencer-hugo/) theme. In this documentation, you can find information about the theme and how to use it.

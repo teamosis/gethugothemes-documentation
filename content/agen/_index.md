@@ -7,6 +7,6 @@ type : "docs"
 ---
 
 
-{{< preview demo="https://demo.gethugothemes.com/agen/" >}}
+{{< preview demo="https://demo.gethugothemes.com/agen/site/" >}}
 
 Thank you for using the [Agen](https://gethugothemes.com/themes/agen-hugo/) theme. In this documentation, you can find information about the theme and how to use it.

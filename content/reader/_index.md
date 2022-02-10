@@ -6,6 +6,6 @@ date: 2018-12-28T11:02:05+06:00
 type : "docs"
 ---
 
-{{< preview demo="https://demo.gethugothemes.com/reader/" >}}
+{{< preview demo="https://demo.gethugothemes.com/reader/site/" >}}
 
 Thank you for using the [Reader](https://gethugothemes.com/themes/reader/) theme. In this documentation, you can find information about the theme and how to use it.

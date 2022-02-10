@@ -5,6 +5,6 @@ date: 2018-12-28T11:02:05+06:00
 type : "docs"
 ---
 
-{{< preview demo="https://demo.gethugothemes.com/liva/" >}}
+{{< preview demo="https://demo.gethugothemes.com/liva/site/" >}}
 
 Thank you for using the [Liva](https://gethugothemes.com/themes/liva/) theme. In this documentation, you can find information about the theme and how to use it.

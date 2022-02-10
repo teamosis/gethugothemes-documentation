@@ -5,6 +5,6 @@ date: 2021-08-10T11:02:05+06:00
 type : "docs"
 ---
 
-{{< preview demo="https://demo.gethugothemes.com/dot/" >}}
+{{< preview demo="https://demo.gethugothemes.com/dot/site/" >}}
 
 Thank you for using the [Dot](https://gethugothemes.com/products/hugo-documentation-theme/) theme. In this documentation, you can find information about the theme and how to use it.
