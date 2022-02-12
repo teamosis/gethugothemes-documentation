@@ -48,10 +48,10 @@ attribute = ""
 
 [promotion]
 enable = true
-title = "Still Having Problems??"
-content = "No problem mate, we offer custom service. Feel free to contact us."
-button_label = "Contact Us"
-button_link = "https://gethugothemes.com/service/"
+title = "Need Theme Tweaks?"
+content = "If you need to customize theme, add extra pages, or complete website development from scratch, you can hire us."
+button_label = "Check Our Services"
+button_link = "https://gethugothemes.com/services/?utm_source=docs_site&utm_medium=referral&utm_campaign=docs_services_cta"
 
 [navigation_button_solid]
 enable = true
