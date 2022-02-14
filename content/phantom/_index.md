@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/phantom/site/" >}}
 
-Thank you for using the [Phantom](https://gethugothemes.com/themes/phantom-hugo/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Phantom](https://gethugothemes.com/products/phantom-hugo/) theme. In this documentation, you can find information about the theme and how to use it.

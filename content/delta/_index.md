@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/delta/site/" >}}
 
-Thank you for using the [Delta](https://gethugothemes.com/themes/delta/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Delta](https://gethugothemes.com/products/delta/) theme. In this documentation, you can find information about the theme and how to use it.

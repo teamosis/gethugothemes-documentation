@@ -7,4 +7,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/copper/site/" >}}
 
-Thank you for using the [Copper](https://gethugothemes.com/themes/copper/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Copper](https://gethugothemes.com/products/copper/) theme. In this documentation, you can find information about the theme and how to use it.

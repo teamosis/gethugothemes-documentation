@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/northendlab/site/" >}}
 
-Thank you for using the [Northendlab](https://gethugothemes.com/themes/northendlab/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Northendlab](https://gethugothemes.com/products/northendlab/) theme. In this documentation, you can find information about the theme and how to use it.

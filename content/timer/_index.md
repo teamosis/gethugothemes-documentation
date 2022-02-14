@@ -7,4 +7,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/timer/site/" >}}
 
-Thank you for using the [Timer](https://gethugothemes.com/themes/timer/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Timer](https://gethugothemes.com/products/timer/) theme. In this documentation, you can find information about the theme and how to use it.

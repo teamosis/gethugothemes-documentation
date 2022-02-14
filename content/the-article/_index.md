@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/the-article/site/" >}}
 
-Thank you for using the [The Article](https://gethugothemes.com/themes/the-article/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [The Article](https://gethugothemes.com/products/the-article/) theme. In this documentation, you can find information about the theme and how to use it.

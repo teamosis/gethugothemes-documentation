@@ -7,4 +7,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/persian/site/" >}}
 
-Thank you for using the [Persian](https://gethugothemes.com/themes/persian/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Persian](https://gethugothemes.com/products/persian/) theme. In this documentation, you can find information about the theme and how to use it.

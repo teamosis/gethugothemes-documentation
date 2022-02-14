@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/thomson/site/" >}}
 
-Thank you for using the [Thomson](https://gethugothemes.com/themes/thomson/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Thomson](https://gethugothemes.com/products/thomson/) theme. In this documentation, you can find information about the theme and how to use it.

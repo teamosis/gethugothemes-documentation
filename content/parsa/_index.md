@@ -7,4 +7,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/parsa/site/" >}}
 
-Thank you for using the [Parsa](https://gethugothemes.com/themes/parsa/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Parsa](https://gethugothemes.com/products/parsa/) theme. In this documentation, you can find information about the theme and how to use it.

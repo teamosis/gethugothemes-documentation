@@ -9,4 +9,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/adrian/site/" >}}
 
-Thank you for using the [Adrian](https://gethugothemes.com/themes/adrian/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Adrian](https://gethugothemes.com/products/adrian/) theme. In this documentation, you can find information about the theme and how to use it.

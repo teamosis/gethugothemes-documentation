@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/touchy/site/" >}}
 
-Thank you for using the [Touchy](https://gethugothemes.com/themes/touchy/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Touchy](https://gethugothemes.com/products/touchy/) theme. In this documentation, you can find information about the theme and how to use it.

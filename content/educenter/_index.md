@@ -7,4 +7,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/educenter/site/" >}}
 
-Thank you for using the [Educenter](https://gethugothemes.com/themes/educenter-hugo/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Educenter](https://gethugothemes.com/products/educenter-hugo/) theme. In this documentation, you can find information about the theme and how to use it.

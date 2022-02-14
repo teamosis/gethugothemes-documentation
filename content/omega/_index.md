@@ -7,4 +7,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/omega/site/" >}}
 
-Thank you for using the [Omega](https://gethugothemes.com/themes/omega/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Omega](https://gethugothemes.com/products/omega/) theme. In this documentation, you can find information about the theme and how to use it.

@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/icelab/site/" >}}
 
-Thank you for using the [Icelab](https://gethugothemes.com/themes/icelab/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Icelab](https://gethugothemes.com/products/icelab/) theme. In this documentation, you can find information about the theme and how to use it.

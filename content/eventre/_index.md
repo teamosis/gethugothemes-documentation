@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/eventre/site/" >}}
 
-Thank you for using the [Eventre](https://gethugothemes.com/themes/eventre/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Eventre](https://gethugothemes.com/products/eventre/) theme. In this documentation, you can find information about the theme and how to use it.

@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/saasis/site/" >}}
 
-Thank you for using the [Saasis](https://gethugothemes.com/themes/saasis/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Saasis](https://gethugothemes.com/products/saasis/) theme. In this documentation, you can find information about the theme and how to use it.

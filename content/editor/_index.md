@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/editor/site/" >}}
 
-Thank you for using the [Editor](https://gethugothemes.com/themes/editor/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Editor](https://gethugothemes.com/products/editor/) theme. In this documentation, you can find information about the theme and how to use it.

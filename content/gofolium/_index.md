@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/gofolium/site/" >}}
 
-Thank you for using the [GoFolium](https://gethugothemes.com/themes/goFolium-hugo/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [GoFolium](https://gethugothemes.com/products/goFolium-hugo/) theme. In this documentation, you can find information about the theme and how to use it.

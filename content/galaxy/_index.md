@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/galaxy/site/" >}}
 
-Thank you for using the [Galaxy](https://gethugothemes.com/themes/galaxy/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Galaxy](https://gethugothemes.com/products/galaxy/) theme. In this documentation, you can find information about the theme and how to use it.
