@@ -5,6 +5,9 @@ logo_desktop_width = "230px"
 logo_mobile = "images/logo-mobile.png"
 logo_mobile_width = "100px"
 
+# google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = "GTM-KRCTD35" # example: G-XXXXXXXXXX
+
 # meta description
 author = "Themefisher"
 description = "Documentation for the installation and configuration of our themes."
@@ -22,7 +25,7 @@ edit_page_url = "https://github.com/gethugothemes/documentation/edit/master/cont
 copyright = "This website is powered by our own [Godocs Theme](https://gethugothemes.com/products/godocs-hugo-documentation-theme/)"
 
 # custom script
-custom_script = "<script>!function(t,e,n){function s(){const t=e.getElementsByTagName('script')[0],n=e.createElement('script');n.type='text/javascript',n.async=!0,n.src='https://assistant.thrivedesk.io/bootloader.js?'+Date.now(),t.parentNode.insertBefore(n,t)}if(t.Assistant=n=function(e,n,s){t.Assistant.readyQueue.push({method:e,options:n,data:s})},n.readyQueue=[],'complete'===e.readyState)return s();t.attachEvent?t.attachEvent('onload',s):t.addEventListener('load',s,!1)}(window,document,window.Assistant||function(){}),window.Assistant('init','9416737f-790d-4d29-bdab-9fb279b86962');</script> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id=%27+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KRCTD35');</script>"
+custom_script = "<script>!function(t,e,n){function s(){const t=e.getElementsByTagName('script')[0],n=e.createElement('script');n.type='text/javascript',n.async=!0,n.src='https://assistant.thrivedesk.io/bootloader.js?'+Date.now(),t.parentNode.insertBefore(n,t)}if(t.Assistant=n=function(e,n,s){t.Assistant.readyQueue.push({method:e,options:n,data:s})},n.readyQueue=[],'complete'===e.readyState)return s();t.attachEvent?t.attachEvent('onload',s):t.addEventListener('load',s,!1)}(window,document,window.Assistant||function(){}),window.Assistant('init','9416737f-790d-4d29-bdab-9fb279b86962');</script>"
 
 [banner]
 image = "images/banner.jpg"
