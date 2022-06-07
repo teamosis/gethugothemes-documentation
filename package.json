@@ -46,27 +46,27 @@
     }
   ],
   "devDependencies": {
-    "@dnb-org/browserslist-config": "^3.4.8",
-    "@dnb-org/remark-config": "^3.4.8",
-    "@dnb-org/standard-version-config": "^3.4.7",
-    "@dnb-org/stylelint-config": "^3.4.8",
+    "@davidsneighbour/browserslist-config": "*",
+    "@davidsneighbour/remark-config": "*",
+    "@davidsneighbour/standard-version-config": "*",
+    "@davidsneighbour/stylelint-config": "*",
     "@fullhuman/postcss-purgecss": ">=4.1.3",
-    "autoprefixer": ">=10.4.2",
+    "autoprefixer": ">=10.4.7",
     "cross-env": ">=7.0.3",
-    "cssnano": ">=5.0.15",
+    "cssnano": ">=5.1.11",
     "pixrem": ">=5.0.0",
-    "postcss": ">=8.4.5",
+    "postcss": ">=8.4.14",
     "postcss-cli": ">=9.1.0",
     "precss": ">=4.0.0",
-    "standard-version": ">=9.3.2",
-    "stylelint": ">=14.2.0",
+    "standard-version": ">=9.5.0",
+    "stylelint": ">=14.8.5",
     "stylelint-config-sass-guidelines": ">=9.0.1"
   },
   "browserslist": [
-    "extends @dnb-org/browserslist-config"
+    "extends @davidsneighbour/browserslist-config"
   ],
   "stylelint": {
-    "extends": "@dnb-org/stylelint-config"
+    "extends": "@davidsneighbour/stylelint-config"
   },
   "private": true
 }
