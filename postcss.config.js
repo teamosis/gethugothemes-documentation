@@ -1,13 +1,13 @@
 module.exports = {
-  "plugins": {
-    "stylelint": {},
-    "precss": {},
-    "pixrem": {},
-    "autoprefixer": {
-      "flexbox": true
+  plugins: {
+    stylelint: {},
+    precss: {},
+    pixrem: {},
+    autoprefixer: {
+      flexbox: true,
     },
-    "cssnano": {
-      "preset": "default"
-    }
-  }
+    cssnano: {
+      preset: "default",
+    },
+  },
 };

@@ -10,7 +10,7 @@ To make the contribution process as seamless as possible, we ask for the followi
 
 ## Setup repository for local development
 
-We added some tools to help maintain a readable documentation and excellent code quality. You can run `npm install` to retrieve all required packages. 
+We added some tools to help maintain a readable documentation and excellent code quality. You can run `npm install` to retrieve all required packages.
 
 ## Git Commit Message
 
