@@ -20,9 +20,9 @@ premium_badge = true
 search = true
 # preloader
 preloader = true
-feedback_action = ""                                                                                                                 # https://airform.io/mehedi@gethugothemes.com
-edit_page_url = "https://github.com/gethugothemes/documentation/edit/master/content/"
-copyright = "This website is powered by our own [Godocs Theme](https://gethugothemes.com/products/godocs-hugo-documentation-theme/)"
+feedback_action = "https://formsubmit.co/gethugothemeshq@themefisher.thrivedesk.email"
+edit_page_url = "https://github.com/teamosis/gethugothemes-documentation/edit/main/content/"
+copyright = "This website is powered by our own [Godocs Theme](https://gethugothemes.com/products/godocs)"
 
 # custom script
 custom_script = "<script>!function(t,e,n){function s(){const t=e.getElementsByTagName('script')[0],n=e.createElement('script');n.type='text/javascript',n.async=!0,n.src='https://assistant.thrivedesk.io/bootloader.js?'+Date.now(),t.parentNode.insertBefore(n,t)}if(t.Assistant=n=function(e,n,s){t.Assistant.readyQueue.push({method:e,options:n,data:s})},n.readyQueue=[],'complete'===e.readyState)return s();t.attachEvent?t.attachEvent('onload',s):t.addEventListener('load',s,!1)}(window,document,window.Assistant||function(){}),window.Assistant('init','9416737f-790d-4d29-bdab-9fb279b86962');</script>"
