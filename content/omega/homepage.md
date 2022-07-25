@@ -73,7 +73,7 @@ product:
 
 ## Contact Section
 
-In this section you can add your contact information for your customers to reach you. You can [configure the map section](/omega-hugo/configuration/#map-configuration) in the `config.toml`.
+In this section you can add your contact information for your customers to reach you. You can [configure the map section](/omega/configuration/#map-configuration) in the `config.toml`.
 
 ```yaml
 contact:
