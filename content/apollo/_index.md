@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/apollo/site/" >}}
 
-Thank you for using the [Apollo](https://gethugothemes.com/products/apollo/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Apollo](https://github.com/gethugothemes/apollo-hugo) theme. In this documentation, you can find information about the theme and how to use it.
