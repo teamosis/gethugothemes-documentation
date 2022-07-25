@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/logbook/site/" >}}
 
-Thank you for using the [LogBook](https://gethugothemes.com/products/logBook-hugo/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Logbook](https://gethugothemes.com/products/logbook/) theme. In this documentation, you can find information about the theme and how to use it.
