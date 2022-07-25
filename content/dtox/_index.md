@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/dtox/site/" >}}
 
-Thank you for using the [Dtox](https://gethugothemes.com/products/dtox-hugo/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Dtox](https://gethugothemes.com/products/dtox/) theme. In this documentation, you can find information about the theme and how to use it.
