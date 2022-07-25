@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/bizcraft/site/" >}}
 
-Thank you for using the [Bizcraft](https://gethugothemes.com/products/bizcraft-hugo/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Bizcraft](https://gethugothemes.com/products/bizcraft/) theme. In this documentation, you can find information about the theme and how to use it.
