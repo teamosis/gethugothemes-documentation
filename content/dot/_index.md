@@ -7,4 +7,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/dot/site/" >}}
 
-Thank you for using the [Dot](https://gethugothemes.com/products/hugo-documentation-theme/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Dot](https://gethugothemes.com/products/dot/) theme. In this documentation, you can find information about the theme and how to use it.
