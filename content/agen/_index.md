@@ -9,4 +9,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/agen/site/" >}}
 
-Thank you for using the [Agen](https://gethugothemes.com/products/agen-hugo/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Agen](https://gethugothemes.com/products/agen/) theme. In this documentation, you can find information about the theme and how to use it.

@@ -8,4 +8,4 @@ type : "docs"
 
 {{< preview demo="https://demo.gethugothemes.com/enov/site/" >}}
 
-Thank you for using the [Enov](https://gethugothemes.com/products/enov-hugo/) theme. In this documentation, you can find information about the theme and how to use it.
+Thank you for using the [Enov](https://gethugothemes.com/products/enov/) theme. In this documentation, you can find information about the theme and how to use it.
