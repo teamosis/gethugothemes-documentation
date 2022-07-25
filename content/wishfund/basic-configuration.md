@@ -1,7 +1,7 @@
 ---
 title: 'Basic Configuration'
 date: '2019-09-26T07:47:50-03:00'
-weight: 4
+weight: 2
 draft: false
 ---
 In this root folder you will find a file called `config.toml` open this file in any text editor or IDE.
