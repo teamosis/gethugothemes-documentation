@@ -51,7 +51,7 @@
     "@davidsneighbour/standard-version-config": "*",
     "@davidsneighbour/stylelint-config": "*",
     "@fullhuman/postcss-purgecss": ">=4.1.3",
-    "autoprefixer": ">=10.4.7",
+    "autoprefixer": ">=10.4.8",
     "cross-env": ">=7.0.3",
     "cssnano": ">=5.1.12",
     "pixrem": ">=5.0.0",
