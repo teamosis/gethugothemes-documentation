@@ -64,9 +64,9 @@
     remark-preset-lint-styleguide "^1.0.0"
 
 "@davidsneighbour/standard-version-config@*":
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/@davidsneighbour/standard-version-config/-/standard-version-config-4.0.6.tgz#8ad7eea1c6eeb64ef8719dc0d54b69b5f9641fba"
-  integrity sha512-AFswcOzUMRCD3pbJ6CN4pbT0iAX2wbZDhQ2is4/xKL5/BBRiv8SORJRXtDwm94rkLWsjvPP6u15ALY5DT6K2Ng==
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/@davidsneighbour/standard-version-config/-/standard-version-config-4.0.9.tgz#1a45760d2c36fdda69bf7f6156c0b9adbead5bff"
+  integrity sha512-5wwj3RtntYV7HSRJ79z5ZyNUSjgVSPtNJ7tapmuUm2IrcIhlcK6JXsu0ML7lkr9SIUKnySS+KhitwsFc+uR5og==
   dependencies:
     standard-version "^9.5.0"
 
