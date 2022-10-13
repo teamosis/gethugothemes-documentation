@@ -55,7 +55,7 @@
     "cross-env": ">=7.0.3",
     "cssnano": ">=5.1.12",
     "pixrem": ">=5.0.0",
-    "postcss": ">=8.4.14",
+    "postcss": ">=8.4.18",
     "postcss-cli": ">=9.1.0",
     "precss": ">=4.0.0",
     "standard-version": ">=9.5.0",
