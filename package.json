@@ -59,7 +59,7 @@
     "postcss-cli": ">=9.1.0",
     "precss": ">=4.0.0",
     "standard-version": ">=9.5.0",
-    "stylelint": ">=14.9.1",
+    "stylelint": ">=14.16.0",
     "stylelint-config-sass-guidelines": ">=9.0.1"
   },
   "browserslist": [
