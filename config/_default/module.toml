@@ -1,5 +1,5 @@
 [[imports]]
-path = "github.com/themefisher/core-docs"
+path = "github.com/teamosis/core-docs"
 disabled = false
 
 [[imports]]
