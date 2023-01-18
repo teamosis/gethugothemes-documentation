@@ -1,7 +1,7 @@
 ---
 title: Content Management
 date: '2019-12-02T08:15:41-03:00'
-weight: 8
+weight: 12
 draft: false
 ---
 
