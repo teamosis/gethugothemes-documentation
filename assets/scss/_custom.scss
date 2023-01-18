@@ -1,9 +1,14 @@
 // Color Variables
-$primary-color: #5B25B2;
+$primary-color: #5b25b2;
 
-.navigation .navbar{
+.navigation .navbar {
   padding: 7px 0 !important;
 }
-:not(pre)>code {
+:not(pre) > code {
   background-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.sidenav .parent ul li.active > a,
+.sidenav .active ul li.active > a {
+  font-weight: 600;
 }
