@@ -5,7 +5,7 @@ weight: 5
 draft: false
 ---
 
-For customizing the **Navigation**, you need to open the `config/_defaults/menus.toml` file and follow the steps below.
+For customizing the **Navigation**, you need to open the `config/_default/menus.toml` file and follow the steps below.
 
 {{< notice note >}}
 For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Menu**

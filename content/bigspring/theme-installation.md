@@ -1,6 +1,6 @@
 ---
 title: 'Theme Installation'
-date: 2020-12-23T10:00:00+07:00
+date: '2019-12-02T08:14:43-03:00'
 weight: 1
 draft: false
 ---

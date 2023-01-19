@@ -14,7 +14,9 @@ In this project folder, you will find a file called `config/_default/config.toml
 For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Configuration**
 {{< /notice >}}
 
-{{< contentblocklist "default-config/" "baseURL" "languageCode" "title" "theme" "summaryLength" "paginate" "disqusShortname" "googleAnalytics" >}}
+{{< contentblocklist "default-config/" "baseURL" "languageCode" "title" "theme" "summaryLength" "paginate" "disqusShortname" "googleAnalytics" "timeZone" "disableLanguages"  >}}
+
+11. **hasCJKLanguage** If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content.
 
 
 ## Default Parameters
@@ -24,6 +26,6 @@ In this project folder, you will find a file called `config/_default/params.toml
 For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Parameters**
 {{< /notice >}}
 
-{{< contentblocklist "default-params/"  "logo" "logo_width"  "description" "author" "image" "contact_form_action" "navigation_button"  "preloader" "social-fa" >}}
+{{< contentblocklist "default-params/" "favicon" "logo" "logo_width" "logo_text" "description" "author" "image" "contact_info" "mainSections" "contact_form_action" "mainSections" "copyright" "preloader" "navigation_button" "social-fa" >}}
 
-**cookies** you can set cookie consent messege on and set expiry days from here.
+16. **cookies** you can set cookie consent messege on and set expiry days from here.
