@@ -7,16 +7,16 @@ Partials are listed below used from our pre-built [hugo modules](https://github.
 Please follow the `README.md` file attached with each Partial.
 
 #### Image Partials
-- [Image Implementation](https://github.com/gethugothemes/hugo-modules/tree/master/images#image-implementation)
+- [Image Implementation](https://github.com/gethugothemes/hugo-modules/tree/master/images)
 
 #### Components
-- [Preloader](https://github.com/gethugothemes/hugo-modules/tree/master/preloader)
-- [Custom Script](https://github.com/gethugothemes/hugo-modules/tree/master/custom-script)
-- [Hugo Render Link](https://github.com/gethugothemes/hugo-modules/tree/master/render-link)
-- [Cookie Consent](https://github.com/gethugothemes/hugo-modules/tree/master/cookie-consent)
-- [Social Share](https://github.com/gethugothemes/hugo-modules/tree/master/social-share)
-- [Crisp Chat](https://github.com/gethugothemes/hugo-modules/tree/master/crisp-chat)
-- [Valine Comment](https://github.com/gethugothemes/hugo-modules/tree/master/valine-comment)
+- [Preloader](https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader)
+- [Custom Script](https://github.com/gethugothemes/hugo-modules/tree/master/components/custom-script)
+- [Hugo Render Link](https://github.com/gethugothemes/hugo-modules/tree/master/components/render-link)
+- [Cookie Consent](https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent)
+- [Social Share](https://github.com/gethugothemes/hugo-modules/tree/master/components/social-share)
+- [Crisp Chat](https://github.com/gethugothemes/hugo-modules/tree/master/components/crisp-chat)
+- [Valine Comment](https://github.com/gethugothemes/hugo-modules/tree/master/components/valine-comment)
 
 #### SEO Tools & Analytics
 - [Basic SEO](https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo)
