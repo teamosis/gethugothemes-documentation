@@ -51,7 +51,9 @@ You may skip this step and move to the next page if you don't wish to maintain H
 
     ![project-dir](/images/theme-installation/project-dir.png)
 
-5. Run Hugo to serve your project.
+5. Remove the `hugo.toml` file (if any).
+
+6. Run Hugo to serve your project.
 
     ```shell
     hugo server
@@ -59,7 +61,7 @@ You may skip this step and move to the next page if you don't wish to maintain H
 
     ![hugo-serve](/images/theme-installation/hugo-serve.png)
 
-6. Now, you get a generated URL and open it in your browser. The default URL looks like this [localhost:1313](http://localhost:1313/).
+7. Now, you get a generated URL and open it in your browser. The default URL looks like this [localhost:1313](http://localhost:1313/).
 
 {{< notice info >}}
 If your website doesn't serve on your localhost, then check the `theme` name is correct in `THEMENAMEDIR` file. Then run `hugo server` command again.

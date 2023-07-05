@@ -59,7 +59,9 @@ git clone https://CLONE_URL
 
     ![project-dir](/images/theme-installation/project-dir.png)
 
-5. Run Hugo to serve your project.
+5. Remove the `hugo.toml` file (if any).
+
+6. Run Hugo to serve your project.
 
     ```shell
     hugo server
@@ -67,7 +69,7 @@ git clone https://CLONE_URL
 
     ![hugo-serve](/images/theme-installation/hugo-serve.png)
 
-6. Now, you get a generated URL and open it in your browser. The default URL looks like this [http://localhost:1313/](http://localhost:1313/) or this  [http://localhost:1313/SITENAME/](http://localhost:1313/SITENAME/).
+7. Now, you get a generated URL and open it in your browser. The default URL looks like this [http://localhost:1313/](http://localhost:1313/) or this  [http://localhost:1313/SITENAME/](http://localhost:1313/SITENAME/).
 
 {{< notice tip >}}
 To remove `SITENAME` from the URL, chenage the `baseURL` value from `THEMENAMEDIR` file into `https://example.com/`. Then run `hugo server` command again.
