@@ -2,7 +2,8 @@
 themes
 
 # GitHubs @dependabot will take care of versioning, using static versions
-/package-lock.json
+package-lock.json
+yarn.lock
 
 # dev tools
 /bin/replacements.sh

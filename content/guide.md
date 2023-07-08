@@ -1,5 +1,5 @@
 ---
-title: "The Guide"
+title: "The Ultimate Hugo Guide"
 description: "The best guide to set up any hugo theme."
 layout: guide
 draft: false
@@ -7,6 +7,7 @@ draft: false
 
 Welcome to the Installation Guide presented by Gethugothemes! This detailed guide will help you start your static site-building journey with Hugo Theme. Learn how easily you can install, run, customize, and update your Hugo theme!
 
+<!--
 ---
 
 <h2>Get Started</h2>
@@ -19,7 +20,7 @@ It's a step-by-step approach with instructions on installing Hugo and getting st
 
 {{< box title="Quick Start" link="#github--netlify--forestry" class="mb-5">}}
 Includes a one-page overview of how to set up your theme without touching any code.
-{{< /box >}}
+{{< /box >}} -->
 
 ---
 
@@ -62,7 +63,7 @@ Now, go to the official website of [nodejs](https://nodejs.org/en/) and install 
 **For homebrew users, you can install Nodejs with the following command.**
 
 ``` bash
-brew install node@16
+brew install node@18
 ```
 
 ### Run theme locally
@@ -75,9 +76,10 @@ Let’s set up a site using a Hugo theme in your local environment. The fundamen
 4. Copy this folder into the `my-project/themes` folder.
 5. Copy all files from the `my-project/themes/my-theme/exampleSite` folder into the root folder (`my-project/`). It will overwrites existing files and folders. You can delete the `exampleSite` folder afterward.
 6. open terminal on `my-project/` folder.
-7. Then run `hugo server` or `npm run dev` to serve this theme on your localhost.
-8. After serving the theme successfully, it will end up with a localhost address. You can open this address in your browser to see the theme.
-9. Edit source files and preview changes instantly with live reload.
+7. Run `npm install` to install all the dependencies.
+8. Then run `hugo server` or `npm run dev` to serve this theme on your localhost.
+9. After serving the theme successfully, it will end up with a localhost address. You can open this address in your browser to see the theme.
+10. Edit source files and preview changes instantly with live reload.
 
 > Now that you've got your theme running and understand the compiling process, let's discuss the proper ways to edit and customize your theme. You can directly customize your template from the source file. For a better experience, open the whole theme folder with a text-editor or IDE (i.e. [Visual Studio Code](https://code.visualstudio.com/)).
 
@@ -103,7 +105,6 @@ Let’s set up a site using a Hugo theme in your local environment. The fundamen
       |- js/
         |- script.js
    |- exampleSite/
-      |- .forestry/
       |- content/
       |- data/
       |- i18n/
@@ -113,6 +114,7 @@ Let’s set up a site using a Hugo theme in your local environment. The fundamen
          |- videos/
       |- config.toml
    |- layouts/
+   |- scripts/
    |- static/
       |- plugins/
    |- netlify.toml
@@ -135,27 +137,25 @@ Let’s set up a site using a Hugo theme in your local environment. The fundamen
 
 2. **exampleSite:** This folder contains an example site for your downloaded theme. You can change everything according to your necessity.
 
-* `.forestry`: This folder has the forestry CMS settings and front-matter. If your downloaded theme supports forestry, then you will get this folder included.
-
 * `content`: This is the folder that has all the content for your site. you can create, duplicate, or delete a page from this folder.
 
-* `data`: This folder mainly contains the complex homepage data. If your theme is a business or a portfolio theme, then you might get this folder.
+* `data`: This folder mainly contains global data.
 
 * `i18n`: This folder is only available with a multilingual theme, that's because this folder contains the multiple language translations for your site.
 
 * `resources`: This folder has the compiled CSS.
 
+* `scripts`: This folder contains node scripts that helps to structure your project, clear modules cache, and other things.
+
 * `static`: This folder has all the static files like images, videos, or other files that don't need to compile.
 
 * `config.toml`: This is the main configuration file for your site. You can configure your site from this file.
-{{< notice tip >}}You can change your site `logo` from this `config.toml` file.{{</ notice >}}
 
 3. **layouts:** This folder contains all the layout for multiple pages. `index.html` layout is for homepage. `_default` folder has 2 files, which is mainly used for blog page. This folder also has _**sources files**_.
 
 4. **static:** This folder contains third-party plugins like bootstrap, jquery, and other plugins that are necessary for your theme. You have seen one more `static` folder in the `exampleSite` folder. This static folder is for the user, who wants to change the site/theme images. and this static folder is for developers.
 
 5. **netlify.toml:** This file is for deploying your site with netlify.
-{{< notice tip >}}You can change your Hugo version for deploying with netlify{{</ notice >}}
 
 ### What are the source, compiled, and static files?
 
@@ -182,7 +182,7 @@ on the source files.
 
 ### Site configuration
 
-You have a `config.toml` file in the `exampleSite` folder. Which gives you the ability to configure your site, such as `changing logo` or `customize menu`.
+You have a `config.toml` or `hugo.toml` file in the `exampleSite` folder. Which gives you the ability to configure your site.
 
 #### Default configuration
 
@@ -212,29 +212,11 @@ Default parameters are those defined by the theme developer. Default parameters 
 
 * `logo` is for your site logo, give the logo directory here (i.e. `logo = images/logo.png`). Logo supports `png`, `jpg`, `gif`, or `svg` format. If you leave it empty, then `title` (default configuration title) will replace the logo.
 
-* `footer_logo` is for your footer logo. Most of the themes don't need that. It's only need when the footer logo is different color.
-
 * `favicon` is defined in your theme header. So you don't need to specify the directory here. Just put your favicon in `static/images` folder. Remind that you need to put this favicon name `favicon.png`. Otherwise, it won't load. If the theme already has a favicon, then replace it with your new one. It will be shown on the browser tab when you compiled the theme again. If it's not showing, then you need to clear your browser cache and reload again.
-
-* `description` is for your default meta description, it will show on your homepage and other pages that have not set any meta description on this page front-matter.
-
-* `author` is also a meta tag. It belongs to the site author.
-
-* `mobile` is your default mobile number. If your theme has an option to make a call, then you can find it on default parameters.
-
-* `email` is your default email address. If your theme has an option to send an email, then you can find it on default parameters.
-
-* `address` is your default address. If your theme has an option to show your address, then you can find it on default parameters.
-
-* `search` doesn't comes with every theme. But if your theme has a search bar, and if you don't want it, then you can disable it by making it `search = false`.
 
 * `navigation_button` is for the main navigation button. Many themes have a button on navigation that target contact or other pages. If your theme has this button, then you can handle this button `label` and `link` from here, or if you don't want to show it, then you can disable it by `enable = false`.
 
 * `preloader` is for site preloader. It starts with `[params.preloader]`. you can disable preloader by `enable = false`. If you want to show any image, logo, or animation in preloader then give the directory in `preloader` (i.e. `preloader = images/preloader.gif`), or if you don't want any logo or image then leave the preloader empty, then it will show `theme body color` screen when every component is loading. that's simple.
-
-* `social` is for the social sites that show on your theme. It starts with `[params.social]`. It's a loop, so you can add more social button by copying its previous loop item, and change the value. Or you can remove a social button by removing this loop item. Most of the themes use [themify icon pack](https://themify.me/themify-icons). And the rest of the themes uses [Fontawesome icon pack](https://fontawesome.com/v4.7.0/icons/). If icon starts with `ti` then you can understand that it uses the Themify icon pack, or if it starts with `fa` then it uses font awesome icon pack.
-
-* `Language` is for multilingual content. we basically added two languages in a multilingual theme. you can add more language following this example content.
 
 #### Navigation
 
@@ -347,8 +329,8 @@ There are two types of pages in Hugo theme. `list page` and `single page`. The l
 
 * `duplicate an existing page` is simple as creating a page. If you want to make a copy of `privacy page`, then you need to duplicate 2 files. The first one is content. Duplicate the privacy page folder from the content folder with `_index.md` file in it. Then change the folder name to your new page name (i.e. `terms-conditions`). Now you have your content ready, it's time to duplicate the structure or the markup for this new page. Go to `layouts` folder and also duplicate the same page folder here, in our stage, it's `privacy page`. And give the same name that you give the content folder (i.e. `terms-conditions`). Now you have successfully duplicate a page.
 
+<!-- 
 ---
-
 ## Github + Netlify + Forestry
 
 Working with forestry CMS is very helpful for those, who don't want to touch any code. It's simple and 5 minutes work to live your website. Here is the process for doing it step by step.
@@ -385,7 +367,7 @@ With the help of forestry, the main customization becomes very easy. We have add
 
 * `homepage` comes from `data` in a complex theme (i.e. `business`, `portfolio`). And blog-type themes homepage is not separate in `data`. So if your theme has a separate homepage, then we had already provided settings for your homepage in the forestry sidebar. Find the homepage file from the sidebar and change or customize its section.
 
-* `Other page` has also been added to your forestry sidebar. And we provided `front-matter` also to create a new page. You just have to click on create a new page, and give content for it.
+* `Other page` has also been added to your forestry sidebar. And we provided `front-matter` also to create a new page. You just have to click on create a new page, and give content for it. -->
 
 ---
 

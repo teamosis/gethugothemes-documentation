@@ -12,8 +12,8 @@
     "url": "https://github.com/gethugothemes/gethugothemes-docs/issues"
   },
   "scripts": {
-    "dev": "hugo server --disableFastRender --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose",
-    "hugo": "hugo --templateMetrics --templateMetricsHints --verbose --verboseLog --enableGitInfo --log true --logFile hugo.log --verbose",
+    "dev": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic",
+    "hugo": "hugo --templateMetrics --templateMetricsHints --enableGitInfo",
     "update": "hugo mod get -u ./... && hugo mod tidy",
     "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
