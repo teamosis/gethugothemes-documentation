@@ -107,7 +107,7 @@ You can set up your project in two ways. One is the **Gethugothemes exclusive wa
 
 1. Open the `THEMEPATH` with your favorite code editor. [[VS Code](https://code.visualstudio.com/) recommended]
 
-2. Open vscode terminal and run the following command to setup your project.
+2. Open vscode terminal (ctrl+\` or cmd+\`) and run the following command to setup your project.
 
     ```shell
     npm run project-setup
@@ -141,7 +141,7 @@ You can set up your project in two ways. One is the **Gethugothemes exclusive wa
 
 ## Run Your Project Locally
 
-1. Open vscode terminal and run the following command to install all dependencies.
+1. Open vscode terminal (ctrl+\` or cmd+\`) and run the following command to install all dependencies.
 
     ```shell
     npm install
