@@ -1,8 +1,8 @@
 ---
 _build:
-render: never
-list: never
-publishResources: false
+  render: never
+  list: never
+  publishResources: false
 ---
 
 ## New to Hugo?
@@ -41,7 +41,7 @@ You may skip this step and move to the next page if you don't wish to maintain H
 
     ![copy-to-themes](../images/copy-theme.png)
 
-3. Copy all files from the `exampleSite` folder into the project directory ( `my-project/` ). It will overwrites existing files and folders. You can delete the `exampleSite` folder afterward.
+3. Copy all files from the `THEMEPATH/exampleSite` folder into the project directory ( `my-project/` ). It will overwrites existing files and folders. You can delete the `exampleSite` folder afterward.
 
     ![copy-examplesite](../images/copy-examplesite.png)
 

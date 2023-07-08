@@ -1,8 +1,8 @@
 ---
 _build:
-render: never
-list: never
-publishResources: false
+  render: never
+  list: never
+  publishResources: false
 ---
 
 ## New to Hugo?

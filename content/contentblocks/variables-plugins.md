@@ -12,6 +12,7 @@ For maintaining it from forestry, you can find it at the bottom of the left side
 {{< /notice >}}
 
 ## Change Website Colors
+
 Under the `params.variables` section, you will have all the parameters to change the website color preferences. For example, if you change the value of `color_primary`, the primary color of the whole website.
 
 example code:
@@ -31,7 +32,8 @@ light = "#fdfdfd"
 ```
 
 ## Change Website fonts
-Below the color variables, you will get the font variables, and you can change the value of those variables as per your requirements. 
+
+Below the color variables, you will get the font variables, and you can change the value of those variables as per your requirements.
 
 Visit [Google Fonts](https://fonts.google.com/) to see the fonts that are available to you. Then select the font you want to use. Then copy the **bold part** of the URL and paste it in the `font_primary` field. It will change the font of the website's primary text.
 ![google-fonts](/images/theme-settings/google-fonts.png)
@@ -51,6 +53,7 @@ icon_font = "Font Awesome 5 Free" # chose icon: https://fontawesome.com/icons
 `font_size` and `font_scale` is pretty new to our themes. It's changed the full website font size. learn more about it [here](https://type-scale.com/). We have added the whole system of font sizes to our theme. So you can change the font sizes as per your requirement direct from **config.toml**.
 
 example code:
+
 ```toml
 # base font size for full website 
 font_size = "16px" # default is 16px

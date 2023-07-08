@@ -12,7 +12,7 @@
     "url": "https://github.com/gethugothemes/gethugothemes-docs/issues"
   },
   "scripts": {
-    "dev": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic",
+    "dev": "hugo server",
     "hugo": "hugo --templateMetrics --templateMetricsHints --enableGitInfo",
     "update": "hugo mod get -u ./... && hugo mod tidy",
     "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",

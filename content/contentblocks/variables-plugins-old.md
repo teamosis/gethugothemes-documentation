@@ -1,15 +1,15 @@
 ---
 _build:
-render: never
-list: never
-publishResources: false
+  render: never
+  list: never
+  publishResources: false
 ---
 
 When someone buys a theme, they usually change the theme default colors, someone also changes the fonts. So here is the guide for how to do it.
 
-
 ## Change Website Colors
- * `colors` change is very easy with the power of scss variables. Open `assets/scss/variables.scss` file in a text editor. Then you can see the global variables we used in this theme. `primary-color` defines the theme default color. If you change it the whole theme default colors will be changed when you compile the theme again. Sometimes it compiles but the browser shows the previous colors. Then you need to clear your browser cache and reload again. You can also change the other variable colors like this.
+
+* `colors` change is very easy with the power of scss variables. Open `assets/scss/variables.scss` file in a text editor. Then you can see the global variables we used in this theme. `primary-color` defines the theme default color. If you change it the whole theme default colors will be changed when you compile the theme again. Sometimes it compiles but the browser shows the previous colors. Then you need to clear your browser cache and reload again. You can also change the other variable colors like this.
 
 ```scss
 // Color Variables
@@ -22,10 +22,9 @@ $alert:#c7254e;
 $border-color:#dedede;
 ```
 
-
 ## Change Website fonts
 
- * `font-family` name is also defined in the `assets/scss/variables.scss` files. If you want to change the font then change the `font-family` form here. And give your font link to the `assets/scss/typography.scss` files. In `typography.scss` files, you can customize the `font-size`, `font-weight`, and `lineheight` of your texts. You can get more `font-face` form [here](https://fonts.google.com/).
+* `font-family` name is also defined in the `assets/scss/variables.scss` files. If you want to change the font then change the `font-family` form here. And give your font link to the `assets/scss/typography.scss` files. In `typography.scss` files, you can customize the `font-size`, `font-weight`, and `lineheight` of your texts. You can get more `font-face` form [here](https://fonts.google.com/).
 ![google-fonts](/images/theme-settings/google-fonts.png)
 
 ```scss

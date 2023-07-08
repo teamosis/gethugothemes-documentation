@@ -1,8 +1,8 @@
 ---
 _build:
-render: never
-list: never
-publishResources: false
+  render: never
+  list: never
+  publishResources: false
 ---
 
 **SITENAME** has huge collection of (Partials and Shortcodes) modules.
@@ -16,25 +16,24 @@ Modules will be downloaded and added when it will be added as imports to configu
 
 {{< tabs >}}
 {{< tab "Yarn" >}}
- 
+
 ```javascript
 yarn update
 ```
 
 {{< / tab >}}
 {{< tab "NPM" >}}
- 
+
 ```javascript
 npm run update
 ```
 
 {{< / tab >}}
 {{< tab "Hugo" >}}
- 
+
 ```md
 hugo mod get -u ./... && hugo mod tidy
 ```
 
 {{< / tab >}}
 {{< / tabs >}}
-

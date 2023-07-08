@@ -1,13 +1,13 @@
 ---
 _build:
-render: never
-list: never
-publishResources: false
+  render: never
+  list: never
+  publishResources: false
 ---
 
 ## Main Navigation
-Main navigation is a list of links to other pages. It is rendered in the header of the page.
 
+Main navigation is a list of links to other pages. It is rendered in the header of the page.
 
 ### Normal Menu
 

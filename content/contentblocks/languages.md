@@ -1,8 +1,8 @@
 ---
 _build:
-render: never
-list: never
-publishResources: false
+  render: never
+  list: never
+  publishResources: false
 ---
 
 This theme is translatable. So you can change the default language from the `config/_default/config.toml` file. We provided two languages, **English** and **French**. But you can add as many languages as you want.
