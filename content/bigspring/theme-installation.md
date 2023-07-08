@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation-bootstrap-new" "SITENAME:Bigspring,THEMEPATH:bigspring-hugo,THEMENAMEDIR:config/_default/config.toml" >}}
+{{< contentblock "installation-new" "SITENAME:Bigspring,THEMEPATH:bigspring-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

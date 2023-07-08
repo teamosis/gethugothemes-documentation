@@ -9,19 +9,32 @@ _build:
 
 You need to fulfill some prerequisites to configure your machine, before starting the development process of your static site via Hugo.
 
+{{< notice note >}}
+If you’re using **macOS**, then [Homebrew](https://docs.brew.sh/Installation) is the easiest way to install the prerequisites. Check out [this guide](https://mac.install.guide/homebrew/index.html) to install Homebrew on your machine.
+{{< /notice >}}
+
+{{< notice warning >}}
+{{< /notice >}}
+
 1. [Install Hugo](#install-hugo)
 2. [Install Go](#install-go)
 3. [Install Nodejs](#install-nodejs)
 
 ### Install Hugo
 
-Download and Install the [Hugo Extended](https://gohugo.io/getting-started/installing/) from the official website of Hugo. You will get the installation instructions according to your operating system on the site.
+Install Hugo with the following command on your **Terminal** according to your operating system.
 
 {{< tabs >}}
 {{< tab "Windows" >}}
 
 ``` bash
 winget install -e --id Hugo.Hugo.Extended
+```
+
+If you successfully installed Hugo, then you can check the version with the following command.
+
+``` bash
+hugo version
 ```
 
 {{</ tab >}}
@@ -31,23 +44,43 @@ winget install -e --id Hugo.Hugo.Extended
 brew install hugo
 ```
 
+If you successfully installed Hugo, then you can check the version with the following command.
+
+``` bash
+hugo version
+```
+
 {{</ tab >}}
 {{< tab "Linux" >}}
 
 Please follow the [official documentation](https://gohugo.io/installation/linux/#package-managers) to install Hugo on Linux.
 
+If you successfully installed Hugo, then you can check the version with the following command.
+
+``` bash
+hugo version
+```
+
 {{</ tab >}}
 {{</ tabs >}}
 
+Or go to the official site to Download and Install [Hugo Extended](https://gohugo.io/getting-started/installing/).
+
 ### Install Go
 
-Download and Install the [Go](https://golang.org/dl/) from the official website of Go. You will get the installation instructions according to your operating system on the site.
+Install Go with the following command on your **Terminal** according to your operating system.
 
 {{< tabs >}}
 {{< tab "Windows" >}}
 
 ``` bash
 winget install -e --id GoLang.Go
+```
+
+If you successfully installed Go, then you can check the version with the following command.
+
+``` bash
+go version
 ```
 
 {{</ tab >}}
@@ -57,17 +90,31 @@ winget install -e --id GoLang.Go
 brew install go
 ```
 
+If you successfully installed Go, then you can check the version with the following command.
+
+``` bash
+go version
+```
+
 {{</ tab >}}
 {{< tab "Linux" >}}
 
 Please follow the [official documentation](https://golang.org/doc/install) to install Go on Linux.
 
+If you successfully installed Go, then you can check the version with the following command.
+
+``` bash
+go version
+```
+
 {{</ tab >}}
 {{</ tabs >}}
 
+Or go to the official site to Download and Install [Go](https://golang.org/dl/).
+
 ### Install Nodejs
 
-Download and Install the [Nodejs](https://nodejs.org/en/download/) from the official website of Nodejs. You will get the installation instructions according to your operating system on the site.
+Install Nodejs with the following command on your **Terminal** according to your operating system.
 
 {{< tabs >}}
 {{< tab "Windows" >}}
@@ -76,19 +123,39 @@ Download and Install the [Nodejs](https://nodejs.org/en/download/) from the offi
 winget install -e --id OpenJS.NodeJS.LTS
 ```
 
+If you successfully installed Nodejs, then you can check the version with the following command.
+
+``` bash
+node -v
+```
+
 {{</ tab >}}
 {{< tab "Mac" >}}
 
 ``` bash
-brew install node
+brew install node@18
+```
+
+If you successfully installed Nodejs, then you can check the version with the following command.
+
+``` bash
+node -v
 ```
 
 {{</ tab >}}
 {{< tab "Linux" >}}
 Please follow the [official documentation](https://nodejs.org/en/download/package-manager/) to install Nodejs on Linux.
 
+If you successfully installed Nodejs, then you can check the version with the following command.
+
+``` bash
+node -v
+```
+
 {{</ tab >}}
 {{</ tabs >}}
+
+Or go to the official site to Download and Install [Nodejs](https://nodejs.org/en/download/).
 
 {{< notice warning >}}
 After installing all the prerequisites, maybe you need to restart your machine to take effect.
@@ -98,20 +165,27 @@ After installing all the prerequisites, maybe you need to restart your machine t
 
 ## Setup Your Project
 
-**Unzip** the downloaded file, and you will get THEMEPATH in the themes folder.
+**Unzip** the downloaded file, and you will get **THEMEPATH** in the **themes** folder. Which is your Main Theme. You need to work with the Main Theme.
 ![unzip](../images/unzip.png)
 
-You can set up your project in two ways. One is the **Gethugothemes exclusive way** and another is the **Traditional way**.
+**You can set up your project in two ways. (Follow any one of them)**
+
+1. [Gethugothemes Exclusive Way (Recommended)](#gethugothemes-exclusive-way-recommended)
+2. [Traditional Way](#traditional-way)
 
 ### Gethugothemes Exclusive Way (Recommended)
 
-1. Open the `THEMEPATH` with your favorite code editor. [[VS Code](https://code.visualstudio.com/) recommended]
+1. Open the `THEMEPATH` (Main Theme) with your favorite code editor. [[VS Code](https://code.visualstudio.com/) recommended]
 
-2. Open vscode terminal (ctrl+\` or cmd+\`) and run the following command to setup your project.
+2. Open vscode terminal (ctrl+\`) and run the following command to setup your project.
 
     ```shell
     npm run project-setup
     ```
+
+(If you have followed this, then go to the next step: [Run Your Project Locally](#run-your-project-locally))
+
+<br>
 
 ### Traditional Way
 
@@ -141,7 +215,7 @@ You can set up your project in two ways. One is the **Gethugothemes exclusive wa
 
 ## Run Your Project Locally
 
-1. Open vscode terminal (ctrl+\` or cmd+\`) and run the following command to install all dependencies.
+1. Open vscode terminal (ctrl+\`) and run the following command to install all dependencies.
 
     ```shell
     npm install
@@ -156,7 +230,7 @@ You can set up your project in two ways. One is the **Gethugothemes exclusive wa
 3. Now, you get a generated URL and open it in your browser. The default URL looks like this [localhost:1313](http://localhost:1313/).
 
 {{< notice info >}}
-If your website doesn't serve on your localhost, then check the `theme` name is correct in your `hugo.toml` file. Then run `hugo server` command again.
+If your website doesn't serve on your localhost, then check the `theme` name is correct in your `hugo.toml` file. Then run `npm run dev` command again.
 {{< /notice >}}
 
 ---
@@ -168,11 +242,3 @@ After completing your development process, you need to build your project for pr
 ```shell
 npm run build
 ```
-
----
-
-## Video documentation
-
-You may find the following video tutorial helpful in setting up your next project. As an example, we'll utilize our **Biztrox** theme.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jrkvirglgaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
