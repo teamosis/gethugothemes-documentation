@@ -5,4 +5,8 @@ weight: 1
 draft: false
 ---
 
+{{< contentblock "prerequisites" >}}
+
+---
+
 {{< contentblock "installation-old" "SITENAME:Icelab,THEMEPATH:icelab-hugo,THEMENAMEDIR:config.toml" >}}

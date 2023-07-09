@@ -5,4 +5,8 @@ weight: 1
 draft: false
 ---
 
+{{< contentblock "prerequisites" >}}
+
+---
+
 {{< contentblock "installation-old" "SITENAME:Northendlab,THEMEPATH:northendlab-hugo,THEMENAMEDIR:config.toml" >}}

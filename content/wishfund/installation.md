@@ -5,4 +5,8 @@ weight: 1
 draft: false
 ---
 
+{{< contentblock "prerequisites" >}}
+
+---
+
 {{< contentblock "installation-old" "THEMENAME:Wishfund Hugo Theme,THEMEPATH:wishfund-hugo" >}}

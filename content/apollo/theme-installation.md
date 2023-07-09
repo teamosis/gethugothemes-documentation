@@ -5,4 +5,8 @@ weight: 1
 draft: false
 ---
 
+{{< contentblock "prerequisites" >}}
+
+---
+
 {{< contentblock "installation-old" "SITENAME:Apollo,THEMEPATH:apollo-hugo,THEMENAMEDIR:config.toml" >}}

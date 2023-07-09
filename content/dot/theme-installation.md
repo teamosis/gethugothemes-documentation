@@ -5,4 +5,8 @@ weight: 1
 draft: false
 ---
 
+{{< contentblock "prerequisites" >}}
+
+---
+
 {{< contentblock "installation-old" "SITENAME:Dot,THEMEPATH:dot-hugo,THEMENAMEDIR:config.toml" >}}

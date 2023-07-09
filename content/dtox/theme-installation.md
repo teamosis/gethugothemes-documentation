@@ -5,6 +5,10 @@ weight: 1
 draft: false
 ---
 
+{{< contentblock "prerequisites" >}}
+
+---
+
 {{< contentblock "installation-old" "THEMENAME:Dtox Hugo Theme,THEMEPATH:dtox-hugo" >}}
 
 video documentation

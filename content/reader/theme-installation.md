@@ -5,4 +5,8 @@ weight: 1
 draft: false
 ---
 
+{{< contentblock "prerequisites" >}}
+
+---
+
 {{< contentblock "installation-old" "SITENAME:Reader,THEMEPATH:reader-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

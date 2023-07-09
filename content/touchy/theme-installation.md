@@ -5,4 +5,8 @@ weight: 1
 draft: false
 ---
 
+{{< contentblock "prerequisites" >}}
+
+---
+
 {{< contentblock "installation-old" "SITENAME:Touchy,THEMEPATH:touchy-hugo,THEMENAMEDIR:config.toml" >}}

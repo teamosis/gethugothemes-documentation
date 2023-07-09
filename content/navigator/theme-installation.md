@@ -5,4 +5,8 @@ weight: 1
 draft: false
 ---
 
+{{< contentblock "prerequisites" >}}
+
+---
+
 {{< contentblock "installation-old" "SITENAME:Navigator,THEMEPATH:navigator-hugo,THEMENAMEDIR:config.toml" >}}

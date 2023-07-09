@@ -5,6 +5,10 @@ weight: 2
 draft: false
 ---
 
+{{< contentblock "prerequisites" >}}
+
+---
+
 {{< contentblock "installation-old" "THEMENAME:Revolve Hugo Theme,THEMEPATH:revolve-hugo" >}}
 
 video documentation

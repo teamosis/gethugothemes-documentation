@@ -5,4 +5,8 @@ weight: 1
 draft: false
 ---
 
+{{< contentblock "prerequisites" >}}
+
+---
+
 {{< contentblock "installation-old" "SITENAME:Wallet,THEMEPATH:wallet-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

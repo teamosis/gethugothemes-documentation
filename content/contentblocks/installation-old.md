@@ -5,17 +5,6 @@ _build:
   publishResources: false
 ---
 
-## New to Hugo?
-
-If you are new to Hugo, you should go through an introductory phase prior to installing the theme. Before creating the project, we recommend you explore the following links:
-
-1. First of all, check our [Hugo Guide](/guide/). **(Required)**
-2. You can learn more about Hugo from the [Official Hugo Documentation](https://gohugo.io/getting-started/installing/).
-3. For more clarification, you can check the [Video Tutorials](https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3)
-
-{{< notice note >}}
-You may skip this step and move to the next page if you don't wish to maintain Hugo locally.
-{{</ notice >}}
 
 ## Create A New Project
 

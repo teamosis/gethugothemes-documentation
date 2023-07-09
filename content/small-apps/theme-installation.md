@@ -5,4 +5,8 @@ weight: 1
 draft: false
 ---
 
+{{< contentblock "prerequisites" >}}
+
+---
+
 {{< contentblock "installation-old" "SITENAME:Small Apps,THEMEPATH:small-apps-hugo,THEMENAMEDIR:config.toml" >}}
