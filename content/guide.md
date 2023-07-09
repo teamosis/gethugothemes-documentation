@@ -216,28 +216,19 @@ Let’s set up a site using a Hugo theme in your local environment. The fundamen
 |- hugo-theme/
    |- assets/
       |- scss/
-        |- _variable.scss
-        |- _typography.scss
-        |- _button.scss
-        |- _main.scss
-        |- other scss files
-        |- style.scss
       |- js/
-        |- script.js
    |- exampleSite/
       |- content/
       |- data/
       |- i18n/
-      |- resources/
       |- static/
          |- images/
-         |- videos/
       |- config.toml
    |- layouts/
    |- scripts/
    |- static/
       |- plugins/
-   |- netlify.toml
+   |- package.json
    |- other files
 ```
 

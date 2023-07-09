@@ -5,4 +5,8 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation-new" "SITENAME:Bigspring,THEMEPATH:bigspring-hugo,THEMENAMEDIR:config/_default/config.toml" >}}
+{{< contentblock "prerequisites" >}}
+
+---
+
+{{< contentblock "installation-new" "THEME:bigspring-hugo,THEMENAMEDIR:hugo.toml" >}}

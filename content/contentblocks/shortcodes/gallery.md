@@ -1,3 +1,10 @@
+---
+_build:
+  render: never
+  list: never
+  publishResources: false
+---
+
 ## Gallery Shortcode
 
 We build a custom image gallery that support Hugo image processing with Image zoom. You just need to specify the directory name of images. You can use the shortcode in your content.

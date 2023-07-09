@@ -5,35 +5,19 @@ _build:
   publishResources: false
 ---
 
-**SITENAME** has huge collection of (Partials and Shortcodes) modules.
+**SITENAME** uses [Hugo Modules](https://gohugo.io/hugo-modules/) to manage dependencies.
 
-You can find all modules here - [Gethugothemes Hugo Module](https://github.com/gethugothemes/hugo-modules).
-<br /> To use a Module; follow the `README.md` file attached with each module.
+You can find all modules here - [Gethugothemes Hugo Module](https://gethugothemes.com/hugo-modules).
+To use a Module, follow the `README.md` file attached with each module.
 
-Modules will be downloaded and added when it will be added as imports to configuration.
+## Manage Modules
 
-### Update Modules
+You can find `modules.toml` file in the `config/_default` directory. This file contains all the modules used in this project.
 
-{{< tabs >}}
-{{< tab "Yarn" >}}
+## Update Modules
 
-```javascript
-yarn update
-```
-
-{{< / tab >}}
-{{< tab "NPM" >}}
+If you want to update all modules, run the following command:
 
 ```javascript
-npm run update
+npm run update-modules
 ```
-
-{{< / tab >}}
-{{< tab "Hugo" >}}
-
-```md
-hugo mod get -u ./... && hugo mod tidy
-```
-
-{{< / tab >}}
-{{< / tabs >}}

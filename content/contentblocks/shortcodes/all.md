@@ -1,4 +1,11 @@
-Shortcodes are a way to add custom functionality to your contents/posts. They are used to add custom functionality to your posts. 
+---
+_build:
+  render: never
+  list: never
+  publishResources: false
+---
+
+Shortcodes are a way to add custom functionality to your contents/posts. They are used to add custom functionality to your posts.
 
 Shortcodes are listed below used from our pre-built [hugo modules](https://github.com/gethugothemes/hugo-modules). If you need to add a custom shortcode, you can contact us for a custom service.
 

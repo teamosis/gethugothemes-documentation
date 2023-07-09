@@ -1,3 +1,10 @@
+---
+_build:
+  render: never
+  list: never
+  publishResources: false
+---
+
 ## HTML5 or CDN Video Shortcode
 
 We build a HTML5 or CDN based video shortcode for hugo. You just need to specify the local video directory(or CDN link). You can use the shortcode in your content.

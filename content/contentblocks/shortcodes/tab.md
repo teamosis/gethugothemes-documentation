@@ -1,3 +1,10 @@
+---
+_build:
+  render: never
+  list: never
+  publishResources: false
+---
+
 ## Tab Shortcode
 
 ```yml

@@ -1,3 +1,10 @@
+---
+_build:
+  render: never
+  list: never
+  publishResources: false
+---
+
 ## Image Shortcode
 
 We build a custom image shortcode that allows you to specify the image height, width, position, command, and many more options. You can use the shortcode in your content.
