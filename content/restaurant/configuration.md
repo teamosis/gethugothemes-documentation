@@ -12,7 +12,7 @@ In your sites root folder you will find a file called `config.toml`. Open this f
 
 ## Plugin Configuration
 
-{{< contentblock "config/plugins" >}}
+{{< contentblock "plugins" "PLUGINSDIR:config.toml" >}}
 
 ## Menu Configuration
 
