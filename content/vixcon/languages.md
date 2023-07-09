@@ -5,4 +5,4 @@ weight: 6
 draft: false
 ---
 
-{{< contentblock "languages-old" >}}
+{{< contentblock "languages" >}}

@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Minilog,THEMEPATH:minilog-hugo,THEMENAMEDIR:config/_default/config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Minilog,THEMEPATH:minilog-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

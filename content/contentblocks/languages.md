@@ -5,13 +5,9 @@ _build:
   publishResources: false
 ---
 
-This theme is translatable. So you can change the default language from the `config/_default/config.toml` file. We provided two languages, **English** and **French**. But you can add as many languages as you want.
+This theme is translatable. So you can change the default language from the `CONFIG` file. We provided two languages, **English** and **French**. But you can add as many languages as you want.
 
 For maintaining **languages**, you need to open the `config/_defaults/languages.toml` file and follow the steps below.
-
-{{< notice note >}}
-For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Languages**
-{{< /notice >}}
 
 1. Language is a loop item. So you can duplicate it as many times as you want. Then change the name of the language. See [Official Docs](https://gohugo.io/content-management/multilingual/) for more information.
 2. **languageName** is the name of the language.

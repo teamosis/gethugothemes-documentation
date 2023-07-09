@@ -7,10 +7,6 @@ _build:
 
 To change website colors, fonts, and plugins. Please open the `my-project/themes/config.toml` file.
 
-{{< notice note >}}
-For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Variables & Plugins**
-{{< /notice >}}
-
 ## Change Website Colors
 
 Under the `params.variables` section, you will have all the parameters to change the website color preferences. For example, if you change the value of `color_primary`, the primary color of the whole website.

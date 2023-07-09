@@ -5,6 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Omega,THEMEPATH:omega-hugo,THEMENAMEDIR:config.toml" >}}
-
-
+{{< contentblock "installation-old" "SITENAME:Omega,THEMEPATH:omega-hugo,THEMENAMEDIR:config.toml" >}}

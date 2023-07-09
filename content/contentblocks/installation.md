@@ -5,72 +5,69 @@ _build:
   publishResources: false
 ---
 
-## New to Hugo?
+## Setup Your Project
 
-If you are new to Hugo, you should go through an introductory phase prior to installing the theme. Before creating the project, we recommend you explore the following links:
+**Unzip** the downloaded file, and you will find the **THEME** folder inside the **themes** directory. This folder contains your main theme, which you will be working with.
 
-1. First of all, check our [Hugo Guide](/guide/). **(Required)**
-2. You can learn more about Hugo from the [Official Hugo Documentation](https://gohugo.io/getting-started/installing/).
-3. For more clarification, you can check the [Video Tutorials](https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3)
+```bash
+📂 THEME/ (Unzipped Folder)
+   |
+   ├── 📁 themes/
+   |     |
+   |     └── 📂 THEME/ (Main Theme)
+   |
+   ├── 📄 changelog.html
+   ├── 📄 documentation.html
+   └── 📄 license.html
+```
 
-{{< notice note >}}
-You may skip this step and move to the next page if you don't wish to maintain Hugo locally.
-{{</ notice >}}
+**You can set up your project in two ways. (Follow any one of them)**
 
-## Create A New Project
+1. [Gethugothemes Exclusive Way (Recommended)](#gethugothemes-exclusive-way-recommended)
+2. [Traditional Way](#traditional-way)
 
-1. Launch the **Terminal** and go to the specific location where you prefer to run your site.
+### Gethugothemes Exclusive Way (Recommended)
 
-    ![project-directory](/images/theme-installation/project-path.png)
+1. Open the `THEME` (Main Theme) using your favorite code editor. [VS Code](https://code.visualstudio.com/) is recommended.
 
-2. Use the following command to create a new site. It will add a folder with your given **PROJECT NAME**.
-
-    ```shell
-    hugo new site my-project
-    ```
-
-    ![new-project](/images/theme-installation/new-project.png)
-
-## Setup Your Project With SITENAME
-
-1. **Unzip** the downloaded file, and you will get SITENAME in the themes folder.
-
-    ![unzip](../images/unzip.png)
-
-2. Copy the `themes/THEMEPATH` into the `my-project/themes` folder so that you end up with a folder structure like `my-project/themes/THEMEPATH/`
-
-    ![copy-to-themes](../images/copy-theme.png)
-
-3. Copy all files from the `THEMEPATH/exampleSite` folder into the project directory ( `my-project/` ). It will overwrites existing files and folders. You can delete the `exampleSite` folder afterward.
-
-    ![copy-examplesite](../images/copy-examplesite.png)
-
-4. Navigate to the project directory (In this example, its `my-project` )
+2. Open the VS Code terminal (Ctrl+`) and execute the following command to set up your project:
 
     ```shell
-    cd my-project
+    npm run project-setup
     ```
 
-    ![project-dir](/images/theme-installation/project-dir.png)
+### Traditional Way
 
-5. Remove the `hugo.toml` file (if any).
+If you want to set up your project in the traditional way, then follow the link: [Traditional Project Setup](/guide/#run-theme-locally)
 
-6. Run Hugo to serve your project.
+---
+
+## Run Your Project Locally
+
+1. Open vscode terminal (ctrl+`) and run the following command to install all dependencies.
 
     ```shell
-    hugo server
+    npm install
     ```
 
-    ![hugo-serve](/images/theme-installation/hugo-serve.png)
+2. Run the following command to start the development server.
 
-7. Now, you get a generated URL and open it in your browser. The default URL looks like this [localhost:1313](http://localhost:1313/).
+    ```shell
+    npm run dev
+    ```
+
+3. Now, you get a generated URL and open it in your browser. The default URL looks like this [localhost:1313](http://localhost:1313/).
 
 {{< notice info >}}
-If your website doesn't serve on your localhost, then check the `theme` name is correct in `THEMENAMEDIR` file. Then run `hugo server` command again.
+If your website doesn't serve on your localhost, then check the `theme` name is correct in your `CONFIG` file. Then run `npm run dev` command again.
 {{< /notice >}}
 
-## Video documentation
+---
 
-You may find the following video tutorial helpful in setting up your next project. As an example, we'll utilize our **Biztrox** theme.
+## Build Your Project
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jrkvirglgaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+After completing your development process, you need to build your project for production. You can build your project with the following command.
+
+```shell
+npm run build
+```

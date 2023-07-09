@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Vixcon,THEMEPATH:vixcon-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Vixcon,THEMEPATH:vixcon-hugo,THEMENAMEDIR:config.toml" >}}

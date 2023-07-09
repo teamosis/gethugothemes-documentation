@@ -5,7 +5,7 @@ _build:
   publishResources: false
 ---
 
-We have predefined a layout for the new page. It's a multilingual template. To create a new page, you need to define the language name before the page name.
+We have predefined a layout for the new page. It's a multilingual theme. To create a new page, you need to define the language name before the page name.
 
 ### Create a new page for the English Language
 

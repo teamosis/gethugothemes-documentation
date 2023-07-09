@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Hargo,THEMEPATH:hargo-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Hargo,THEMEPATH:hargo-hugo,THEMENAMEDIR:config.toml" >}}

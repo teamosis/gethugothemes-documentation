@@ -6,4 +6,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Bookworm,THEMEPATH:bookworm-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Bookworm,THEMEPATH:bookworm-hugo,THEMENAMEDIR:config.toml" >}}

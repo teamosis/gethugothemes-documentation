@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Reporter,THEMEPATH:reporter-hugo,THEMENAMEDIR:config/_default/config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Reporter,THEMEPATH:reporter-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

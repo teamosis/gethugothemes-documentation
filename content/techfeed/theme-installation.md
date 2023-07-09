@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Techfeed,THEMEPATH:techfeed-hugo,THEMENAMEDIR:config/_default/config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Techfeed,THEMEPATH:techfeed-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

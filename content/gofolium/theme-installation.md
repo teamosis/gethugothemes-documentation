@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Gofolium,THEMEPATH:gofolium-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Gofolium,THEMEPATH:gofolium-hugo,THEMENAMEDIR:config.toml" >}}

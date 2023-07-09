@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:TwentyTwenty,THEMEPATH:TwentyTwenty-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:TwentyTwenty,THEMEPATH:TwentyTwenty-hugo,THEMENAMEDIR:config.toml" >}}

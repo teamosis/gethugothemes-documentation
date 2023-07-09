@@ -5,7 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Airspace,THEMEPATH:airspace-hugo,THEMENAMEDIR:config.toml" >}}
-
-
-
+{{< contentblock "installation-old" "SITENAME:Airspace,THEMEPATH:airspace-hugo,THEMENAMEDIR:config.toml" >}}

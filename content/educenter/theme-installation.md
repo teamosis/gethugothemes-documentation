@@ -5,6 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Educenter,THEMEPATH:educenter-hugo,THEMENAMEDIR:config.toml" >}}
-
-
+{{< contentblock "installation-old" "SITENAME:Educenter,THEMEPATH:educenter-hugo,THEMENAMEDIR:config.toml" >}}

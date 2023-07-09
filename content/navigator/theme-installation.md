@@ -5,6 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Navigator,THEMEPATH:navigator-hugo,THEMENAMEDIR:config.toml" >}}
-
-
+{{< contentblock "installation-old" "SITENAME:Navigator,THEMEPATH:navigator-hugo,THEMENAMEDIR:config.toml" >}}

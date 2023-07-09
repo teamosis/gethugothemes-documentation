@@ -5,5 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Infinity,THEMEPATH:infinity-hugo,THEMENAMEDIR:config.toml" >}}
-
+{{< contentblock "installation-old" "SITENAME:Infinity,THEMEPATH:infinity-hugo,THEMENAMEDIR:config.toml" >}}

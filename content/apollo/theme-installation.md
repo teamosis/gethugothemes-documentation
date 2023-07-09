@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Apollo,THEMEPATH:apollo-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Apollo,THEMEPATH:apollo-hugo,THEMENAMEDIR:config.toml" >}}

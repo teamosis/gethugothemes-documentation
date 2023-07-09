@@ -5,6 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Dot,THEMEPATH:dot-hugo,THEMENAMEDIR:config.toml" >}}
-
-
+{{< contentblock "installation-old" "SITENAME:Dot,THEMEPATH:dot-hugo,THEMENAMEDIR:config.toml" >}}

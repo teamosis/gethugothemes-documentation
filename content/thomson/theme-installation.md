@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Thomson,THEMEPATH:thomson-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Thomson,THEMEPATH:thomson-hugo,THEMENAMEDIR:config.toml" >}}

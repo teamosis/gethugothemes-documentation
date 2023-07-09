@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Delta,THEMEPATH:delta-hugo,THEMENAMEDIR:config/_default/config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Delta,THEMEPATH:delta-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

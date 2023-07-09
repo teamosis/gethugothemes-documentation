@@ -5,4 +5,4 @@ weight: 3
 draft: false
 ---
 
-{{< contentblock "plugins-old" >}}
+{{< contentblock "plugins" "PLUGINSDIR:config.toml" >}}

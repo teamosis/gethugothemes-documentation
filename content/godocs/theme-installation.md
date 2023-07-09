@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Godocs,THEMEPATH:godocs-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Godocs,THEMEPATH:godocs-hugo,THEMENAMEDIR:config.toml" >}}

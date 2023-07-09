@@ -5,5 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Copper,THEMEPATH:copper-hugo,THEMENAMEDIR:config/_default/config.toml" >}}
-
+{{< contentblock "installation-old" "SITENAME:Copper,THEMEPATH:copper-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

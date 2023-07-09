@@ -5,5 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Timer,THEMEPATH:timer-hugo,THEMENAMEDIR:config.toml" >}}
-
+{{< contentblock "installation-old" "SITENAME:Timer,THEMEPATH:timer-hugo,THEMENAMEDIR:config.toml" >}}

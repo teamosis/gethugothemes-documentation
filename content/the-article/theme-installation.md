@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:The Article,THEMEPATH:the-article-hugo,THEMENAMEDIR:config/_default/config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:The Article,THEMEPATH:the-article-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

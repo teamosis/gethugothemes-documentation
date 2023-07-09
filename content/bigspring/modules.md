@@ -5,4 +5,4 @@ weight: 9
 draft: false
 ---
 
-{{< contentblock "modules" "SITENAME:Bigspring"  >}}
+{{< contentblock "modules" "NAME:Bigspring"  >}}

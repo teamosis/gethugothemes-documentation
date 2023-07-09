@@ -5,6 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Influencer,THEMEPATH:influencer-hugo,THEMENAMEDIR:config.toml" >}}
-
-
+{{< contentblock "installation-old" "SITENAME:Influencer,THEMEPATH:influencer-hugo,THEMENAMEDIR:config.toml" >}}

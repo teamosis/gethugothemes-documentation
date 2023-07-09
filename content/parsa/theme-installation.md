@@ -5,6 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Parsa,THEMEPATH:parsa-hugo,THEMENAMEDIR:config.toml" >}}
-
-
+{{< contentblock "installation-old" "SITENAME:Parsa,THEMEPATH:parsa-hugo,THEMENAMEDIR:config.toml" >}}

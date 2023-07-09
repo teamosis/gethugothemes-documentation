@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Editor,THEMEPATH:editor-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Editor,THEMEPATH:editor-hugo,THEMENAMEDIR:config.toml" >}}

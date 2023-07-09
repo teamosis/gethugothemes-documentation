@@ -5,7 +5,7 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "THEMENAME:Dtox Hugo Theme,THEMEPATH:dtox-hugo" >}}
+{{< contentblock "installation-old" "THEMENAME:Dtox Hugo Theme,THEMEPATH:dtox-hugo" >}}
 
 video documentation
 -------------------

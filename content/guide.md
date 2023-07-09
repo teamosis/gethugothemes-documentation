@@ -188,18 +188,22 @@ After installing all the prerequisites, maybe you need to restart your machine t
 
 ### Run theme locally
 
-Let’s set up a site using a Hugo theme in your local environment. The fundamental procedure of setting up a local site development is roughly the same for every theme. Follow the instruction given below:
+To set up a site using a Hugo theme in your local environment, follow the instructions below:
 
 1. Run `hugo new site my-project` to create a new project.
 2. Unzip the downloaded file.
-3. Navigate to the `unzip-folder/themes/` folder, and you will get your theme folder here (example: `biztrox`).
-4. Copy this folder into the `my-project/themes` folder.
-5. Copy all files from the `my-project/themes/my-theme/exampleSite` folder into the root folder (`my-project/`). It will overwrites existing files and folders. You can delete the `exampleSite` folder afterward.
-6. open terminal on `my-project/` folder.
-7. Run `npm install` to install all the dependencies.
-8. Then run `hugo server` or `npm run dev` to serve this theme on your localhost.
-9. After serving the theme successfully, it will end up with a localhost address. You can open this address in your browser to see the theme.
-10. Edit source files and preview changes instantly with live reload.
+3. Navigate to the `unzip-folder/themes/` folder, where you will find your **Main Theme**. As an example, let's use `bigspring-hugo`.
+4. Copy the **Main Theme** into the `my-project/themes` folder, resulting in a folder structure like `my-project/themes/bigspring-hugo/`.
+5. Copy all files from the `my-project/themes/bigspring-hugo/exampleSite` folder into the root folder (`my-project/`). This action will overwrite any existing files and folders. You can delete the `exampleSite` folder afterwards.
+6. Additionally, copy the `package.json` file from `my-project/themes/THEME` to the root folder (`my-project`). If your theme doesn't have a `package.json` file, you can proceed to the next step.
+7. Open the terminal in the `my-project/` folder.
+8. Run `npm install` to install all the dependencies. If you don't have a `package.json` file, you can skip this step.
+9. Then, run `npm run dev` to serve this theme on your localhost. If you don't have a `package.json` file, run `hugo server` instead.
+10. After successfully serving the theme, you will receive a localhost address. Open this address in your browser to see the theme.
+
+{{< notice info >}}
+If your website doesn't serve on your localhost, then check the `theme` name is correct in your `config.toml` or `hugo.toml` file. Then follow the step 9 again.
+{{< /notice >}}
 
 > Now that you've got your theme running and understand the compiling process, let's discuss the proper ways to edit and customize your theme. You can directly customize your template from the source file. For a better experience, open the whole theme folder with a text-editor or IDE (i.e. [Visual Studio Code](https://code.visualstudio.com/)).
 

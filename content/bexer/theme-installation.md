@@ -5,7 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Bexer,THEMEPATH:bexer-hugo,THEMENAMEDIR:config/_default/config.toml" >}}
-
-
-
+{{< contentblock "installation-old" "SITENAME:Bexer,THEMEPATH:bexer-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

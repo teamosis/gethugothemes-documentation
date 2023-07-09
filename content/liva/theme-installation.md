@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Liva,THEMEPATH:liva-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Liva,THEMEPATH:liva-hugo,THEMENAMEDIR:config.toml" >}}

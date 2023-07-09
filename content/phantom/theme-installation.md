@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Phantom,THEMEPATH:phantom-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Phantom,THEMEPATH:phantom-hugo,THEMENAMEDIR:config.toml" >}}

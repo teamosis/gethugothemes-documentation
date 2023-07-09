@@ -5,6 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Kross,THEMEPATH:kross-hugo,THEMENAMEDIR:config.toml" >}}
-
-
+{{< contentblock "installation-old" "SITENAME:Kross,THEMEPATH:kross-hugo,THEMENAMEDIR:config.toml" >}}

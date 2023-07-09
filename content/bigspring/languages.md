@@ -10,10 +10,6 @@ This theme is translatable. So you can change the default language from the `con
 
 For maintaining **languages**, you need to open the `config/_defaults/languages.toml` file and follow the steps below.
 
-{{< notice note >}}
-For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Languages**
-{{< /notice >}}
-
 1. Language is a loop item. So you can duplicate it as many times as you want. Then change the name of the language. See [Official Docs](https://gohugo.io/content-management/multilingual/) for more information.
 2. **languageName** is the name of the language.
 3. **languageCode** is the code of the language. You can get your language code from the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) or [ISO 639-2](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) codes.

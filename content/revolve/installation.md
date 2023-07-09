@@ -5,7 +5,7 @@ weight: 2
 draft: false
 ---
 
-{{< contentblock "installation" "THEMENAME:Revolve Hugo Theme,THEMEPATH:revolve-hugo" >}}
+{{< contentblock "installation-old" "THEMENAME:Revolve Hugo Theme,THEMEPATH:revolve-hugo" >}}
 
 video documentation
 -------------------

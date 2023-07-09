@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Orbitor,THEMEPATH:orbitor-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Orbitor,THEMEPATH:orbitor-hugo,THEMENAMEDIR:config.toml" >}}

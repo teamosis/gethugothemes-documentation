@@ -6,8 +6,7 @@ weight: 5
 
 For customizing the **Navigation**, you need to open the `config.toml` file and follow the steps below.
 
-
-{{< contentblock navigation >}}
+{{< contentblock "navigation" >}}
 
 ## Footer navigation
 

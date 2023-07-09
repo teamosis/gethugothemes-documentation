@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Touchy,THEMEPATH:touchy-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Touchy,THEMEPATH:touchy-hugo,THEMENAMEDIR:config.toml" >}}

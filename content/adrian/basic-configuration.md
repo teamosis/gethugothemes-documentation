@@ -10,10 +10,6 @@ Here is the default configuration and basic parameters for your website. You can
 
 In this project folder, you will find a file called **config.toml**. Open this file in any text editor or IDE.
 
-{{< notice note >}}
-For maintaining it from forestry, you can find it at the bottom of the left sidebar. The file called **Configuration**
-{{< /notice >}}
-
 {{< contentblocklist "default-config/" "baseURL" "languageCode" "title" "theme" "summaryLength" "paginate" "disqusShortname" "googleAnalytics" >}}
 
 ## Default Parameters

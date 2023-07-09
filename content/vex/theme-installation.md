@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Vex,THEMEPATH:vex-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Vex,THEMEPATH:vex-hugo,THEMENAMEDIR:config.toml" >}}

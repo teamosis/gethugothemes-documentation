@@ -5,4 +5,4 @@ weight: 9
 draft: false
 ---
 
-{{< contentblock "modules" "SITENAME:Andromdea"  >}}
+{{< contentblock "modules" "NAME:Andromdea"  >}}

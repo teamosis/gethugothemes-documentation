@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Geeky,THEMEPATH:geeky-hugo,THEMENAMEDIR:config/_default/config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Geeky,THEMEPATH:geeky-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

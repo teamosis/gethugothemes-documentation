@@ -9,4 +9,4 @@ draft: false
 
 ---
 
-{{< contentblock "installation-new" "THEME:bigspring-hugo,THEMENAMEDIR:hugo.toml" >}}
+{{< contentblock "installation" "THEME:bigspring-hugo,CONFIG:hugo.toml" >}}

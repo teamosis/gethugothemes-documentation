@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "THEMENAME:Wishfund Hugo Theme,THEMEPATH:wishfund-hugo" >}}
+{{< contentblock "installation-old" "THEMENAME:Wishfund Hugo Theme,THEMEPATH:wishfund-hugo" >}}

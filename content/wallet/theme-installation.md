@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Wallet,THEMEPATH:wallet-hugo,THEMENAMEDIR:config/_default/config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Wallet,THEMEPATH:wallet-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

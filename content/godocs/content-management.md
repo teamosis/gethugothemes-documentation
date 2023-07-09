@@ -7,10 +7,6 @@ draft: false
 
 You will get every page that your website has in the content folder. The content folder is a subfolder of the project folder.
 
-{{< notice note >}}
-For maintaining it from forestry, you can find all the page content at the top of the left sidebar.
-{{< /notice >}}
-
 ## Language Structure
 
 To translate a page, simply add the language code at the end of the filename:
@@ -39,7 +35,7 @@ Every other folder in your `content` directory creates a topic section of conten
 
 Loading the sample site at [localhost:1313](http://localhost:1313) will show you these sections in the topic lists or boxes, depending on your layout.
 
-Inside of these topic sections you find the chapters of your documentation that you can continue to segment further with folders and files. The sidebar navigation will show all subitems of each folder. 
+Inside of these topic sections you find the chapters of your documentation that you can continue to segment further with folders and files. The sidebar navigation will show all subitems of each folder.
 
 You can easily extend the structure by adding new section folders. Create the folder, then inside add an `_index.md` (or `_index.en.md` if you use languages). The frontmatter must contain the following parameter:
 

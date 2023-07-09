@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Gojournal,THEMEPATH:gojournal-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Gojournal,THEMEPATH:gojournal-hugo,THEMENAMEDIR:config.toml" >}}

@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Enov,THEMEPATH:enov-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Enov,THEMEPATH:enov-hugo,THEMENAMEDIR:config.toml" >}}

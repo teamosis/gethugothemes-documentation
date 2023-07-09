@@ -5,5 +5,4 @@ weight: 1
 draft: false
 ---
 
-{{< contentblock "installation" "SITENAME:Restaurant,THEMEPATH:restaurant-hugo,THEMENAMEDIR:config.toml" >}}
-
+{{< contentblock "installation-old" "SITENAME:Restaurant,THEMEPATH:restaurant-hugo,THEMENAMEDIR:config.toml" >}}
