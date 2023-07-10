@@ -442,6 +442,7 @@ link = "plugins/bootstrap/bootstrap.min.css"
 link = "plugins/bootstrap/bootstrap.min.js"
 ```
 
+<!-- 
 ## Colors and fonts
 
 When someone buys a theme, they usually change the theme default colors, someone also changes the fonts. So here is the guide for how to do it.
@@ -464,15 +465,20 @@ $primary-font: 'Lato', sans-serif;
 
 // font links from typography.scss file
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700,800&display=swap');
-```
+``` 
+-->
 
 ## Maintain page
 
 There are two types of pages in Hugo theme. `list page` and `single page`. The list page is kind of a landing page (i.e. `about page`). And the single page is called the inner page of a product or a post (i.e. `blog single page`). We need to define the structure or markup of every page.
 
-* `create a new page` is very easy, it works with the command line. Hugo provides a `new` command to create a new page. For example, if you run `hugo new blog/new-post.md`, it will create a new post for you. And if your template is a multilingual template, then when you create a new post, you need to define which language post is this, as an example for creating a new post for `English language` you need to run `hugo new content/english/blog/new-post.md`, it will create a post for the English language.
+### Create a new page
 
-* `duplicate an existing page` is simple as creating a page. If you want to make a copy of `privacy page`, then you need to duplicate 2 files. The first one is content. Duplicate the privacy page folder from the content folder with `_index.md` file in it. Then change the folder name to your new page name (i.e. `terms-conditions`). Now you have your content ready, it's time to duplicate the structure or the markup for this new page. Go to `layouts` folder and also duplicate the same page folder here, in our stage, it's `privacy page`. And give the same name that you give the content folder (i.e. `terms-conditions`). Now you have successfully duplicate a page.
+Create a new page is very easy, it works with the command line. Hugo provides a `new` command to create a new page. For example, if you run `hugo new blog/new-post.md`, it will create a new post for you. And if your template is a multilingual template, then when you create a new post, you need to define which language post is this, as an example for creating a new post for `English language` you need to run `hugo new content/english/blog/new-post.md`, it will create a post for the English language.
+
+### Duplicate an existing page
+
+Duplicate an existing page is simple as creating a page. If you want to make a copy of `privacy page`, then you need to duplicate 2 files. The first one is content. Duplicate the privacy page folder from the content folder with `_index.md` file in it. Then change the folder name to your new page name (i.e. `terms-conditions`). Now you have your content ready, it's time to duplicate the structure or the markup for this new page. Go to `layouts` folder and also duplicate the same page folder here, in our stage, it's `privacy page`. And give the same name that you give the content folder (i.e. `terms-conditions`). Now you have successfully duplicate a page.
 
 <!-- 
 ---
