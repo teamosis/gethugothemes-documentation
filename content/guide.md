@@ -24,24 +24,214 @@ Includes a one-page overview of how to set up your theme without touching any co
 
 ---
 
-{{< contentblock "prerequisites" >}}
+## Prerequisites
+
+You need to fulfill some prerequisites to configure your machine, before starting the development process of your static site via Hugo.
+
+{{< notice note >}}
+If you’re using **macOS**, then [Homebrew](https://docs.brew.sh/Installation) is the easiest way to install the prerequisites. Check out [this guide](https://mac.install.guide/homebrew/index.html) to install Homebrew on your machine.
+{{< /notice >}}
+
+{{< notice warning >}}
+{{< /notice >}}
+
+1. [Install Hugo](#install-hugo)
+2. [Install Go](#install-go)
+3. [Install Nodejs](#install-nodejs)
+
+### Install Hugo
+
+Install Hugo with the following command on your **Terminal** according to your operating system.
+
+{{< tabs >}}
+{{< tab "Windows" >}}
+
+``` bash
+winget install -e --id Hugo.Hugo.Extended
+```
+
+If you successfully installed Hugo, then you can check the version with the following command.
+
+``` bash
+hugo version
+```
+
+{{</ tab >}}
+{{< tab "Mac" >}}
+
+``` bash
+brew install hugo
+```
+
+If you successfully installed Hugo, then you can check the version with the following command.
+
+``` bash
+hugo version
+```
+
+{{</ tab >}}
+{{< tab "Linux" >}}
+
+Please follow the [official documentation](https://gohugo.io/installation/linux/#package-managers) to install Hugo on Linux.
+
+If you successfully installed Hugo, then you can check the version with the following command.
+
+``` bash
+hugo version
+```
+
+{{</ tab >}}
+{{</ tabs >}}
+
+**Or**
+
+Go to the official site to Download and Install [Hugo Extended](https://gohugo.io/getting-started/installing/).
+
+### Install Go
+
+Install Go with the following command on your **Terminal** according to your operating system.
+
+{{< tabs >}}
+{{< tab "Windows" >}}
+
+``` bash
+winget install -e --id GoLang.Go
+```
+
+If you successfully installed Go, then you can check the version with the following command.
+
+``` bash
+go version
+```
+
+{{</ tab >}}
+{{< tab "Mac" >}}
+
+``` bash
+brew install go
+```
+
+If you successfully installed Go, then you can check the version with the following command.
+
+``` bash
+go version
+```
+
+{{</ tab >}}
+{{< tab "Linux" >}}
+
+Please follow the [official documentation](https://golang.org/doc/install) to install Go on Linux.
+
+If you successfully installed Go, then you can check the version with the following command.
+
+``` bash
+go version
+```
+
+{{</ tab >}}
+{{</ tabs >}}
+
+**Or**
+
+Go to the official site to Download and Install [Go](https://golang.org/dl/).
+
+### Install Nodejs
+
+Install Nodejs with the following command on your **Terminal** according to your operating system.
+
+{{< tabs >}}
+{{< tab "Windows" >}}
+
+``` bash
+winget install -e --id OpenJS.NodeJS.LTS
+```
+
+If you successfully installed Nodejs, then you can check the version with the following command.
+
+``` bash
+node -v
+```
+
+{{</ tab >}}
+{{< tab "Mac" >}}
+
+``` bash
+brew install node@18
+```
+
+If you successfully installed Nodejs, then you can check the version with the following command.
+
+``` bash
+node -v
+```
+
+{{</ tab >}}
+{{< tab "Linux" >}}
+Please follow the [official documentation](https://nodejs.org/en/download/package-manager/) to install Nodejs on Linux.
+
+If you successfully installed Nodejs, then you can check the version with the following command.
+
+``` bash
+node -v
+```
+
+{{</ tab >}}
+{{</ tabs >}}
+
+**Or**
+
+Go to the official site to Download and Install [Nodejs](https://nodejs.org/en/download/).
+
+{{< notice warning >}}
+After installing all the prerequisites, maybe you need to restart your machine to take effect.
+{{< /notice >}}
 
 ---
 
-### Run theme locally
+## Run theme locally
 
 To set up a site using a Hugo theme in your local environment, follow the instructions below:
 
+### Get Your Theme (Premium Themes)
+
+**Unzip** the downloaded file, and you will find the Main theme folder inside the **themes** directory, which you will be working with. As an example, let's use `bigspring-hugo` theme.
+
+```bash
+📂 bigspring-hugo/ (Unzipped Folder)
+   |
+   ├── 📁 themes/
+   |     |
+   |     └── 📂 bigspring-hugo/ (Main Theme)
+   |
+   ├── 📄 changelog.html
+   ├── 📄 documentation.html
+   └── 📄 license.html
+```
+
+### Get Your Theme (Free Themes)
+
+**Unzip** the downloaded file, and the unziped folder is your main theme, which you will be working with. As an example, let's use `bigspring-light-hugo`.
+
+```bash
+📂 bigspring-light-hugo-main (Unzipped Folder)
+```
+
+After unzipping, your folder should have a `-main` suffix. remove the `-main` suffix from the folder name. like from `bigspring-light-hugo-main` to `bigspring-light-hugo`.
+
+### Setup Your Project
+
 1. Run `hugo new site my-project` to create a new project.
-2. Unzip the downloaded file.
-3. Navigate to the `unzip-folder/themes/` folder, where you will find your **Main Theme**. As an example, let's use `bigspring-hugo`.
-4. Copy the **Main Theme** into the `my-project/themes` folder, resulting in a folder structure like `my-project/themes/bigspring-hugo/`.
-5. Copy all files from the `my-project/themes/bigspring-hugo/exampleSite` folder into the root folder (`my-project/`). This action will overwrite any existing files and folders. You can delete the `exampleSite` folder afterwards.
-6. Additionally, copy the `package.json` file from `my-project/themes/THEME` to the root folder (`my-project`). If your theme doesn't have a `package.json` file, you can proceed to the next step.
-7. Open the terminal in the `my-project/` folder.
-8. Run `npm install` to install all the dependencies. If you don't have a `package.json` file, you can skip this step.
-9. Then, run `npm run dev` to serve this theme on your localhost. If you don't have a `package.json` file, run `hugo server` instead.
-10. After successfully serving the theme, you will receive a localhost address. Open this address in your browser to see the theme.
+1. Delete `hugo.toml` file from the `my-project/` folder.
+1. Copy the **Main Theme** into the `my-project/themes` folder. Resulting in a folder structure like `my-project/themes/bigspring-hugo/` for premium themes, and `my-project/themes/bigspring-light-hugo/`for free themes.
+1. Copy all files from the `my-project/themes/bigspring-hugo/exampleSite` folder into the root folder (`my-project/`). This action will overwrite any existing files and folders. You can delete the `exampleSite` folder afterwards.
+1. Additionally, copy the `package.json` file from `my-project/themes/THEME` to the root folder (`my-project`). 1f your theme doesn't have a `package.json` file, you can proceed to the next step.
+
+### Run Your Project
+
+1. Open the terminal in the `my-project/` folder.
+1. Run `npm install` to install all the dependencies. If you don't have a `package.json` file, you can skip this step.
+1. Then, run `npm run dev` to serve this theme on your localhost. If you don't have a `package.json` file, run `hugo server` instead.
+1. After successfully serving the theme, you will receive a localhost address. Open this address in your browser to see the theme.
 
 {{< notice info >}}
 If your website doesn't serve on your localhost, then check the `theme` name is correct in your `config.toml` or `hugo.toml` file. Then follow the step 9 again.
@@ -51,10 +241,16 @@ If your website doesn't serve on your localhost, then check the `theme` name is 
 
 ### Local development in a nutshell
 
+Still confused? Here's a quick overview of the local development process:
+
 {{< youtube dyZcRRWiuuw >}}
 
 <br>
 <br>
+
+## Know your theme
+
+Before you start customizing your theme, you should know the theme file structure. The main file structure is the same for every theme. Let's discuss the file structure.
 
 ### File Structure
 
@@ -82,37 +278,29 @@ If your website doesn't serve on your localhost, then check the `theme` name is 
 
 1. **Assets:** This folder contains theme `scss/css` and `js` files. If your theme has `scss` included, that means you have some inner files, which is showing in the file structure. This folder has _**sources files**_.
 
-{{< notice warning >}}You must need `hugo-extended` version for compile `scss` files.{{</ notice >}}
+   * `_variable.scss`: You can find all the variables for color and font which is using your theme.
 
-* `_variable.scss`: You can find all the variables for color and font which is using your theme.
-{{< notice tip >}}You can change your theme color from `_variable.scss` file.{{</ notice >}}
-
-* `typography.scss`: You can change the font family, font-weight, and font size from this file.
-{{< notice tip >}}You can change your theme font from `_typography.scss` file.{{</ notice >}}
-
-* js folder contains the main javascript file, which is important for running your theme.
+   * `typography.scss`: You can change the font family, font-weight, and font size from this file.
 
 2. **exampleSite:** This folder contains an example site for your downloaded theme. You can change everything according to your necessity.
 
-* `content`: This is the folder that has all the content for your site. you can create, duplicate, or delete a page from this folder.
+   * `content`: This is the folder that has all the content for your site. you can create, duplicate, or delete a page from this folder.
 
-* `data`: This folder mainly contains global data.
+   * `data`: This folder mainly contains global data.
 
-* `i18n`: This folder is only available with a multilingual theme, that's because this folder contains the multiple language translations for your site.
+   * `i18n`: This folder is only available with a multilingual theme, that's because this folder contains the multiple language translations for your site.
 
-* `resources`: This folder has the compiled CSS.
+   * `resources`: This folder has the compiled CSS.
 
-* `scripts`: This folder contains node scripts that helps to structure your project, clear modules cache, and other things.
+   * `scripts`: This folder contains node scripts that helps to structure your project, clear modules cache, and other things.
 
-* `static`: This folder has all the static files like images, videos, or other files that don't need to compile.
+   * `static`: This folder has all the static files like images, videos, or other files that don't need to compile.
 
-* `config.toml`: This is the main configuration file for your site. You can configure your site from this file.
+   * `config.toml`: This is the main configuration file for your site. You can configure your site from this file.
 
 3. **layouts:** This folder contains all the layout for multiple pages. `index.html` layout is for homepage. `_default` folder has 2 files, which is mainly used for blog page. This folder also has _**sources files**_.
 
 4. **static:** This folder contains third-party plugins like bootstrap, jquery, and other plugins that are necessary for your theme. You have seen one more `static` folder in the `exampleSite` folder. This static folder is for the user, who wants to change the site/theme images. and this static folder is for developers.
-
-5. **netlify.toml:** This file is for deploying your site with netlify.
 
 ### What are the source, compiled, and static files?
 
@@ -137,11 +325,11 @@ on the source files.
 
 * **The output of those above examples are compiled files.** The CSS files are generated by processing the source SCSS. The HTML files are generated by processing the pseudo-HTML source. And all pages are generated from exampleSite contents. All are generated from source files and will be overwritten if the source is compiled again. Output files can be found on `exampleSite/public` folder, when you run `hugo --themesDir ../..` this command. If you want the minified output, then run `hugo --minify --themesDir ../..`.
 
-### Site configuration
+## Site configuration
 
 You have a `config.toml` or `hugo.toml` file in the `exampleSite` folder. Which gives you the ability to configure your site.
 
-#### Default configuration
+### Default configuration
 
 Default configuration is those which come with the Hugo library. Remember that, all configuration does not come with every theme.
 
@@ -163,7 +351,7 @@ Default configuration is those which come with the Hugo library. Remember that, 
 
 * `disableLanguages` field is for disabling languages, if you don't want to show one or more then one language then you can add the language name here, it will disable those languages from your site. example `disableLanguages = ["fr"]` it will disable french language from your site.
 
-#### Default Parameters
+### Default Parameters
 
 Default parameters are those defined by the theme developer. Default parameters start with `[params]` heading.
 
@@ -175,11 +363,11 @@ Default parameters are those defined by the theme developer. Default parameters 
 
 * `preloader` is for site preloader. It starts with `[params.preloader]`. you can disable preloader by `enable = false`. If you want to show any image, logo, or animation in preloader then give the directory in `preloader` (i.e. `preloader = images/preloader.gif`), or if you don't want any logo or image then leave the preloader empty, then it will show `theme body color` screen when every component is loading. that's simple.
 
-#### Navigation
+### Navigation
 
 Navigation is a loop item, so you can add more menu items by copying its loop, or you can remove it also.
 
-##### Main navigation
+#### Main navigation
 
 Every theme has the main navigation to navigate all the pages. Main navigation loop starts with `[[menu.main]]` heading.
 
@@ -208,11 +396,11 @@ hasChildren = true
   URL = "#"
 ```
 
-##### Footer navigation
+#### Footer navigation
 
 Footer navigation also follows the same rule that uses main navigation. But footer navigation does not support the dropdown menu.
 
-#### Contact and subscription form
+### Contact and subscription form
 
 Our many users want to know how to set up a contact form, or how to set up a subscription form. So we make a step to differentiate the contact and subscription form guide.
 
@@ -220,7 +408,7 @@ Our many users want to know how to set up a contact form, or how to set up a sub
 
 * `[params.subscription]` is for user subscription database. We used [mailchimp](https://mailchimp.com/) service for our theme development. Replace your own subscription form action URL in `mailchimp_form_action` field, and your form name in `mailchimp_form_name` field. You can get your action URL and form a name from [here](https://us4.admin.mailchimp.com/campaigns/#/create-campaign/explore/form) (after login or signup).
 
-#### Google Map
+### Google Map
 
 Google Maps is one of those items that the user asks frequently. So we have also differentiated that from regular parameter setup. It starts with `[params.map]`.
 
@@ -234,11 +422,11 @@ Google Maps is one of those items that the user asks frequently. So we have also
 
 * You can change your map style also. For this, pick a style from [here](https://snazzymaps.com/), copy the styling code, and replace it with `static/plugins/google-map/gmap.js` files provided styling code. You can also tweak some map configuration from this file, like `zoom`, `controllers`, `pointer size`, etc..
 
-#### Plugins
+### Plugins
 
 We used many third-party plugins to build a theme, such as `bootstrap`, `jQuery`, `icon pack` etc. For maintain plugins easily, we build a custom loop, so the user can easily understand which plugins we used, or add more plugins in this loop.
 
-##### CSS plugins loop item
+#### CSS plugins loop item
 
 ```toml
 # css plugins
@@ -246,7 +434,7 @@ We used many third-party plugins to build a theme, such as `bootstrap`, `jQuery`
 link = "plugins/bootstrap/bootstrap.min.css"
 ```
 
-##### JS plugins loop item
+#### JS plugins loop item
 
 ```toml
 # js plugins
@@ -254,7 +442,7 @@ link = "plugins/bootstrap/bootstrap.min.css"
 link = "plugins/bootstrap/bootstrap.min.js"
 ```
 
-### Colors and fonts
+## Colors and fonts
 
 When someone buys a theme, they usually change the theme default colors, someone also changes the fonts. So here is the guide for how to do it.
 
@@ -278,7 +466,7 @@ $primary-font: 'Lato', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700,800&display=swap');
 ```
 
-### Maintain page
+## Maintain page
 
 There are two types of pages in Hugo theme. `list page` and `single page`. The list page is kind of a landing page (i.e. `about page`). And the single page is called the inner page of a product or a post (i.e. `blog single page`). We need to define the structure or markup of every page.
 
