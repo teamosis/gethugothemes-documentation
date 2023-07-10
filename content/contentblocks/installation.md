@@ -38,7 +38,7 @@ _build:
 
 ### Traditional Way
 
-If you want to set up your project in the traditional way, then follow the link: [Traditional Project Setup](/guide/#run-theme-locally)
+If you want to set up your project in the traditional way, then follow the link: [Traditional Project Setup](/guide/#setup-your-project)
 
 ---
 

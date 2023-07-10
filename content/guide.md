@@ -7,19 +7,8 @@ draft: false
 
 Welcome to the Installation Guide presented by Gethugothemes! This detailed guide will help you start your static site-building journey with Hugo Theme. Learn how easily you can install, run, customize, and update your Hugo theme!
 
-<!--
----
-
-<h2>Get Started</h2>
-
-There are two main ways to setup your hugo theme.
-
-{{< box title="Local Development" link="#local-development" >}}
+<!-- {{< box title="Local Development" link="#local-development" >}}
 It's a step-by-step approach with instructions on installing Hugo and getting started with a project.
-{{< /box >}}
-
-{{< box title="Quick Start" link="#github--netlify--forestry" class="mb-5">}}
-Includes a one-page overview of how to set up your theme without touching any code.
 {{< /box >}} -->
 
 ---
@@ -188,7 +177,7 @@ After installing all the prerequisites, maybe you need to restart your machine t
 
 ---
 
-## Run theme locally
+## Run Theme Locally
 
 To set up a site using a Hugo theme in your local environment, follow the instructions below:
 
@@ -216,7 +205,7 @@ To set up a site using a Hugo theme in your local environment, follow the instru
 📂 bigspring-light-hugo-main (Unzipped Folder)
 ```
 
-After unzipping, your folder should have a `-main` suffix. remove the `-main` suffix from the folder name. like from `bigspring-light-hugo-main` to `bigspring-light-hugo`.
+After unzipping, your folder should have a `-main` or `-master` suffix. remove the suffix from the folder name. like from `bigspring-light-hugo-main` to `bigspring-light-hugo`.
 
 ### Setup Your Project
 
@@ -224,7 +213,7 @@ After unzipping, your folder should have a `-main` suffix. remove the `-main` su
 1. Delete `hugo.toml` file from the `my-project/` folder.
 1. Copy the **Main Theme** into the `my-project/themes` folder. Resulting in a folder structure like `my-project/themes/bigspring-hugo/` for premium themes, and `my-project/themes/bigspring-light-hugo/`for free themes.
 1. Copy all files from the `my-project/themes/bigspring-hugo/exampleSite` folder into the root folder (`my-project/`). This action will overwrite any existing files and folders. You can delete the `exampleSite` folder afterwards.
-1. Additionally, copy the `package.json` file from `my-project/themes/THEME` to the root folder (`my-project`). 1f your theme doesn't have a `package.json` file, you can proceed to the next step.
+1. Additionally, copy the `package.json` file from `my-project/themes/bigspring-hugo` to the root folder (`my-project`). If your theme doesn't have a `package.json` file, you can proceed to the next step.
 
 ### Run Your Project
 
@@ -234,73 +223,111 @@ After unzipping, your folder should have a `-main` suffix. remove the `-main` su
 1. After successfully serving the theme, you will receive a localhost address. Open this address in your browser to see the theme.
 
 {{< notice info >}}
-If your website doesn't serve on your localhost, then check the `theme` name is correct in your `config.toml` or `hugo.toml` file. Then follow the step 9 again.
+If your website doesn't serve on your localhost, then check the `theme` name is correct in your `config.toml` or `hugo.toml` file. Then follow the step 3 again.
 {{< /notice >}}
+
+### Build Your Project
+
+After completing your development process, you can build your project for production. To build your project, check the following command.
+
+```shell
+npm run build
+```
 
 > Now that you've got your theme running and understand the compiling process, let's discuss the proper ways to edit and customize your theme. You can directly customize your template from the source file. For a better experience, open the whole theme folder with a text-editor or IDE (i.e. [Visual Studio Code](https://code.visualstudio.com/)).
 
-### Local development in a nutshell
+### Local Development in a Nutshell
 
 Still confused? Here's a quick overview of the local development process:
 
 {{< youtube dyZcRRWiuuw >}}
 
-<br>
-<br>
+<br/>
+<br/>
 
-## Know your theme
+---
+
+## Deploy Your Project
+
+1. Git account (Ex: [Github](https://github.com/), [Gitlab](https://gitlab.com/) etc )
+2. [Netlify](https://app.netlify.com/) account to host files and add a custom domain
+
+### Add Project to Git
+
+First of all, create a git repository (Ex: [Github](https://github.com/), [Gitlab](https://gitlab.com/)) and push your template to the repository. If you don't know how to create a git repository, then follow the link: [Create a git repository](https://docs.github.com/en/get-started/quickstart/create-a-repo).
+
+{{< notice note >}}
+If you are using **Windows**, then you need to install [Git](https://git-scm.com/downloads) on your machine, if you don't have it already.
+{{</ notice >}}
+
+### Deploy to Netlify
+
+Go to your [Netlify](https://app.netlify.com/) account and click add new site. Choose your git repository to import your website in netlify. And now you can see your repository. Select it and follow the steps. Then go to `site settings` to change the site name. save it and go to `deploy` from the top menu, Wait a while and click on `site preview` or just simply go to the subdomain you given as base URL. **BOOM! Your site is live.**
+
+## Know Your Theme
 
 Before you start customizing your theme, you should know the theme file structure. The main file structure is the same for every theme. Let's discuss the file structure.
 
 ### File Structure
 
 ```bash
-|- hugo-theme/
-   |- assets/
-      |- scss/
-      |- js/
-   |- exampleSite/
-      |- content/
-      |- data/
-      |- i18n/
-      |- static/
-         |- images/
-      |- config.toml
-   |- layouts/
-   |- scripts/
-   |- static/
-      |- plugins/
-   |- package.json
-   |- other files
+📂 my-project/ (Root Directory)
+   |
+   ├── 📁 assets/
+   |     ├── 📁 scss/
+   |     ├── 📁 js/
+   |     └── 📁 images/
+   |
+   ├── 📁 config/
+   |     └── 📁 _default/
+   |           ├── 📄 params.toml
+   |           ├── 📄 menus.toml
+   |           └── 📄 module.toml
+   |
+   ├── 📁 content/
+   |     └── 📁 english/
+   |           ├── 📁 pages/
+   |           └── 📄 _index.md
+
+   ├── 📁 data/ (optional)
+   ├── 📁 i18n/ (optional)
+   |     └── 📄 en.yaml
+
+   ├── 📁 static/
+   |     └── 📄 static files
+
+   ├── 📁 themes/
+   |     └── 📁 bigspring-hugo/ (as an example)
+   |           ├── 📁 assets/
+   |           └── 📁 layouts/
+
+   ├── 📁 scripts/ (optional)
+   ├── 📄 hugo.toml (or config.toml)
+   ├── 📄 package.json (optional)
+   └── 📄 other files
 ```
 
 **If the list above sounds like a foreign language to you, that's okay! Let's break it down:**
 
-1. **Assets:** This folder contains theme `scss/css` and `js` files. If your theme has `scss` included, that means you have some inner files, which is showing in the file structure. This folder has _**sources files**_.
+1. **assets:** This folder contains theme `scss/css`, `js`, and `images` files. In some cases, `images` could be in the `static` folder.
 
-   * `_variable.scss`: You can find all the variables for color and font which is using your theme.
+1. **config:** This folder contains all the configuration files for your site. `params.toml` file is for your site parameters. `menus.toml` file is for your site menus. `module.toml` file is for your site modules. If you didn't find any `config` folder in your theme, then you can find all the parameters in the `config.toml` file.
 
-   * `typography.scss`: You can change the font family, font-weight, and font size from this file.
+1. **content:** This folder contains all the content for your site. you can create, duplicate, or delete a page from this folder. If you have a multilingual theme, then your content folder shold have languages folder first (i.e. `english`, `french` etc).
 
-2. **exampleSite:** This folder contains an example site for your downloaded theme. You can change everything according to your necessity.
+1. **data:** This folder mainly contains global data. this is an optional folder, your theme may not have this folder.
 
-   * `content`: This is the folder that has all the content for your site. you can create, duplicate, or delete a page from this folder.
+1. **i18n:** This folder is only available with a multilingual theme, that's because this folder contains the multiple language translations for your site.
 
-   * `data`: This folder mainly contains global data.
+1. **static:** This folder has all the static files like images, videos, or other files that don't need to compile.
 
-   * `i18n`: This folder is only available with a multilingual theme, that's because this folder contains the multiple language translations for your site.
+1. **themes:** This folder contains your themes `layouts`, and `assets` folder for your pages.
 
-   * `resources`: This folder has the compiled CSS.
+1. **scripts:** This folder contains node scripts that helps to structure your project, clear modules cache, and other things. This is an optional folder, your theme may not have this folder.
 
-   * `scripts`: This folder contains node scripts that helps to structure your project, clear modules cache, and other things.
+1. **hugo.toml:** This is the main configuration file for your site. You can configure your site from this file. If you don't have this file, then you can find all the parameters in the `config.toml` file.
 
-   * `static`: This folder has all the static files like images, videos, or other files that don't need to compile.
-
-   * `config.toml`: This is the main configuration file for your site. You can configure your site from this file.
-
-3. **layouts:** This folder contains all the layout for multiple pages. `index.html` layout is for homepage. `_default` folder has 2 files, which is mainly used for blog page. This folder also has _**sources files**_.
-
-4. **static:** This folder contains third-party plugins like bootstrap, jquery, and other plugins that are necessary for your theme. You have seen one more `static` folder in the `exampleSite` folder. This static folder is for the user, who wants to change the site/theme images. and this static folder is for developers.
+1. **package.json:** This file contains all the node dependencies for your site. This is an optional file, your theme may not have this file.
 
 ### What are the source, compiled, and static files?
 
@@ -313,94 +340,23 @@ on the source files.
 
 * **Static files** are ones that aren't processed or generated.
 
-**Here are a few real-world examples of each type of file:**
+## Site Configuration
 
-* **SCSS files always source files** because they must be compiled by your theme's build tool to generate a CSS file that a browser can understand. SCSS files are located in `assets` folder.
+You have a `config.toml` or `hugo.toml` file in the root folder (`my-project`). Which gives you the ability to configure your site. You also could have a folder called `config` in the root folder. This folder contains the `params.toml` file. This file is for your site parameters. You can change your site parameters from this file. Let's discuss the configuration file.
 
-* **HTML files with any non-standard syntax are source files.** Some themes make use of `partials`, `shortcodes`, `internal templates` to create elements. Those must be compiled by `Hugo` to generate standard HTML. Those HTML files are located in `layouts` folder.
+### Default Configuration
 
-* **exampleSite folder has source files.** This folder includes all `content`, `data`, and `config` files which must be compiled to run on the browser.
+Default configuration stays in the `hugo.toml` or `config.toml` file.
 
-* **Fonts, images, and plugins are static files.** These don't require any processing to be used and aren't generated from any other source. Fonts and Plugins are located in `static` folder. And Images are located in `exampleSite/static` folder because images need to change when you build a real site.
-
-* **The output of those above examples are compiled files.** The CSS files are generated by processing the source SCSS. The HTML files are generated by processing the pseudo-HTML source. And all pages are generated from exampleSite contents. All are generated from source files and will be overwritten if the source is compiled again. Output files can be found on `exampleSite/public` folder, when you run `hugo --themesDir ../..` this command. If you want the minified output, then run `hugo --minify --themesDir ../..`.
-
-## Site configuration
-
-You have a `config.toml` or `hugo.toml` file in the `exampleSite` folder. Which gives you the ability to configure your site.
-
-### Default configuration
-
-Default configuration is those which come with the Hugo library. Remember that, all configuration does not come with every theme.
-
-* `baseURL` defines your site URL. Give your site URL here (i.e. <https://examplesite.org>).
-
-* `title` is for your site title. Which shown on the browser tab.
-
-* `theme` name is already provided with every theme. don't need to customize this theme name.
-
-* `summaryLeangth` is for the post excerpt limit. you can set your post excerpt length as you want to show.
-
-* `paginate` set your pagination for page items. Such as blog posts, portfolio items, etc. If you set `paginate = 10` then it will show 10 posts on a page.
-
-* `googleAnalytics` is for activating analytics on your site. If you want google analytics to activate, then simply give your analytics ID here (i.e. `googleAnalytics= UA-123-45`). Or if you don't, then leave it empty.
-
-* `disqusShortname` is for activating comment section on a blog page or other page which needs a comment section. get your Disqus short name from [here](https://disqus.com/). if you don't need the comment section, then leave it empty.
-
-* `DefaultContentLanguage` field is for your site default language, which will load first with your site load.
-
-* `disableLanguages` field is for disabling languages, if you don't want to show one or more then one language then you can add the language name here, it will disable those languages from your site. example `disableLanguages = ["fr"]` it will disable french language from your site.
+{{< contentblocklist "default-config/" "baseURL" "languageCode" "title" "theme" "summaryLength" "paginate" "disqusShortname" "googleAnalytics" "timeZone" "disableLanguages"  >}}
 
 ### Default Parameters
 
-Default parameters are those defined by the theme developer. Default parameters start with `[params]` heading.
+Mostly all the parameters are in the `params.toml` file. But if you don't have a `params.toml` file, then you can find all the parameters in the `config.toml` file.
 
-* `logo` is for your site logo, give the logo directory here (i.e. `logo = images/logo.png`). Logo supports `png`, `jpg`, `gif`, or `svg` format. If you leave it empty, then `title` (default configuration title) will replace the logo.
+{{< contentblocklist "default-params/" "favicon" "logo" "logo_width" "logo_height" "logo_text" "logo_webp" "mainSections" "contact_form_action" "copyright" "preloader" "navigation_button" "contact_info" "metadata" >}}
 
-* `favicon` is defined in your theme header. So you don't need to specify the directory here. Just put your favicon in `static/images` folder. Remind that you need to put this favicon name `favicon.png`. Otherwise, it won't load. If the theme already has a favicon, then replace it with your new one. It will be shown on the browser tab when you compiled the theme again. If it's not showing, then you need to clear your browser cache and reload again.
-
-* `navigation_button` is for the main navigation button. Many themes have a button on navigation that target contact or other pages. If your theme has this button, then you can handle this button `label` and `link` from here, or if you don't want to show it, then you can disable it by `enable = false`.
-
-* `preloader` is for site preloader. It starts with `[params.preloader]`. you can disable preloader by `enable = false`. If you want to show any image, logo, or animation in preloader then give the directory in `preloader` (i.e. `preloader = images/preloader.gif`), or if you don't want any logo or image then leave the preloader empty, then it will show `theme body color` screen when every component is loading. that's simple.
-
-### Navigation
-
-Navigation is a loop item, so you can add more menu items by copying its loop, or you can remove it also.
-
-#### Main navigation
-
-Every theme has the main navigation to navigate all the pages. Main navigation loop starts with `[[menu.main]]` heading.
-
-* `name` is for the navigation item name.
-* `URL` is for the page URL, just give the page name here, it will automatically add the base URL from your site. like if you want to give the about page URL here, just type `URL = about`.
-* `weight` is for your navigation sorting, the smaller number weight will show first.
-* For `dropdown menu` you need to add another attribute called `hasChildren = true` and remove `URL`. then give 1 tab space for understanding Hugo that is a children menu item. Then copy and paste this `[[menu.main]]` again, then give the `parent =` attribute here. parent name should be the dropdown item name, then give the page `name` and `URL`.
-
-```toml
-# regular menu
-[[menu.main]]
-name = "About"
-URL = "about"
-weight = 1
-
-# dropdown menu
-[[menu.main]]
-name = "Dropdown"
-weight = 1
-hasChildren = true
-
-  # dropdown item
-  [[menu.main]]
-  parent = "Dropdown"
-  name = "Dropdown Item"
-  URL = "#"
-```
-
-#### Footer navigation
-
-Footer navigation also follows the same rule that uses main navigation. But footer navigation does not support the dropdown menu.
-
-### Contact and subscription form
+### Contact and Subscription Form
 
 Our many users want to know how to set up a contact form, or how to set up a subscription form. So we make a step to differentiate the contact and subscription form guide.
 
@@ -422,103 +378,119 @@ Google Maps is one of those items that the user asks frequently. So we have also
 
 * You can change your map style also. For this, pick a style from [here](https://snazzymaps.com/), copy the styling code, and replace it with `static/plugins/google-map/gmap.js` files provided styling code. You can also tweak some map configuration from this file, like `zoom`, `controllers`, `pointer size`, etc..
 
-### Plugins
-
-We used many third-party plugins to build a theme, such as `bootstrap`, `jQuery`, `icon pack` etc. For maintain plugins easily, we build a custom loop, so the user can easily understand which plugins we used, or add more plugins in this loop.
-
-#### CSS plugins loop item
-
-```toml
-# css plugins
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-```
-
-#### JS plugins loop item
-
-```toml
-# js plugins
-[[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-```
-
-<!-- 
-## Colors and fonts
-
-When someone buys a theme, they usually change the theme default colors, someone also changes the fonts. So here is the guide for how to do it.
-
-* `colors` change is very easy with the power of scss variables. Open `assets/scss/variables.scss` file in a text editor. Then you can see the global variables we used in this theme. `primary-color` defines the theme default color. If you change it the whole theme default colors will be changed when you compile the theme again. Sometimes it compiles but the browser shows the previous colors. Then you need to clear your browser cache and reload again. You can also change the other variable colors like this.
-
-```scss
-// Color Variables
-$primary-color: #757fe6;
-$text-color: #333;
-$body-color: #fff;
-$border-color: #E2E2E2;
-```
-
-* `font-family` name is also defined in the `assets/scss/variables.scss` files. If you want to change the font then change the `font-family` form here. And give your font link to the `assets/scss/typography.scss` files. In `typography.scss` files, you can customize the `font-size`, `font-weight`, and `lineheight` of your texts. You can get more `font-face` form [here](https://fonts.google.com/).
-
-```scss
-// Font Variables from variables.scss file
-$primary-font: 'Lato', sans-serif;
-
-// font links from typography.scss file
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700,800&display=swap');
-``` 
--->
-
-## Maintain page
-
-There are two types of pages in Hugo theme. `list page` and `single page`. The list page is kind of a landing page (i.e. `about page`). And the single page is called the inner page of a product or a post (i.e. `blog single page`). We need to define the structure or markup of every page.
-
-### Create a new page
-
-Create a new page is very easy, it works with the command line. Hugo provides a `new` command to create a new page. For example, if you run `hugo new blog/new-post.md`, it will create a new post for you. And if your template is a multilingual template, then when you create a new post, you need to define which language post is this, as an example for creating a new post for `English language` you need to run `hugo new content/english/blog/new-post.md`, it will create a post for the English language.
-
-### Duplicate an existing page
-
-Duplicate an existing page is simple as creating a page. If you want to make a copy of `privacy page`, then you need to duplicate 2 files. The first one is content. Duplicate the privacy page folder from the content folder with `_index.md` file in it. Then change the folder name to your new page name (i.e. `terms-conditions`). Now you have your content ready, it's time to duplicate the structure or the markup for this new page. Go to `layouts` folder and also duplicate the same page folder here, in our stage, it's `privacy page`. And give the same name that you give the content folder (i.e. `terms-conditions`). Now you have successfully duplicate a page.
-
-<!-- 
 ---
-## Github + Netlify + Forestry
 
-Working with forestry CMS is very helpful for those, who don't want to touch any code. It's simple and 5 minutes work to live your website. Here is the process for doing it step by step.
+## Navigation
 
-### What you need
+Navigation is a list of links to other pages. It is rendered in the header/footer of the page. you can find the `menus.toml` file in the `config/_default` directory. If your theme doesn't have a `menus.toml` file, then you can find all the parameters in the `config.toml` file.
 
-1. Git account (Ex: [Github](https://github.com/), [Gitlab](https://gitlab.com/) etc )
-2. [Netlify](https://bit.ly/netlify-account) account to host files and add a custom domain
-3. [Forestry](https://bit.ly/forestry-account) account to maintain the whole project without code.
+### Main Navigation
 
-#### Step 1: Add template to git
+Every theme has the main navigation to navigate all the pages. Main navigation loop starts with `[[main]]` heading. If your theme does not have a `menus.toml` file, then the navigation loop starts with `[[menu.main]]` heading. Let's discuss the main navigation loop.
 
-First of all, create a git repository (Ex: [Github](https://github.com/), [Gitlab](https://gitlab.com/)) and push your template to the repository.
+#### Normal Menu
 
-#### Step 2: Add your repository in Forestry
+```toml
+[[main]]
+name = "About"
+url = "about/"
+weight = 1
+```
 
-Go to your [forestry](https://bit.ly/forestry-account) account and click on `import your site now`. declare your config.toml file \[`exampleSite`\] and fill up basic settings . Mark everything is done then go to configuration to change the base URL. You can put any URL but this has to similar to netlify. So for now put a name which you are going to put in netlify as netlify subdomain.
+* `name` is for menu item name/text.
+* `URL` is for the page URL. To set about page URL here, type `about/`. You can also use an external URL by putting the URL in this attribute. ex: `url = "https://gethugothemes.com/"`
+* `weight` is for your navigation sorting. The smaller number weight will show first. You can switch menu items by changing the weight value.
 
-#### Step 3: Setup and host website with Netlify
+#### Dropdown Menu
 
-Here comes the last step. Go to your [netlify](https://bit.ly/netlify-account) account and click add new site. Choose your git repository to import your website in netlify. And now you can see your repository. Select it and follow the steps. Then go to `site settings` to change the site name and put your subdomain name here what you have given on forestry as base URL. save it and go to `deploy` from the top menu, Wait a while and click on `site preview` or just simply go to the subdomain you given as base URL. **BOOM! Your site is live.** Now you can go to forestry and add, remove, or customize every setting and content.
+```yml
+[[main]]
+weight = 4
+name = "Dropdown"
+hasChildren = true
 
-#### Video documentation for CMS
+  [[main]]
+  parent = "Dropdown"
+  name = "Dropdown Item"
+  url = "https://gethugothemes.com/"
+  weight = 1
+```
 
-{{< youtube ResipmZmpDU >}}
+* For **dropdown menu**, you need to add another attribute called `hasChildren = true`. And remove `URL`. Then repeat the `[[main]]` loop, and put the `parent =` attribute in the dropdown menu item. Parent name should be the same as the dropdown item name. Also, update `name` and `URL` attributes.
 
-### How to customize
+### Footer Navigation
 
-With the help of forestry, the main customization becomes very easy. We have added the forestry settings in most of the templates, so you don't need to worry about it. Everything you can find on the forestry sidebar.
+Footer navigation also follows the same rule that uses main navigation. But footer navigation does not support the dropdown menu.
 
-* `Configuration` is also a part of customization. You can see a file name `configuration` in the forestry sidebar. Open it and everything here is visualized. You can enable or disable many functions by toggling the switch. And if you want to know about the functionalities that the field did, then check from [defaul configuration](#default-configuration).
+---
 
-* `menu` can be found on configuration files, but it will more easy when you customize it from the sidebar menu option. If your theme has a footer menu then you can see `main` and `footer` two different tabs on the menu.
+## Content Management
 
-* `homepage` comes from `data` in a complex theme (i.e. `business`, `portfolio`). And blog-type themes homepage is not separate in `data`. So if your theme has a separate homepage, then we had already provided settings for your homepage in the forestry sidebar. Find the homepage file from the sidebar and change or customize its section.
+All the pages for your website can be found in the `content` folder. If your theme supports multiple languages, then there will be a separate folder for each language, such as `english` for English, `french` for French, and so on.
 
-* `Other page` has also been added to your forestry sidebar. And we provided `front-matter` also to create a new page. You just have to click on create a new page, and give content for it. -->
+Each page is written in Markdown format. If you are unfamiliar with Markdown syntax, you can learn more about it [here](https://www.markdownguide.org/basic-syntax/). Additionally, every Markdown page includes front matter, which is the metadata for that page. To learn more about front matter, refer to [this resource](https://gohugo.io/content-management/front-matter/).
+
+### Homepage
+
+The homepage for each language can be found in the respective language folder within the `content` directory. The homepage is represented by the `_index.md` file, and you can update its content from there.
+
+### Regular Pages
+
+The regular pages, such as `About`, `Contact` or `Privacy` are located within the root or **pages** folder in each language folder within the `content` directory. You can add or modify your regular pages from there.
+
+To create a new page, you can duplicate an existing page and update the content accordingly. For example, if you want to create a new page called "Terms and Conditions," you can duplicate the `privacy.md` file and rename it to `terms-conditions.md`. Then, you can update the content in the new file.
+
+### List and Single Pages
+
+The Hugo site consists of two types of pages: list pages and single pages. A list page serves as a landing page for single pages. For example, a "Blog" page would be a list page, while individual blog posts would be single pages.
+
+To illustrate, in the `content/english/blog` folder, you will find the `_index.md` file, which represents the list page for the blog. Additionally, you can create separate Markdown files for each blog post within the same folder as single pages.
+
+To create a new blog post, you can duplicate an existing blog post and update the content accordingly. For example, if you want to create a new blog post called "My First Post," you can duplicate the `post.md` file and rename it to `my-first-post.md`. Then, you can update the content in the new file.
+
+---
+
+## Modules & Plugins
+
+Modules and Plugins gives you the ability to add extra functionality to your site.
+
+### Modules
+
+You can find all modules here - [Gethugothemes Hugo Module](https://gethugothemes.com/hugo-modules).
+To use a Module, follow the `README.md` file attached with each module.
+
+You can find `modules.toml` file in the `config/_default` directory. This file contains all the modules used in this project.
+
+Example:
+
+```toml
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/images"
+```
+
+### CSS plugins
+
+To add a CSS plugin, you need to add a loop like this in your `hugo.toml` or `config.toml` file.
+
+```toml
+[[params.plugins.css]]
+link = "https://cdn.examplesite.com/your-plugin.css"
+attributes = "your-attributes" # optional field
+```
+
+### JS plugins
+
+To add a JS plugin, you need to add a loop like this in your `hugo.toml` or `config.toml` file.
+
+```toml
+[[params.plugins.js]]
+link = "https://cdn.examplesite.com/your-plugin.js"
+attributes = "your-attributes" # optional field
+```
+
+{{< notice note >}}
+Sometimes you need to close the Hugo server and run again for rendered correctly.
+{{< /notice >}}
 
 ---
 
@@ -526,10 +498,10 @@ With the help of forestry, the main customization becomes very easy. We have add
 
 We often update our theme, fix bugs, and improve quality. When someone reports a bug, we fixed it as soon as possible, and make an update. We have mentioned every changelog in themes changelog file, so a user can understand what do we improve or fix.
 
-### Update manually
+### Update Manually
 
 You can manually update the theme if you have the ability to work with the source file. For this, please check our changelog, and identify what we have changed. Then copy only this file from the updated version of the theme and replace it with your project.
 
-### Update whole theme
+### Update Whole Theme
 
-If you don't have any idea what we have changed in the theme, then copy the whole theme and replace it with your existing project, except the **exampleSite** folder. That's because **exampleSite** folder contains your `data`, `content`, and `configuration`.
+If you don't have any idea what we have changed in the theme, then you can replace the whole theme in your `my-project/themes` folder. But before replacing the theme, please make sure you have a backup of your project.
