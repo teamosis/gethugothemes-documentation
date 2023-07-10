@@ -445,6 +445,12 @@ To illustrate, in the `content/english/blog` folder, you will find the `_index.m
 
 To create a new blog post, you can duplicate an existing blog post and update the content accordingly. For example, if you want to create a new blog post called "My First Post," you can duplicate the `post.md` file and rename it to `my-first-post.md`. Then, you can update the content in the new file.
 
+### CMS Integration
+
+If you want to use a CMS to manage your content, you can see the [Official Hugo Documentation](https://gohugo.io/tools/frontends/) for more information.
+
+Or you can take our [Custom Service](https://gethugothemes.com/get-a-quote) for CMS integration support.
+
 ---
 
 ## Modules & Plugins
