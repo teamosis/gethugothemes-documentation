@@ -236,18 +236,11 @@ npm run build
 
 > Now that you've got your theme running and understand the compiling process, let's discuss the proper ways to edit and customize your theme. You can directly customize your template from the source file. For a better experience, open the whole theme folder with a text-editor or IDE (i.e. [Visual Studio Code](https://code.visualstudio.com/)).
 
-### Local Development in a Nutshell
-
-Still confused? Here's a quick overview of the local development process:
-
-{{< youtube dyZcRRWiuuw >}}
-
-<br/>
-<br/>
-
 ---
 
 ## Deploy Your Project
+
+To deploy your project, you need some prerequisites. Let's discuss the prerequisites.
 
 1. Git account (Ex: [Github](https://github.com/), [Gitlab](https://gitlab.com/) etc )
 2. [Netlify](https://app.netlify.com/) account to host files and add a custom domain
@@ -262,7 +255,11 @@ If you are using **Windows**, then you need to install [Git](https://git-scm.com
 
 ### Deploy to Netlify
 
-Go to your [Netlify](https://app.netlify.com/) account and click add new site. Choose your git repository to import your website in netlify. And now you can see your repository. Select it and follow the steps. Then go to `site settings` to change the site name. save it and go to `deploy` from the top menu, Wait a while and click on `site preview` or just simply go to the subdomain you given as base URL. **BOOM! Your site is live.**
+Go to your [Netlify](https://app.netlify.com/) account and click **add new site**. Then choose **import an existing site**. Then choose your git provider to import your site. And now you can see your repository. Select it and follow the steps. **BOOM! Your site is live.**
+
+If you want to add a custom domain, then go to **Settings > Domain Management** and add your custom domain.
+
+---
 
 ## Know Your Theme
 
@@ -288,19 +285,19 @@ Before you start customizing your theme, you should know the theme file structur
    |     └── 📁 english/
    |           ├── 📁 pages/
    |           └── 📄 _index.md
-
+   |
    ├── 📁 data/ (optional)
    ├── 📁 i18n/ (optional)
    |     └── 📄 en.yaml
-
-   ├── 📁 static/
+   |
+   ├── 📁 static/ (optional)
    |     └── 📄 static files
-
+   |
    ├── 📁 themes/
-   |     └── 📁 bigspring-hugo/ (as an example)
+   |     └── 📁 bigspring-hugo/ (bigspring-hugo is an example)
    |           ├── 📁 assets/
    |           └── 📁 layouts/
-
+   |
    ├── 📁 scripts/ (optional)
    ├── 📄 hugo.toml (or config.toml)
    ├── 📄 package.json (optional)
@@ -342,7 +339,7 @@ on the source files.
 
 ## Site Configuration
 
-You have a `config.toml` or `hugo.toml` file in the root folder (`my-project`). Which gives you the ability to configure your site. You also could have a folder called `config` in the root folder. This folder contains the `params.toml` file. This file is for your site parameters. You can change your site parameters from this file. Let's discuss the configuration file.
+You have a `hugo.toml` or `config.toml` file in the root folder (`my-project`). Which gives you the ability to configure your site. You also could have a folder called `config` in the root folder. This folder contains the `params.toml` file. This file is for your site parameters. You can change your site parameters from this file. Let's discuss the configuration file.
 
 ### Default Configuration
 
