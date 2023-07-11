@@ -5,61 +5,57 @@ _build:
   publishResources: false
 ---
 
+## Setup Your Project
 
-## Create A New Project
+1. **Unzip** the downloaded file, and you will find the **THEME** folder inside the **themes** directory. This folder contains your main theme, which you will be working with.
 
-1. Launch the **Terminal** and go to the specific location where you prefer to run your site.
+    ```bash
+    📂 THEME/ (Unzipped Folder)
+    |
+    ├── 📁 themes/
+    |     |
+    |     └── 📂 THEME/ (Main Theme)
+    |
+    ├── 📄 changelog.html
+    ├── 📄 documentation.html
+    └── 📄 license.html
+    ```
 
-    ![project-directory](/images/theme-installation/project-path.png)
+1. Launch the **Terminal** on the specific directory where you prefer to save your project.
 
-2. Use the following command to create a new site. It will add a folder with your given **PROJECT NAME**.
+1. Use the following command to create a new site. It will add a folder with your given **PROJECT NAME**.
 
     ```shell
     hugo new site my-project
     ```
 
-    ![new-project](/images/theme-installation/new-project.png)
+1. Delete the `hugo.toml` file from the `my-project` folder.
 
-## Setup Your Project With SITENAME
-
-1. **Unzip** the downloaded file, and you will get SITENAME in the themes folder.
-
-    ![unzip](../images/unzip.png)
-
-2. Copy the `themes/THEMEPATH` into the `my-project/themes` folder so that you end up with a folder structure like `my-project/themes/THEMEPATH/`
+1. Copy the **Main Theme** into the `my-project/themes` folder. Resulting in a folder structure like `my-project/themes/THEME/`
 
     ![copy-to-themes](../images/copy-theme.png)
 
-3. Copy all files from the `THEMEPATH/exampleSite` folder into the project directory ( `my-project/` ). It will overwrites existing files and folders. You can delete the `exampleSite` folder afterward.
+1. Copy all files from the `my-project/themes/THEME/exampleSite` folder into the root folder (`my-project/`). This action will overwrite any existing files and folders. You can delete the `exampleSite` folder afterwards.
 
     ![copy-examplesite](../images/copy-examplesite.png)
 
-4. Navigate to the project directory (In this example, its `my-project` )
+1. Additionally, copy the `package.json` file from `my-project/themes/THEME` to the root folder (`my-project`). If your theme doesn't have a `package.json` file, you can proceed to the next step.
 
-    ```shell
-    cd my-project
-    ```
+---
 
-    ![project-dir](/images/theme-installation/project-dir.png)
+## Run Your Project
 
-5. Remove the `hugo.toml` file (if any).
-
-6. Run Hugo to serve your project.
-
-    ```shell
-    hugo server
-    ```
-
-    ![hugo-serve](/images/theme-installation/hugo-serve.png)
-
-7. Now, you get a generated URL and open it in your browser. The default URL looks like this [localhost:1313](http://localhost:1313/).
+1. Open the terminal on the `my-project/` folder.
+1. Run `npm install` to install all the dependencies. If you don't have a `package.json` file, you can proceed to the next step.
+1. Then, run `npm run dev` to serve this theme on your localhost. If you don't have a `package.json` file, run `hugo server` instead.
+1. After successfully serving the theme, you will receive a localhost address. Open this address in your browser to see the theme.
 
 {{< notice info >}}
-If your website doesn't serve on your localhost, then check the `theme` name is correct in `THEMENAMEDIR` file. Then run `hugo server` command again.
+If your website doesn't serve on your localhost, then check the `theme` name is correct in `CONFIG` file. Then follow the step 3 again.
 {{< /notice >}}
 
-## Video documentation
+---
 
-You may find the following video tutorial helpful in setting up your next project. As an example, we'll utilize our **Biztrox** theme.
+## Build Your Project
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jrkvirglgaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+After completing your development process, you can build your project for production. To build your project, run `npm run dev`. If you don't have a `package.json` file, run `hugo` instead.

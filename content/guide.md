@@ -217,8 +217,8 @@ After unzipping, your folder should have a `-main` or `-master` suffix. remove t
 
 ### Run Your Project
 
-1. Open the terminal in the `my-project/` folder.
-1. Run `npm install` to install all the dependencies. If you don't have a `package.json` file, you can skip this step.
+1. Open the terminal on the `my-project/` folder.
+1. Run `npm install` to install all the dependencies. If you don't have a `package.json` file, you can proceed to the next step.
 1. Then, run `npm run dev` to serve this theme on your localhost. If you don't have a `package.json` file, run `hugo server` instead.
 1. After successfully serving the theme, you will receive a localhost address. Open this address in your browser to see the theme.
 
@@ -228,11 +228,7 @@ If your website doesn't serve on your localhost, then check the `theme` name is 
 
 ### Build Your Project
 
-After completing your development process, you can build your project for production. To build your project, check the following command.
-
-```shell
-npm run build
-```
+After completing your development process, you can build your project for production. To build your project, run `npm run dev`. If you don't have a `package.json` file, run `hugo` instead.
 
 > Now that you've got your theme running and understand the compiling process, let's discuss the proper ways to edit and customize your theme. You can directly customize your template from the source file. For a better experience, open the whole theme folder with a text-editor or IDE (i.e. [Visual Studio Code](https://code.visualstudio.com/)).
 

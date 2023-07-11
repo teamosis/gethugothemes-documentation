@@ -66,7 +66,7 @@ If your website doesn't serve on your localhost, then check the `theme` name is 
 
 ## Build Your Project
 
-After completing your development process, you need to build your project for production. You can build your project with the following command.
+After completing your development process, you can build your project for production. You can build your project with the following command.
 
 ```shell
 npm run build

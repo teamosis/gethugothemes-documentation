@@ -9,4 +9,4 @@ draft: false
 
 ---
 
-{{< contentblock "installation-old" "THEMENAME:Wishfund Hugo Theme,THEMEPATH:wishfund-hugo" >}}
+{{< contentblock "installation-old" "THEME:wishfund-hugo,CONFIG:config/_default/config.toml" >}}

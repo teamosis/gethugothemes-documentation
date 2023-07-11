@@ -9,4 +9,4 @@ draft: false
 
 ---
 
-{{< contentblock "installation-old" "SITENAME:Parsa,THEMEPATH:parsa-hugo,THEMENAMEDIR:config.toml" >}}
+{{< contentblock "installation-old" "SITENAME:Parsa,THEME:parsa-hugo,THEMENAMEDIR:config.toml" >}}
