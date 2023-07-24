@@ -2,29 +2,8 @@
   "name": "@gethugothemes/docs",
   "version": "1.0.32",
   "description": "Documentation site for gethugothemes.com",
-  "homepage": "https://github.com/gethugothemes/gethugothemes-docs#readme",
   "license": "UNLICENSED",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gethugothemes/gethugothemes-docs.git"
-  },
-  "author": {
-    "name": "Mehedi Sharif Titas",
-    "web": "https://gethugothemes.com"
-  },
-  "maintainers": [
-    {
-      "name": "Somrat Sorkar",
-      "email": "abdulmonnafsomrat@gmail.com",
-      "web": "https://somrat.netlify.app"
-    },
-    {
-      "name": "Patrick Kollitsch",
-      "email": "patrick@davids-neighbour.com",
-      "web": "https://davids-neighbour.com"
-    }
-  ],
   "scripts": {
     "dev": "hugo server",
     "hugo": "hugo --templateMetrics --templateMetricsHints --enableGitInfo",
