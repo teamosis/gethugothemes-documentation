@@ -1,7 +1,3 @@
 [[imports]]
 path = "github.com/teamosis/core-docs"
 disabled = false
-
-[[imports]]
-path = "github.com/davidsneighbour/hugo-netlification"
-disabled = false

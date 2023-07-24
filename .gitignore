@@ -6,6 +6,7 @@ package-lock.json
 yarn.lock
 .hugo_build.lock
 go.sum
+assets/jsconfig.json
 
 # dev tools
 /bin/replacements.sh
