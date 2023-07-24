@@ -4,27 +4,11 @@
   "description": "Documentation site for gethugothemes.com",
   "homepage": "https://github.com/gethugothemes/gethugothemes-docs#readme",
   "license": "UNLICENSED",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gethugothemes/gethugothemes-docs.git"
   },
-  "bugs": {
-    "url": "https://github.com/gethugothemes/gethugothemes-docs/issues"
-  },
-  "scripts": {
-    "dev": "hugo server",
-    "hugo": "hugo --templateMetrics --templateMetricsHints --enableGitInfo",
-    "update": "hugo mod get -u ./... && hugo mod tidy",
-    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh"
-  },
-  "keywords": [
-    "hugo",
-    "hugo-site",
-    "hugo-theme",
-    "hugo-documentation"
-  ],
   "author": {
     "name": "Mehedi Sharif Titas",
     "web": "https://gethugothemes.com"
@@ -41,5 +25,12 @@
       "web": "https://davids-neighbour.com"
     }
   ],
-  "private": true
+  "scripts": {
+    "dev": "hugo server",
+    "hugo": "hugo --templateMetrics --templateMetricsHints --enableGitInfo",
+    "update": "hugo mod get -u ./... && hugo mod tidy",
+    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh"
+  }
 }
