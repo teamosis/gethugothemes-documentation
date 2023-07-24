@@ -1,6 +1,6 @@
 module github.com/gethugothemes/documentation
 
-go 1.19
+go 1.18
 
 require (
 	github.com/davidsneighbour/hugo-netlification v1.2.6 // indirect

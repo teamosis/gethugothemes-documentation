@@ -4,6 +4,8 @@ themes
 # GitHubs @dependabot will take care of versioning, using static versions
 package-lock.json
 yarn.lock
+.hugo_build.lock
+go.sum
 
 # dev tools
 /bin/replacements.sh

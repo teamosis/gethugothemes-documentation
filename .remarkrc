@@ -1,6 +1,0 @@
-{
-  "plugins": [
-    "@davidsneighbour/remark-preset-lint",
-    ["remark-lint-write-good", false]
-  ]
-}
