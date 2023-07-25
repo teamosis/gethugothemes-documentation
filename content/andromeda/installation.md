@@ -9,4 +9,4 @@ draft: false
 
 ---
 
-{{< contentblock "installation-old" "THEME:andromeda-hugo,CONFIG:config/_default/config.toml" >}}
+{{< contentblock "installation" "THEME:andromeda-hugo,CONFIG:config/_default/config.toml" >}}

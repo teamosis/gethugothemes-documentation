@@ -9,4 +9,4 @@ draft: false
 
 ---
 
-{{< contentblock "installation-old" "SITENAME:Logbbok,THEME:logbook-hugo,THEMENAMEDIR:config/_default/config.toml" >}}
+{{< contentblock "installation" "SITENAME:Logbbok,THEME:logbook-hugo,THEMENAMEDIR:config/_default/config.toml" >}}

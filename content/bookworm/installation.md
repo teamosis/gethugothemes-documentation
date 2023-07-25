@@ -10,4 +10,4 @@ draft: false
 
 ---
 
-{{< contentblock "installation-old" "THEME:bookworm-hugo,CONFIG:config/_default/config.toml" >}}
+{{< contentblock "installation" "THEME:bookworm-hugo,CONFIG:config/_default/config.toml" >}}

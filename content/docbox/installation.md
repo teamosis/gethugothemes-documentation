@@ -9,4 +9,4 @@ draft: false
 
 ---
 
-{{< contentblock "installation" "THEME:godocs-hugo,CONFIG:config/_default/config.toml" >}}
+{{< contentblock "installation" "THEME:docbox-hugo,CONFIG:hugo.toml" >}}
