@@ -27,6 +27,10 @@ copyright = "This website is powered by our own [Godocs Theme](https://gethugoth
 # custom script
 custom_script = "<script>!function(t,e,n){function s(){const t=e.getElementsByTagName('script')[0],n=e.createElement('script');n.type='text/javascript',n.async=!0,n.src='https://assistant.thrivedesk.io/bootloader.js?'+Date.now(),t.parentNode.insertBefore(n,t)}if(t.Assistant=n=function(e,n,s){t.Assistant.readyQueue.push({method:e,options:n,data:s})},n.readyQueue=[],'complete'===e.readyState)return s();t.attachEvent?t.attachEvent('onload',s):t.addEventListener('load',s,!1)}(window,document,window.Assistant||function(){}),window.Assistant('init','978b9597-3e30-4ce3-baca-ef287bf10ae5');</script>"
 
+[announcement]
+enable = true
+content = 'Help us serve you better! Your feedback will help us improve our themes and documentation. <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScC6XIVRNa4Leokx-bLM4UdXrXjoxMwDm5CzZ03SOFXM8ArUw/viewform?usp=sf_link">Take our Survey →</a>'
+
 [banner]
 image = "images/banner.jpg"
 subtitle = "We are the biggest hugo theme provider in the market , We will cover all our themes installation documentation here . "
