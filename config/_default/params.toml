@@ -29,7 +29,7 @@ custom_script = "<script>!function(t,e,n){function s(){const t=e.getElementsByTa
 
 [announcement]
 enable = true
-content = 'Help us serve you better! Your feedback will help us improve our themes and documentation. <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScC6XIVRNa4Leokx-bLM4UdXrXjoxMwDm5CzZ03SOFXM8ArUw/viewform?usp=sf_link">Take our Survey →</a>'
+content = 'Help us serve you better! Your feedback will help us improve our themes and documentation. <a class="survey" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScC6XIVRNa4Leokx-bLM4UdXrXjoxMwDm5CzZ03SOFXM8ArUw/viewform?usp=sf_link">Take our Survey →</a>'
 
 [banner]
 image = "images/banner.jpg"
