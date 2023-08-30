@@ -1,3 +1,2 @@
 [[imports]]
 path = "github.com/teamosis/core-docs"
-disabled = false
