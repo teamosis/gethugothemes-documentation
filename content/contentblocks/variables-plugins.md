@@ -5,7 +5,7 @@ _build:
   publishResources: false
 ---
 
-To change website colors, fonts, and plugins. Please open the `my-project/themes/config.toml` file.
+To change website colors, fonts, and plugins. Please open the `my-project/hugo.toml` file.
 
 ## Change Website Colors
 
