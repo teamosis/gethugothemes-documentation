@@ -1,6 +1,6 @@
 ---
 title: 'Basic Configuration'
-date: '2023-12-02T08:14:55-03:00'
+date: '2022-12-02T08:14:55-03:00'
 weight: 2
 draft: false
 ---

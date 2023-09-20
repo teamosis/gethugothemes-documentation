@@ -1,12 +1,34 @@
 ---
 title: Content Management
 date: '2019-12-02T08:15:41-03:00'
-weight: 8
+weight: 12
 draft: false
 ---
 
-You will get every page that your website has in the content folder. The content folder is a subfolder of the project folder.
+All the pages for your website can be found in the `content` folder. If your theme supports multiple languages, then there will be a separate folder for each language, such as `english` for English, `french` for French, and so on.
 
-## Other Pages
+Each page is written in Markdown format. If you are unfamiliar with Markdown syntax, you can learn more about it [here](https://www.markdownguide.org/basic-syntax/). Additionally, every Markdown page includes front matter, which is the metadata for that page. To learn more about front matter, refer to [this resource](https://gohugo.io/content-management/front-matter/).
 
-There are two types of pages in the Hugo theme, list page, and single page. The list page is kind of a landing page (ex: `about page`). And the single page is called the inner page of a product or a post (ex: blog single page). We need to define the structure or markup of every page.
+## Homepage
+
+The homepage for each language can be found in the respective language folder within the `content` directory. The homepage is represented by the `_index.md` file, and you can update its content from there.
+
+## Regular Pages
+
+The regular pages, such as `About`, `Contact` or `Privacy` are located within the root or **pages** folder in each language folder within the `content` directory. You can add or modify your regular pages from there.
+
+To create a new page, you can duplicate an existing page and update the content accordingly. For example, if you want to create a new page called "Terms and Conditions," you can duplicate the `privacy.md` file and rename it to `terms-conditions.md`. Then, you can update the content in the new file.
+
+## List and Single Pages
+
+The Hugo site consists of two types of pages: list pages and single pages. A list page serves as a landing page for single pages. For example, a "Blog" page would be a list page, while individual blog posts would be single pages.
+
+To illustrate, in the `content/english/blog` folder, you will find the `_index.md` file, which represents the list page for the blog. Additionally, you can create separate Markdown files for each blog post within the same folder as single pages.
+
+To create a new blog post, you can duplicate an existing blog post and update the content accordingly. For example, if you want to create a new blog post called "My First Post," you can duplicate the `post.md` file and rename it to `my-first-post.md`. Then, you can update the content in the new file.
+
+### CMS Integration
+
+If you want to use a CMS to manage your content, you can see the [Official Hugo Documentation](https://gohugo.io/tools/frontends/) for more information.
+
+Or you can take our [Custom Service](https://gethugothemes.com/get-a-quote) for CMS integration support.
