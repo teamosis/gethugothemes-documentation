@@ -8,4 +8,4 @@ weight: 1
 
 ---
 
-{{< contentblock "installation" "THEME:adrian-hugo,CONFIG:config/_default/config.toml" >}}
+{{< contentblock "installation" "THEME:agico-hugo,CONFIG:config/_default/config.toml" >}}
