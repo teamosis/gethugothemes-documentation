@@ -9,4 +9,4 @@ draft: false
 
 ---
 
-{{< contentblock "installation-old" "THEME:bixtrox-hugo,CONFIG:config/_default/config.toml" >}}
+{{< contentblock "installation" "THEME:bixtrox-hugo,CONFIG:config/_default/hugo.toml" >}}
