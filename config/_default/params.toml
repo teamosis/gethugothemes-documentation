@@ -50,7 +50,7 @@ attribute = "onclick=Assistant('open')"
 [navigation_button_bordered]
 enable = true
 label = "Contact Us"
-link = "https://gethugothemes.com/contact/"
+link = "https://gethugothemes.com/dashboard/tickets"
 attribute = ""
 
 [promotion]
