@@ -9,4 +9,4 @@ draft: false
 
 ---
 
-{{< contentblock "installation-old" "THEME:bexer-hugo,CONFIG:config/_default/config.toml" >}}
+{{< contentblock "installation" "THEME:bexer-hugo,CONFIG:config/_default/hugo.toml" >}}

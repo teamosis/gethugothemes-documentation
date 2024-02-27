@@ -9,4 +9,4 @@ draft: false
 
 ---
 
-{{< contentblock "installation" "THEME:eventre-hugo,CONFIG:hugo.toml" >}}
+{{< contentblock "installation" "THEME:eventre-hugo,CONFIG:config/_default/hugo.toml" >}}
