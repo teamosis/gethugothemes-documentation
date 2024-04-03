@@ -1,2 +1,8 @@
 [[imports]]
 path = "github.com/teamosis/core-docs"
+
+# [[imports]]
+# path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+
+# [[imports]]
+# path = "github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager"
