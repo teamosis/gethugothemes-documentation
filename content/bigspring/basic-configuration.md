@@ -9,7 +9,7 @@ Here is the default configuration and basic parameters for your website. You can
 
 ## Default configuration
 
-In this project folder, you will find a file called `config/_default/config.toml`. Open this file in any text editor or IDE.
+In this project folder, you will find a file called `hugo.toml`. Open this file in any text editor or IDE.
 
 {{< contentblocklist "default-config/" "baseURL" "languageCode" "title" "theme" "summaryLength" "paginate" "disqusShortname" "googleAnalytics" "timeZone" "disableLanguages"  >}}
 
