@@ -1,6 +1,6 @@
 ---
 title: "Theme Installation"
-date: "2019-07-24T01:52:23-03:00"
+date: "2019-12-02T08:14:43-03:00"
 weight: 1
 draft: false
 ---
@@ -9,4 +9,4 @@ draft: false
 
 ---
 
-{{< contentblock "installation" "THEME:fortify-hugo,CONFIG:config/_default/hugo.toml" >}}
+{{< contentblock "installation" "THEME:fortify-hugo,CONFIG:hugo.toml" >}}
