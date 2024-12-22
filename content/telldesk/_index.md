@@ -1,7 +1,7 @@
 ---
 title: "Telldesk"
 premium: true
-date: 2024-12-22T11:02:05+06:00
+date: 2024-12-22T11:01:05+06:00
 # type dont remove or customize
 type: "docs"
 ---
