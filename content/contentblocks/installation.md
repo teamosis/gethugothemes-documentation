@@ -7,7 +7,13 @@ _build:
 
 ## Youtube video
 
-{{< youtube WJCRM6ylhgI >}}
+<div class="youtube-container">
+  <iframe src="https://www.youtube.com/embed/WJCRM6ylhgI"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</div>
 
 ---
 
