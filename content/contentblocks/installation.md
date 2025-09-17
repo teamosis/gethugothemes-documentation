@@ -5,7 +5,9 @@ _build:
   publishResources: false
 ---
 
-## Youtube video
+## 🎥 Prefer Video?
+
+If you’d rather watch a walkthrough, check out this quick video guide:
 
 <div class="youtube-container">
   <iframe src="https://www.youtube.com/embed/WJCRM6ylhgI"
@@ -35,7 +37,7 @@ _build:
 
 **You can set up your project in two ways. (Follow any one of them)**
 
-- [Youtube video](#youtube-video)
+- [🎥 Prefer Video?](#-prefer-video)
 - [Setup Your Project](#setup-your-project)
   - [Gethugothemes Exclusive Way (Recommended)](#gethugothemes-exclusive-way-recommended)
   - [Traditional Way](#traditional-way)
