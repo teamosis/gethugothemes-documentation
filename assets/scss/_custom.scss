@@ -12,3 +12,21 @@ $primary-color: #9703fd;
 .sidenav .active ul li.active > a {
   font-weight: 600;
 }
+
+// Custom YouTube embed styling
+.content div[style*="position: relative; padding-bottom: 56.25%"] {
+  position: relative !important;
+  padding-bottom: 0 !important;
+  height: auto !important;
+  overflow: hidden !important;
+  margin: 20px 0 !important;
+
+  iframe {
+    position: relative !important;
+    display: block !important;
+    width: calc(100% - 10px) !important;
+    height: 450px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+    margin: 5px auto !important;
+  }
+}

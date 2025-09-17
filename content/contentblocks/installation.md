@@ -5,6 +5,12 @@ _build:
   publishResources: false
 ---
 
+## Youtube video
+
+{{< youtube WJCRM6ylhgI >}}
+
+---
+
 ## Setup Your Project
 
 **Unzip** the downloaded file, and you will find the **THEME** folder inside the **themes** directory. This folder contains your main theme, which you will be working with.
@@ -23,8 +29,12 @@ _build:
 
 **You can set up your project in two ways. (Follow any one of them)**
 
-1. [Gethugothemes Exclusive Way (Recommended)](#gethugothemes-exclusive-way-recommended)
-2. [Traditional Way](#traditional-way)
+- [Youtube video](#youtube-video)
+- [Setup Your Project](#setup-your-project)
+  - [Gethugothemes Exclusive Way (Recommended)](#gethugothemes-exclusive-way-recommended)
+  - [Traditional Way](#traditional-way)
+- [Run Your Project Locally](#run-your-project-locally)
+- [Build Your Project](#build-your-project)
 
 ### Gethugothemes Exclusive Way (Recommended)
 
@@ -32,9 +42,9 @@ _build:
 
 2. Open the VS Code terminal (Ctrl+`) and execute the following command to set up your project:
 
-    ```shell
-    npm run project-setup
-    ```
+   ```shell
+   npm run project-setup
+   ```
 
 ### Traditional Way
 
@@ -46,15 +56,15 @@ If you want to set up your project in the traditional way, then follow the link:
 
 1. Open vscode terminal (ctrl+`) and run the following command to install all dependencies.
 
-    ```shell
-    npm install
-    ```
+   ```shell
+   npm install
+   ```
 
 2. Run the following command to start the development server.
 
-    ```shell
-    npm run dev
-    ```
+   ```shell
+   npm run dev
+   ```
 
 3. Now, you get a generated URL and open it in your browser. The default URL looks like this [localhost:1313](http://localhost:1313/).
 
