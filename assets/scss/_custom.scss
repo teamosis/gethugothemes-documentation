@@ -14,15 +14,17 @@ $primary-color: #9703fd;
 }
 
 .youtube-container {
-  position: relative;
-  margin: 20px 0;
-  border-radius: 5px;
-  overflow: hidden;
+  position: relative !important;
+  padding-bottom: 0 !important;
+  height: auto !important;
+  overflow: hidden !important;
 
   iframe {
-    display: block;
-    width: 100%;
-    height: 450px;
-    border: none;
+    position: relative !important;
+    display: block !important;
+    width: calc(100% - 10px) !important;
+    height: 450px !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1) !important;
+    margin: 5px auto !important;
   }
 }
