@@ -35,26 +35,26 @@ Install Hugo with the following command on your **Terminal** according to your o
 {{< tabs >}}
 {{< tab "Windows" >}}
 
-``` bash
+```bash
 winget install -e --id Hugo.Hugo.Extended
 ```
 
 If you successfully installed Hugo, then you can check the version with the following command.
 
-``` bash
+```bash
 hugo version
 ```
 
 {{</ tab >}}
 {{< tab "Mac" >}}
 
-``` bash
+```bash
 brew install hugo
 ```
 
 If you successfully installed Hugo, then you can check the version with the following command.
 
-``` bash
+```bash
 hugo version
 ```
 
@@ -65,7 +65,7 @@ Please follow the [official documentation](https://gohugo.io/installation/linux/
 
 If you successfully installed Hugo, then you can check the version with the following command.
 
-``` bash
+```bash
 hugo version
 ```
 
@@ -83,26 +83,26 @@ Install Go with the following command on your **Terminal** according to your ope
 {{< tabs >}}
 {{< tab "Windows" >}}
 
-``` bash
+```bash
 winget install -e --id GoLang.Go
 ```
 
 If you successfully installed Go, then you can check the version with the following command.
 
-``` bash
+```bash
 go version
 ```
 
 {{</ tab >}}
 {{< tab "Mac" >}}
 
-``` bash
+```bash
 brew install go
 ```
 
 If you successfully installed Go, then you can check the version with the following command.
 
-``` bash
+```bash
 go version
 ```
 
@@ -113,7 +113,7 @@ Please follow the [official documentation](https://golang.org/doc/install) to in
 
 If you successfully installed Go, then you can check the version with the following command.
 
-``` bash
+```bash
 go version
 ```
 
@@ -131,26 +131,26 @@ Install Nodejs with the following command on your **Terminal** according to your
 {{< tabs >}}
 {{< tab "Windows" >}}
 
-``` bash
+```bash
 winget install -e --id OpenJS.NodeJS.LTS
 ```
 
 If you successfully installed Nodejs, then you can check the version with the following command.
 
-``` bash
+```bash
 node -v
 ```
 
 {{</ tab >}}
 {{< tab "Mac" >}}
 
-``` bash
+```bash
 brew install node@18
 ```
 
 If you successfully installed Nodejs, then you can check the version with the following command.
 
-``` bash
+```bash
 node -v
 ```
 
@@ -160,7 +160,7 @@ Please follow the [official documentation](https://nodejs.org/en/download/packag
 
 If you successfully installed Nodejs, then you can check the version with the following command.
 
-``` bash
+```bash
 node -v
 ```
 
@@ -174,6 +174,20 @@ Go to the official site to Download and Install [Nodejs](https://nodejs.org/en/d
 {{< notice warning >}}
 After installing all the prerequisites, maybe you need to restart your machine to take effect.
 {{< /notice >}}
+
+---
+
+## 🎥 Prefer Video?
+
+If you’d rather watch a walkthrough, check out this quick video guide:
+
+<div class="youtube-container">
+  <iframe src="https://www.youtube.com/embed/WJCRM6ylhgI"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</div>
 
 ---
 
@@ -326,12 +340,12 @@ Before you start customizing your theme, you should know the theme file structur
 
 These terms are can mean different things in different contexts, but for the purposes of a Hugo Theme:
 
-* **Source files** are files that are meant to be processed by a theme's build tools.
+- **Source files** are files that are meant to be processed by a theme's build tools.
 
-* **Compiled files** are generated as a result of running a compiling process (also called a "build process")
-on the source files.
+- **Compiled files** are generated as a result of running a compiling process (also called a "build process")
+  on the source files.
 
-* **Static files** are ones that aren't processed or generated.
+- **Static files** are ones that aren't processed or generated.
 
 ## Site Configuration
 
@@ -353,23 +367,23 @@ Mostly all the parameters are in the `params.toml` file. But if you don't have a
 
 Our many users want to know how to set up a contact form, or how to set up a subscription form. So we make a step to differentiate the contact and subscription form guide.
 
-* `contact_form_action` is for activate contact form. Give your form action here, it works with [formspree](https://formspree.io/). Go to this site, and create an account by click on `signup` button. Then give contact form action, it will looks like this `contact_form_action = "https://formspree.io/your.name@email.com/"`. Now verify your email address by click `varify` button in the mail you got in your inbox. When someone sent you the first email from this contact form, you will get an email in your inbox, it will ask to activate the form. Click on this button to activate your form. Now it's done. You will get every email that someone sends you via this contact form.
+- `contact_form_action` is for activate contact form. Give your form action here, it works with [formspree](https://formspree.io/). Go to this site, and create an account by click on `signup` button. Then give contact form action, it will looks like this `contact_form_action = "https://formspree.io/your.name@email.com/"`. Now verify your email address by click `varify` button in the mail you got in your inbox. When someone sent you the first email from this contact form, you will get an email in your inbox, it will ask to activate the form. Click on this button to activate your form. Now it's done. You will get every email that someone sends you via this contact form.
 
-* `[params.subscription]` is for user subscription database. We used [mailchimp](https://mailchimp.com/) service for our theme development. Replace your own subscription form action URL in `mailchimp_form_action` field, and your form name in `mailchimp_form_name` field. You can get your action URL and form a name from [here](https://us4.admin.mailchimp.com/campaigns/#/create-campaign/explore/form) (after login or signup).
+- `[params.subscription]` is for user subscription database. We used [mailchimp](https://mailchimp.com/) service for our theme development. Replace your own subscription form action URL in `mailchimp_form_action` field, and your form name in `mailchimp_form_name` field. You can get your action URL and form a name from [here](https://us4.admin.mailchimp.com/campaigns/#/create-campaign/explore/form) (after login or signup).
 
 ### Google Map
 
 Google Maps is one of those items that the user asks frequently. So we have also differentiated that from regular parameter setup. It starts with `[params.map]`.
 
-* `enable = true` is a default value for map. But if you don't need the map, then change the value to `false`.
+- `enable = true` is a default value for map. But if you don't need the map, then change the value to `false`.
 
-* `gmap_api` needs to be replaced with your own API. You can get your google map API key from [here](https://developers.google.com/maps/documentation/javascript/get-api-key).
+- `gmap_api` needs to be replaced with your own API. You can get your google map API key from [here](https://developers.google.com/maps/documentation/javascript/get-api-key).
 
-* `map_latitude` and `map_longitude` field is for your google map location. you can find this location from [here](https://www.where-am-i.net/).
+- `map_latitude` and `map_longitude` field is for your google map location. you can find this location from [here](https://www.where-am-i.net/).
 
-* `map_marker` is for your map pointer, you can set your own map pointer that you want to show. Just maintain the pointer size with the provided one.
+- `map_marker` is for your map pointer, you can set your own map pointer that you want to show. Just maintain the pointer size with the provided one.
 
-* You can change your map style also. For this, pick a style from [here](https://snazzymaps.com/), copy the styling code, and replace it with `static/plugins/google-map/gmap.js` files provided styling code. You can also tweak some map configuration from this file, like `zoom`, `controllers`, `pointer size`, etc..
+- You can change your map style also. For this, pick a style from [here](https://snazzymaps.com/), copy the styling code, and replace it with `static/plugins/google-map/gmap.js` files provided styling code. You can also tweak some map configuration from this file, like `zoom`, `controllers`, `pointer size`, etc..
 
 ---
 
@@ -390,9 +404,9 @@ url = "about/"
 weight = 1
 ```
 
-* `name` is for menu item name/text.
-* `URL` is for the page URL. To set about page URL here, type `about/`. You can also use an external URL by putting the URL in this attribute. ex: `url = "https://gethugothemes.com/"`
-* `weight` is for your navigation sorting. The smaller number weight will show first. You can switch menu items by changing the weight value.
+- `name` is for menu item name/text.
+- `URL` is for the page URL. To set about page URL here, type `about/`. You can also use an external URL by putting the URL in this attribute. ex: `url = "https://gethugothemes.com/"`
+- `weight` is for your navigation sorting. The smaller number weight will show first. You can switch menu items by changing the weight value.
 
 #### Dropdown Menu
 
@@ -409,7 +423,7 @@ hasChildren = true
   weight = 1
 ```
 
-* For **dropdown menu**, you need to add another attribute called `hasChildren = true`. And remove `URL`. Then repeat the `[[main]]` loop, and put the `parent =` attribute in the dropdown menu item. Parent name should be the same as the dropdown item name. Also, update `name` and `URL` attributes.
+- For **dropdown menu**, you need to add another attribute called `hasChildren = true`. And remove `URL`. Then repeat the `[[main]]` loop, and put the `parent =` attribute in the dropdown menu item. Parent name should be the same as the dropdown item name. Also, update `name` and `URL` attributes.
 
 ### Footer Navigation
 

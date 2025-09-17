@@ -5,33 +5,47 @@ _build:
   publishResources: false
 ---
 
+## 🎥 Prefer Video?
+
+If you’d rather watch a walkthrough, check out this quick video guide:
+
+<div class="youtube-container">
+  <iframe src="https://www.youtube.com/embed/WJCRM6ylhgI"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</div>
+
+---
+
 ## Setup Your Project
 
 1. **Unzip** the downloaded file, and the unziped folder is your main theme, which you will be working with.
 
-    ```bash
-    📂 THEME-master (Unzipped Folder)
-    ```
+   ```bash
+   📂 THEME-master (Unzipped Folder)
+   ```
 
-    After unzipping, your folder should have a `-master` or `-main` suffix. remove the suffix from the folder name. like from `THEME-master` to `THEME`.
+   After unzipping, your folder should have a `-master` or `-main` suffix. remove the suffix from the folder name. like from `THEME-master` to `THEME`.
 
 1. Launch the **Terminal** on the specific directory where you prefer to save your project.
 
 1. Use the following command to create a new site. It will add a folder with your given **PROJECT NAME**.
 
-    ```shell
-    hugo new site my-project
-    ```
+   ```shell
+   hugo new site my-project
+   ```
 
 1. Delete the `hugo.toml` file from the `my-project` folder.
 
 1. Copy the **Main Theme** into the `my-project/themes` folder. Resulting in a folder structure like `my-project/themes/THEME/`
 
-    ![copy-to-themes](../images/copy-theme.png)
+   ![copy-to-themes](../images/copy-theme.png)
 
 1. Copy all files from the `my-project/themes/THEME/exampleSite` folder into the root folder (`my-project/`). This action will overwrite any existing files and folders. You can delete the `exampleSite` folder afterwards.
 
-    ![copy-examplesite](../images/copy-examplesite.png)
+   ![copy-examplesite](../images/copy-examplesite.png)
 
 1. Additionally, copy the `package.json` file from `my-project/themes/THEME` to the root folder (`my-project`). If your theme doesn't have a `package.json` file, you can proceed to the next step.
 
