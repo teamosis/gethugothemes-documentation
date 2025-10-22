@@ -13,18 +13,46 @@ $primary-color: #9703fd;
   font-weight: 600;
 }
 
+// Promotion module styling
+.card-body.border.rounded.mt-4 {
+  background-color: $primary-color !important;
+  border-color: $primary-color !important;
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #fff !important;
+  }
+
+  p {
+    color: #fff !important;
+  }
+
+  .btn-outline-primary {
+    background-color: #fff !important;
+    color: $primary-color !important;
+    border-color: #fff !important;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.9) !important;
+      color: $primary-color !important;
+      border-color: rgba(255, 255, 255, 0.9) !important;
+    }
+  }
+}
+
 .youtube-container {
-  position: relative !important;
-  padding-bottom: 0 !important;
-  height: auto !important;
-  overflow: hidden !important;
+  position: relative;
+  margin: 20px 0;
+  border-radius: 5px;
+  overflow: hidden;
 
   iframe {
-    position: relative !important;
-    display: block !important;
-    width: calc(100% - 10px) !important;
-    height: 450px !important;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1) !important;
-    margin: 5px auto !important;
+    display: block;
+    width: 100%;
+    height: 450px;
+    border: none;
   }
 }

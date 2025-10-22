@@ -62,7 +62,7 @@ attribute = ""
 
 [promotion]
 enable = true
-title = "Need Theme Tweaks?"
-content = "If you need to customize theme, add extra pages, or complete website development from scratch, you can hire us."
+title = "Need Expert Customization?"
+content = "Let our experts handle your theme customization. We'll fine-tune your site using best practices, performance insights, and tailored design improvements."
 button_label = "Check Our Services"
 button_link = "https://gethugothemes.com/services/?utm_source=docs_site&utm_medium=referral&utm_campaign=docs_services_cta"
