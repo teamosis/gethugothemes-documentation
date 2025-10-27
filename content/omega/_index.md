@@ -2,9 +2,9 @@
 title: "Omega"
 date: 2020-12-28T13:00:00+07:00
 # type dont remove or customize
-type : "docs"
+type: "docs"
 ---
 
-{{< preview demo="https://demo.gethugothemes.com/omega/site/" >}}
+{{< preview title="Omega" demo="https://omega-hugo-site.vercel.app/" >}}
 
 Thank you for using the [Omega](https://gethugothemes.com/products/omega/) theme. In this documentation, you can find information about the theme and how to use it.
