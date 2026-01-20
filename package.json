@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "hugo server",
-    "hugo": "hugo --templateMetrics --templateMetricsHints --enableGitInfo",
+    "build": "hugo --templateMetrics --templateMetricsHints --enableGitInfo",
     "update": "hugo mod get -u ./... && hugo mod tidy",
     "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
