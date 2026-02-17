@@ -22,6 +22,10 @@ mv hugo /usr/local/bin/
 rm -rf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 hugo version
 
+# clean public directory
+echo "Cleaning public directory..."
+rm -rf public/*
+
 # install dependencies
 echo "Installing project dependencies..."
 npm install
